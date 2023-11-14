@@ -100,7 +100,7 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-.button-linkedin {
+.botao-linkedin {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,31 +115,31 @@
   transition: 400ms;
   text-decoration: none;
 }
-.button-linkedin .text {
+.botao-linkedin .text {
   color: white;
   font-weight: 700;
   font-size: 1.125rem;
   transition: 400ms;
   width: auto;
 }
-.button-linkedin svg path {
+.botao-linkedin svg path {
   transition: 400ms;
 }
-.button-linkedin:hover {
+.botao-linkedin:hover {
   background-color: rgb(255, 255, 255);
   outline: 3px white solid;
 }
-.button-linkedin:hover .text {
+.botao-linkedin:hover .text {
   color: #1C92FF;
 }
-.button-linkedin:hover svg path {
+.botao-linkedin:hover svg path {
   fill: #1C92FF;
 }
-.button-github {
+.botao-github {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 34px;
+  padding: 15px 31px;
   gap: 15px;
   background-color: #181717;
   outline: 3px #181717 solid;
@@ -150,27 +150,27 @@
   transition: 400ms;
   text-decoration: none;
 }
-.button-github .text{
+.botao-github .text{
   color: white;
   font-weight: 700;
   font-size: 1.125rem;
   transition: 400ms;
   width: auto;
 }
-.button-github svg path {
+.botao-github svg path {
   transition: 400ms;
 }
-.button-github:hover {
+.botao-github:hover {
   background-color: white;
-    outline: 3px white solid;
+  outline: 3px white solid;
 }
-.button-github:hover .text{
+.botao-github:hover .text{
   color: #181717;
 }
-.button-github:hover svg path {
+.botao-github:hover svg path {
   fill: #181717;
 }
-.button-linkedin .button-github{
+.botao-linkedin .botao-github{
   flex: 1;
 }
 @media (max-width: 1100px) {
@@ -213,24 +213,17 @@
   .introducao::after{
     display: none;
   }
-  .button-linkedin .text {
-    font-size: 1rem;
-  }
-  .button-github .text{
-    font-size: 1rem;
-  }
   .links{
     justify-content: center;
-      gap: 10px;
+    gap: 12px;
   }
-  .button-linkedin {
-    padding: 10px 15px;
-    gap: 10px;
+  .botao-linkedin .text {
+    font-size: 1rem;
   }
-  .button-github {
-    padding: 10px 24px;
-    gap: 10px;
+  .botao-github .text{
+    font-size: 1rem;
   }
+ 
 }
   @media (max-width: 400px) { 
  .introducao {
@@ -242,18 +235,19 @@
   .introducao h1 {
     font-size: 1.3rem;
   }
-  .button-linkedin .text {
-    font-size: 0.8rem;
-  }
-  .button-github .text{
-    font-size: 0.8rem;
-  }
-  .button-linkedin {
+  .botao-linkedin {
     padding: 8px 12px;
     gap: 10px;
   }
-  .button-github {
-    padding: 8px 21px;
+  .botao-github {
+    padding: 8px 17px;
     gap: 10px;
   }
+  .botao-linkedin .text {
+    font-size: 0.8rem;
+  }
+  .botao-github .text{
+    font-size: 0.8rem;
+  }
+ 
 }
