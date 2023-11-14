@@ -248,10 +248,6 @@
   .button-github .text{
     font-size: 0.8rem;
   }
-  .links{
-    justify-content: center;
-    gap: 5px;
-  }
   .button-linkedin {
     padding: 8px 12px;
     gap: 10px;
