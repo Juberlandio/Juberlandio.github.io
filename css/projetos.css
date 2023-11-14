@@ -34,6 +34,8 @@
 }
 .projetos-container picture img{
   transition: transform 0.5s 0.1s;
+  border: 1px solid #3228FA;
+  border-radius: 8px;
 }
 .projetos-container picture img:hover{
   transform: scale(1.1);

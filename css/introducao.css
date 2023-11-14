@@ -13,13 +13,15 @@
   margin-bottom: 30px;
   position: relative;
 }
-.introducao picture img {
+.introducao  picture img {
   border-radius: 50%;
+  
 }
 .introducao .ilustracao-principal{
   justify-self: center;
   align-items: center;
   position: relative;
+  
 }
 .introducao .ilustracao-principal #imagem{
   position: absolute;
