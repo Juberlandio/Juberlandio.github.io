@@ -1,4 +1,4 @@
-const btn = document.getElementById("btnTop")
+const btn = document.getElementById("botaotopo")
 
 btn.addEventListener("click", function(){
     window.scrollTo(0,0)
