@@ -1,8 +1,10 @@
+html, 
 body {
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
   color: #141414;
   background: #ffffff;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -24,13 +26,24 @@ img {
   height: auto;
   display: block;
 }
-
-.subtitulo {
-  font-size: 8rem;
-  line-height: 1;
-  text-transform: uppercase;
-  word-break: break-all;
-  max-width: 4ch;
+#btnTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 37px;
+  height: 37px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.arrow {
+  border-width: 0 7px 7px 0;
+  padding: 0px;
+  display: inline-block;
 }
 ::-webkit-scrollbar {
 	width: 5px;
