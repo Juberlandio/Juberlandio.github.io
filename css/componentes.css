@@ -1,8 +1,12 @@
-#botao {
+.botao-projetos {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px auto;
+  background: var(--cor-2);
+}
+.botao-projetos.backgraund {
+  background: var(--cor-1);
 }
 .botao2 img {
   border: none;

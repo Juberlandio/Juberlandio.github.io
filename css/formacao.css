@@ -6,15 +6,16 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 80px 20px;
+  padding: 53px 20px 80px 20px;
 }
 .formacao .titulo {
   font-size: 1.5rem;
   text-align: left;
-  margin-bottom: 60px;
   position: relative;
   display: inline-block;
   color: #000000;
+  margin-bottom: 60px;
+  text-transform: uppercase;
 }
 .formacao .titulo:after {
   content: "";
@@ -32,7 +33,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 40px;
-  margin-bottom: 60px;
 }
 .faculdade-lista-unico {
   display: grid;

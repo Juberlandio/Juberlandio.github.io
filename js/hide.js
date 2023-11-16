@@ -1,4 +1,4 @@
-const btn = document.getElementById("botao-topo")
+const btn = document.getElementById("hide")
 
 btn.addEventListener("click", function(){
     window.scrollTo(0,0)
