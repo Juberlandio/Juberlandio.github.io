@@ -3,7 +3,7 @@ body {
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
   color: #141414;
-  background: #ffffff;
+  background: var(--cor-1);
   scroll-behavior: smooth;
 }
 
@@ -28,7 +28,6 @@ img {
 }
 #botaotopo {
   position: fixed;
-
   bottom: 18px;
   right: 18px;
   width: 40px;
