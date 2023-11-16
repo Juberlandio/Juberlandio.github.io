@@ -141,6 +141,7 @@
 .seta {
   display: none;
 }
+
 @media (max-width: 900px) {
   .projetos {
     padding: 40px 20px;
@@ -208,14 +209,14 @@
     top: -3px;
     color:black;
     font-size:1.25rem;
-    animation:seta .5s ease-in 0s infinite alternate;
+    animation:seta .5s ease-out 0s infinite alternate;
   }
   @keyframes seta{
     from{
-        right:40px
+        right:25px
     }
     to{
-        right:30px
+        right:15px
     }
   }
   .code-botao {
