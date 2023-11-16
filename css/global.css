@@ -28,17 +28,17 @@ img {
 }
 #botaotopo {
   position: fixed;
-  bottom: 17px;
+  bottom: 18px;
   right: 18px;
-  width: 40px;
-  height: 40px;
-  background-color: #ffffff;
-  border-radius: 8px;
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  border-radius: 8px;
 }
 .arrow {
   border-width: 0 7px 7px 0;
