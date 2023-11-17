@@ -13,11 +13,12 @@
 #header-container {
   max-width: 1200px;
   padding: 0px;
-  height: 60px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  width: 100%;
 }
 #header.fixar {
   z-index: 1;

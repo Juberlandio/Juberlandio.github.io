@@ -17,19 +17,20 @@
   <header id="header">
     <div id="header-container">
       <div >
-        <a id="hide" href="index.html"><img src="./img/coroa.svg"  width="70" height="14" alt="Logo Coroa"></a>
+        <a class="home" href="index.html"><img src="./img/coroa.svg"  width="70" height="14" alt="Logo Coroa"></a>
       </div>
         <nav id="nav">
           <button id="btn-mobile"><span id="hamburger"></span></button>
             <ul id="menu" role="menu">
-                <li class="lista"><a href="#projetos">Projetos</a></li>
+                <li class="lista"><a href="#projeto">Projetos</a></li>
                 <li class="lista"><a href="#formacao">Formação</a></li>
                 <li class="lista"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </div>            
 </header>
-<main class="introducao">
+<main class="introducao-bg">
+<div class="introducao">
     <div>
       <h1>Olá <span class="mao">👋</span>, eu sou<br><span class="nome">juberlandio Oliveira</span><br>Desenvolvedor Front-End</h1>
                <div class="links">
@@ -51,16 +52,17 @@
       <img id="imagem" src="./img/Juberlandio.png" alt="juberlandio mexendo no computador" width="500" height="500">
       <img src="./img/Juberlandio.jpg" alt="juberlandio Preto e Branco">
     </picture>
+  </div>
 </main>
-<article class="projeto-bg">
-<div id="projetos" class="projetos">
-  <div class="conteudo-projetos">
+<article id="projeto" class="projeto-bg">
+<div  class="projeto">
+  <div class="conteudo-projeto">
        <h2>Projetos<span class="cor-p2">.</span></h2>   
   </div>
   <span class="seta">Role.</span>
- <ul class="projetos-ul">
+ <ul class="projeto-ul">
    <li>
-    <div class="projetos-container">
+    <div class="projeto-container">
         <h3 class="titulo">Bikcraft</h3>
         <p class="paragrafo">Site fictício de bicicletas elétricas, sendo criado como projeto final do curso de HTML e CSS para Iniciantes - Origamid. Neste projeto trabalhei com CSS, HTML e JavaScript.</p>
         <div class="linguagens">
@@ -82,7 +84,7 @@
     </div>
   </li>
   <li>
-    <div id="projeto-par" class="projetos-container" >
+    <div id="projeto-par" class="projeto-container" >
         <h3 class="titulo">Barber Shop</h3>
         <p class="paragrafo">Página de Barbearia, produzida no curso de React js DevMedia. Nele pude fixar conhecimentos de State Hook e eventos onClick aplicados nos modos de cores Dark e Light do site.</p>
         <div class="linguagens">
@@ -104,7 +106,7 @@
     </div>
   </li>
   <li>
-    <div class="projetos-container">
+    <div class="projeto-container">
         <h3 class="titulo">Bikcraft</h3>
         <p class="paragrafo">Site fictício de bicicletas elétricas, sendo criado como projeto final do curso de HTML e CSS para Iniciantes - Origamid. Neste projeto trabalhei com CSS, HTML e JavaScript.</p>
         <div class="linguagens">
@@ -233,7 +235,6 @@
   <script src="js/maquina-escrever.js"></script>
   <script src="js/main.js"></script>
   <script src="js/arrow.js"></script>
-  <script src="js/hide.js"></script>
 </body>
 
 </html>

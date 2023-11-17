@@ -1,12 +1,12 @@
 .formacao {
-  background: #ededed;
-  color: #ffffff;
+  background: var(--cor-2);
+  color: var(--cor-0);
 }
 .formacao .formacao-container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 53px 20px 80px 20px;
+  padding: 90px 20px 80px 20px;
 }
 .formacao .titulo {
   font-size: 1.5rem;

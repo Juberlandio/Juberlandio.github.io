@@ -1,12 +1,14 @@
-
-.projetos {
+.projeto-bg {
+  background: var(--cor-1);
+  color: var(--cor-13);
+}
+.projeto {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 53px 20px 80px 20px;
-  
+  padding: 90px 20px 80px 20px;
 }
-.projetos .conteudo-projetos {
+.projeto .conteudo-projeto {
   font-size: 1.5rem;
   text-align: left;
   margin-bottom: 30px;
@@ -14,43 +16,43 @@
   display: inline-block;
   text-transform: uppercase;
 }
-.projetos .conteudo-projetos:after {
+.projeto .conteudo-projeto:after {
     content: "";
-    width: 40%;
+    width: 50%;
     height: 3px;
     background-color: #3228FA;
     display: block; 
     position: absolute; /* Realinhando ao centro */
     transition: width 0.5s;
 }
-.projetos .conteudo-projetos:hover:after{
+.projeto .conteudo-projetos:hover:after{
   width: 100%;
 }
-.projetos-ul li + li {
+.projeto-ul li + li {
   margin-top: 100px;
 }
-.projetos-container {
+.projeto-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px 30px;
   align-content: start;
 }
-.projetos-container picture img{
+.projeto-container picture img{
   transition: transform 0.5s 0.1s;
   border: 1px solid #3228FA;
   border-radius: 8px;
 }
-.projetos-container picture img:hover{
+.projeto-container picture img:hover{
   transform: scale(1.1);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
-.projetos .titulo {
+.projeto .titulo {
   font-size: 2rem;
   text-align: right;
   padding: 0px;
   margin-bottom:15px;
 }
-.projetos .paragrafo {
+.projeto .paragrafo {
   text-align: right;
   font-size: 1.25rem;
   color: #000000;
@@ -58,13 +60,13 @@
   align-self: center;
   margin-bottom: 15px;
 } 
-.projetos picture {
+.projeto picture {
   display: block;
   justify-self: end;
   grid-column: 2;
   grid-row: 1 / 5;
 }
-.projetos .imagem img {
+.projeto .imagem img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -87,7 +89,7 @@
 .projetos-container .linguagens p{
   transition: transform 0.4s;
 }
-.projetos-container .linguagens p:hover{
+.projeto-container .linguagens p:hover{
   transform: scale(1.3);
 }
 #projeto-par h3 {
@@ -146,10 +148,10 @@
 }
 
 @media (max-width: 900px) {
-  .projetos {
+  .projeto {
     padding: 40px 20px;
   }
-  .projetos ul {
+  .projeto ul {
     display: flex;
     gap: 30px;
     padding-bottom: 20px;
@@ -159,13 +161,13 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch; 
   }
-  .projetos li {
+  .projeto li {
     min-width: 550px;
   }
-  .projetos-ul li + li {
+  .projeto-ul li + li {
     margin-top: 0px;
   }
-  .projetos-container {
+  .projeto-container {
     grid-template-columns: 1fr;
     gap: 5px;
     border: 3px solid #3228FA; 
@@ -173,12 +175,12 @@
     padding: 20px;
     margin-bottom: 0px;
   }
-  .projetos .titulo {
+  .projeto .titulo {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 25px;
   }
-  .projetos .paragrafo {
+  .projeto .paragrafo {
     text-align: center;
     font-size: 1rem;
     color: #000000;
@@ -191,12 +193,12 @@
     padding: 25px 0px;
     margin-bottom:0px;
   } 
-  .projetos li picture {
+  .projeto li picture {
     justify-self: center;
     grid-column: 1;
     grid-row: 3;
   }
-  .projetos > span {
+  .projeto > span {
     position: relative;
     display: block;
     padding-bottom:15px;
@@ -249,11 +251,11 @@
   }
 }
 @media (max-width: 500px) { 
-  .projetos-container {
+  .projeto-container {
     gap: 0px;
     margin-bottom: 0px;
   }
-  .projetos li {
+  .projeto li {
     min-width: 343px;
   }
 }

@@ -2,8 +2,6 @@ html,
 body {
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
-  color: #141414;
-  background: var(--cor-0);
   scroll-behavior: smooth;
 }
 
