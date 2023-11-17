@@ -1,12 +1,12 @@
+.botao-projetos.backgraund {
+  background: var(--cor-1);
+}
 .botao-projetos {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px auto;
   background: var(--cor-2);
-}
-.botao-projetos.backgraund {
-  background: var(--cor-1);
 }
 .botao2 img {
   border: none;
@@ -18,7 +18,12 @@
   cursor: pointer;
   animation: animacaoy 1.5s linear infinite alternate;
 }
-@media (max-width: 500px) { 
+@media (max-width: 1000px) { 
+  .botao-projetos.backgraund {
+    background: var(--cor-0);
+  }
+}
+@media (max-width: 600px) { 
   .botao2 img {
     width: 30px;
     padding: 10px;
