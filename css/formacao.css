@@ -26,9 +26,7 @@
   position: absolute; /* Realinhando ao centro */
   transition: width 0.5s;
 }
-.formacao .titulo:hover:after{
-  width: 100%;
-}
+
 .faculdade-unidade {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -135,14 +133,9 @@
   }
   .faculdade-curso {
     letter-spacing: 0;
+    font-size: 1.5rem;
   }
   .faculdade-unidade {
     grid-template-columns: 1fr;  
-  }
-}
-@media (max-width: 400px){ 
-
-  .faculdade-curso {
-    font-size: 1.5rem;
   }
 }

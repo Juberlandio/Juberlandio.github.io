@@ -18,3 +18,9 @@
   cursor: pointer;
   animation: animacaoy 1.5s linear infinite alternate;
 }
+@media (max-width: 500px) { 
+  .botao2 img {
+    width: 30px;
+    padding: 10px;
+  }
+}
