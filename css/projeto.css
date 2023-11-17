@@ -146,6 +146,9 @@
 }
 
 @media (max-width: 1000px) {
+  .projeto-bg {
+    background: var(--cor-0);
+  }
   .projeto {
     padding: 40px 20px;
   }
