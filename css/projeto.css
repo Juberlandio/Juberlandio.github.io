@@ -40,7 +40,7 @@
 .projeto-container picture img{
   transition: transform 0.5s 0.1s;
   border: 1px solid #3228FA;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 .projeto-container picture img:hover{
   transform: scale(1.1);
@@ -150,7 +150,7 @@
     background: var(--cor-0);
   }
   .projeto {
-    padding: 40px 20px;
+    padding: 70px 20px;
   }
   .projeto ul {
     display: flex;
@@ -171,8 +171,8 @@
   .projeto-container {
     grid-template-columns: 1fr;
     gap: 5px;
-    border: 3px solid #3228FA; 
-    border-radius: 8px;
+    border: 1px solid #3228FA; 
+    border-radius: 4px;
     padding: 20px;
     margin-bottom: 0px;
   }
@@ -252,9 +252,6 @@
   }
 }
 @media (max-width: 600px) { 
-  .projeto{
-    padding: 23px 20px;
-  }
   .projeto .conteudo-projeto {
     font-size: 1.2rem;
     margin-bottom: 20px;

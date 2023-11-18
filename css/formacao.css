@@ -38,15 +38,15 @@
   gap: 10px;
   padding: 20px 10px;
   background: #2e2e2e;
-  border-radius: 8px;
+  border-radius: 4px;
   grid-column: span 2;
-  border: 3px solid #a3a3a3;
+  border: 1px solid #a3a3a3;
   transition: transform 0.5s 0.1s;
 }
 .faculdade-lista-unico:hover{
   transform: scale(1.1);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-  border: 3px solid #3228FA;
+  border: 1px solid #3228FA;
 }
 .faculdade-curso-unico {
   font-weight: 300;
@@ -61,14 +61,14 @@
   gap: 10px;
   padding: 20px 10px;
   background: #2e2e2e;
-  border-radius: 8px;
-  border: 3px solid #a3a3a3;
+  border-radius: 4px;
+  border: 1px solid #a3a3a3;
   transition: transform 0.5s 0.1s;
 }
 .faculdade-lista:hover{
   transform: scale(1.1);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-  border: 3px solid #3228FA;
+  border: 1px solid #3228FA;
 }
 .faculdade-tipo {
   font-weight: 600;
@@ -111,15 +111,15 @@
 }
 @media (max-width: 1000px){
   .formacao .formacao-container {
-    padding: 40px 20px;
+    padding: 70px 20px;
   }
   .faculdade-unidade {
     grid-template-columns: 1fr 1fr;  
   }
 }
 @media (max-width: 600px){
-  .formacao .formacao-container {
-    padding: 23px 20px;
+  .faculdade-unidade {
+    gap: 20px;
   }
   .formacao .titulo {
     margin-bottom: 20px;
