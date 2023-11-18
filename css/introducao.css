@@ -20,13 +20,11 @@
 }
 .introducao  picture img {
   border-radius: 50%;
-  
 }
 .introducao .ilustracao-principal{
   justify-self: center;
   align-items: center;
   position: relative;
-  
 }
 .introducao .ilustracao-principal #imagem{
   position: absolute;
@@ -228,7 +226,7 @@
 }
   @media (max-width: 600px) { 
   .introducao {
-    padding: 130px 20px 40px 20px;
+    padding: 130px 20px 5px 20px;
   }
   .nome {
     font-size: 2rem;
