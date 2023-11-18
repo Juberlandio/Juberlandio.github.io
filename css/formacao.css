@@ -17,15 +17,15 @@
   margin-bottom: 60px;
   text-transform: uppercase;
 }
-.formacao .titulo:after {
+/* .formacao .titulo:after {
   content: "";
   width: 50%;
   height: 3px;
   background-color: #3228FA;
   display: block; 
-  position: absolute; /* Realinhando ao centro */
+  position: absolute;
   transition: width 0.5s;
-}
+} */
 
 .faculdade-unidade {
   display: grid;
@@ -109,7 +109,7 @@
     grid-template-columns: 1fr 1fr 1fr;  
   }
 }
-@media (max-width: 900px){
+@media (max-width: 1000px){
   .formacao .formacao-container {
     padding: 40px 20px;
   }
@@ -118,6 +118,9 @@
   }
 }
 @media (max-width: 600px){
+  .formacao .titulo {
+    font-size: 1.2rem;
+  }
   .faculdade-curso {
     font-size: 1.5rem;
   }
