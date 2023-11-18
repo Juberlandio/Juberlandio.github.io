@@ -11,9 +11,9 @@
 .projeto .conteudo-projeto {
   font-size: 1.5rem;
   text-align: left;
-  margin-bottom: 30px;
   position: relative;
   display: inline-block;
+  margin-bottom: 60px;
   text-transform: uppercase;
 }
  /* .projeto .conteudo-projeto:after {
@@ -152,7 +152,6 @@
   .projeto {
     padding: 40px 20px;
   }
- 
   .projeto ul {
     display: flex;
     gap: 30px;
@@ -253,8 +252,12 @@
   }
 }
 @media (max-width: 600px) { 
+  .projeto{
+    padding: 25px 20px;
+  }
   .projeto .conteudo-projeto {
     font-size: 1.2rem;
+    margin-bottom: 20px;
   }
   .projeto-container {
     gap: 0px;

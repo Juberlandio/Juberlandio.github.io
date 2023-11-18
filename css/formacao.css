@@ -118,7 +118,11 @@
   }
 }
 @media (max-width: 600px){
+  .formacao .formacao-container {
+    padding: 25px 20px;
+  }
   .formacao .titulo {
+    margin-bottom: 20px;
     font-size: 1.2rem;
   }
   .faculdade-curso {
