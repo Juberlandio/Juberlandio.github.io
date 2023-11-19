@@ -16,7 +16,7 @@
   margin: 0px auto;
   background: var(--cor-2);
 }
-.botao2 img {
+.button img {
   border: none;
   border-radius: 50%;
   display: flex;
