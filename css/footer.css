@@ -9,7 +9,7 @@
   padding-bottom: 60px;
 }
 .footer h3 {
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 .footer-texto {
   font-size: 1.5rem;
@@ -30,15 +30,19 @@
 .contato {
   color: var(--cor-0); 
   font-size: 1.5rem;
-  line-height: 1.5;
+  line-height: 2;
 }
 .footer-redes {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 .contato-ul li a {
   text-decoration: none;
   color: var(--cor-0);
+}
+.contato-ul li {
+  padding-bottom: 10px;
 }
 .final  {
   display: block;
@@ -46,7 +50,7 @@
   padding: 20px;
   background: var(--cor-13);
   color: var(--cor-0);
-  border-top: 0.5px solid #fff;
+  border-top: 1px solid var(--cor-10);
 }
 
 @media (max-width: 1000px) {
