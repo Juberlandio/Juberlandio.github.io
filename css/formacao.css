@@ -45,13 +45,6 @@
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   border: 1px solid #3228FA;
 }
-.faculdade-curso-unico {
-  font-weight: 300;
-  font-size: 2rem;
-  line-height: 1.5;
-  position: relative;
-  letter-spacing: .11rem;
-}
 .faculdade-lista {
   display: grid;
   grid-template-columns: 1fr;
@@ -75,7 +68,7 @@
 }
 .faculdade-curso {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   position: relative;
   letter-spacing: .11rem;
@@ -83,12 +76,12 @@
 .faculdade-curso::before {
   content: "";
   display: block;
-  width: 10.5px;
-  height: 31px;
+  width: 8px;
+  height: 25px;
   background: #3228fa;
   position: absolute;
-  left: -21px;
-  bottom: 8px;
+  left: -19px;
+  bottom: 5px;
 }
 .faculdade-instituicao {
   font-weight: 400;
