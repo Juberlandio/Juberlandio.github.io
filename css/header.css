@@ -9,17 +9,13 @@
   backdrop-filter: blur(1px);
   text-shadow: 1px 1px 1px black;
   transition: 0.3s;
-  
 }
 #header-container {
-  max-width: 1300px;
   padding: 0px 20px;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
 }
 #header.fixar {
   z-index: 1;

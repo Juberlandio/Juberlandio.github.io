@@ -15,7 +15,7 @@
 </head>
 <body>
   <header id="header">
-      <div id="header-container">
+      <div id="header-container" class="container">
         <div >
           <a class="home" href="index.html"><img src="./img/coroa.svg"  width="70" height="14" alt="Logo Coroa"></a>
         </div>
@@ -30,7 +30,7 @@
       </div>           
 </header>
 <main class="introducao-bg">
-<div class="introducao">
+<div class="introducao container">
     <div>
       <h1>Oi <span class="mao">👋</span>, eu sou<br><span class="nome">juberlandio Oliveira</span><br>Desenvolvedor Front-End</h1>
                <div class="links">
@@ -55,7 +55,7 @@
   </div>
 </main>
 <article id="projeto" class="projeto-bg">
-<div class="projeto">
+<div class="projeto container">
   <div class="conteudo-projeto">
        <h2>Projetos<span class="cor-p2">.</span></h2>   
   </div>
@@ -86,7 +86,7 @@
   <li>
     <div id="projeto-par" class="projeto-container" >
         <h3 class="titulo">Barber Shop</h3>
-        <p class="paragrafo">Página de Barbearia, produzida no curso de React js DevMedia. Nele pude fixar conhecimentos de State Hook e eventos onClick aplicados nos modos de cores Dark e Light do site da barbearia.</p>
+        <p class="paragrafo">Página de Barbearia, produzida no curso de React js DevMedia. Nele pude fixar conhecimentos de State Hook e eventos onClick aplicados nos modos de cores Dark e Light do site.</p>
         <div class="linguagens">
           <p>React JS</p>
           <p>State Hook</p>
@@ -136,7 +136,7 @@
     </div>
 </section>
 <section class="formacao" id="formacao" aria-label="Formação">
-  <div class="formacao-container">
+  <div class="formacao-padding container">
     <div class="titulo">
     <h2>Formação<span class="cor-p2">.</span></h2>
     </div>
@@ -220,17 +220,34 @@
     <i class="arrow"><img src="./img/arrow.svg" alt="Seta para cima"></i>
   </div>
 </section>
-<footer class="footer" id="contato">
-    <div class="footer-container">
-      <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
-      <ul class="footer-contato">
-        <li>@email.com</li>
-        <li>+55 21 9999-9999</li>
-        <li><a href="/">@instagram</a></li>
+<footer class="footer-bg" id="contato">
+  <div>
+  <div class="footer container">
+    <a class="home" href="index.html"><img src="./img/coroa-branca.svg"  width="70" height="14" alt="Logo Coroa"></a>
+    <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
+    <div class="footer-contato">
+      <h3 class="contato">Contato</h3>
+      <ul class="contato-ul">
+        <li><a href="tel:+552199999999">+55 83 999795350</a></li>
+        <li><a href="mailto:juberlandio.santana.js@gmail.com">juberlandio.santana<wbr>.js@gmail.com</a></li>
       </ul>
-      <p class="footer-copy"> Juberlandio direitos reservados.</p>
+      <div class="footer-redes">
+        <a href="https://www.instagram.com/berlantec/">
+          <img src="./img/instagram.svg" width="32" height="32" alt="Instagram">
+        </a>
+        <a href="https://www.facebook.com/juberlandioOliveiraOficial">
+          <img src="./img/facebook.svg" width="32" height="32" alt="Facebook">
+        </a>
+        <a href="https://www.linkedin.com/in/juberlandiooliveira/">
+          <img src="./img/likedin.svg" width="32" height="32" alt="likedin">
+        </a>
+      </div>
     </div>
-</footer>
+  </div>
+    <div class="final">
+      <p>© 2023 - Design and Code by Juberlandio Oliveira.</p>
+   </div>
+  </footer>
   <script src="js/menu-hamburguer.js"></script>
   <script src="js/maquina-escrever.js"></script>
   <script src="js/main.js"></script>

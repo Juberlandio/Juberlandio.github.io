@@ -2,11 +2,8 @@
   background: var(--cor-2);
   color: var(--cor-0);
 }
-.formacao .formacao-container {
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 90px 20px 80px 20px;
+.formacao .formacao-padding {
+  padding: 90px 20px;
 }
 .formacao .titulo {
   font-size: 1.5rem;
@@ -86,7 +83,7 @@
 .faculdade-curso::before {
   content: "";
   display: block;
-  width: 8px;
+  width: 10.5px;
   height: 31px;
   background: #3228fa;
   position: absolute;
@@ -111,7 +108,7 @@
 }
 @media (max-width: 1000px){
   .formacao .formacao-container {
-    padding: 70px 20px;
+    padding: 90px 20px;
   }
   .faculdade-unidade {
     grid-template-columns: 1fr 1fr;  
