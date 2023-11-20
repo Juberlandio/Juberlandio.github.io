@@ -44,8 +44,6 @@ img {
   padding: 0px;
   display: inline-block;
 }
-
-
 ::-webkit-scrollbar {
 	width: 5px;
 	background-color: rgb(35, 38, 41);
