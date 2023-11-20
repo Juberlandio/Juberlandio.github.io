@@ -7,7 +7,7 @@
   left: 0;
   box-shadow:  1px 1px  #fbfbfb32;
   backdrop-filter: blur(1px);
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px var(--cor-1);
   transition: 0.3s;
 }
 #header-container {
