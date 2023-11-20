@@ -1,7 +1,7 @@
 .projeto.espacamento {
   padding: 150px 20px 80px 20px;
 }
-.btn {
+/* .btn {
   display: grid;
   padding: 50px;
 }
@@ -15,16 +15,16 @@
   border-radius: 5px;
   position: relative;
   max-width: max-content;
-}
+} */
 @media (max-width: 1000px) { 
-  .btn {
+  /* .btn {
     display: grid;
     padding: 20px;
   }
   .botao-voltar {
     margin: 0px;
     padding: 20px
-  }
+  } */
   .projeto.projeto.espacamento {
     padding: 70px 20px;
   }

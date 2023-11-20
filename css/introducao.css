@@ -3,7 +3,6 @@
   color: var(--cor-13);
 }
 .introducao {
-  max-width: 1300px;
   padding: 20px;
   display: grid;
   grid-template-columns: 2fr 1fr;
