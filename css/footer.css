@@ -2,7 +2,7 @@
   background-color:var(--cor-12);
 }
 .footer {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -17,7 +17,7 @@
   font-size: 1.7rem;
   line-height: 1.33;
   color: var(--cor-0);
-  padding: 90px 0px 0px 20px;
+  padding: 90px 20px 0px 20px;
   position: relative;
 }
 .footer-texto::before {
