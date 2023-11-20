@@ -16,7 +16,7 @@
   margin: 0px auto;
   background: var(--cor-2);
 }
-.button img {
+.button-link img {
   border: none;
   border-radius: 50%;
   display: flex;
@@ -32,7 +32,7 @@
   }
 }
 @media (max-width: 600px) { 
-  .botao2 img {
+  .button-link img {
     width: 30px;
     padding: 10px;
   }
