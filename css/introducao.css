@@ -17,6 +17,17 @@
   margin-bottom: 30px;
   position: relative;
 }
+/* .introducao h1::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 10px;
+  background: url(../img/detalhe-introdução.svg) no-repeat center;
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  z-index: 1;
+} */
 .introducao  picture img {
   border-radius: 50%;
 }
