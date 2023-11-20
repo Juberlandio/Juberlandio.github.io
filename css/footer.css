@@ -52,7 +52,6 @@
   color: var(--cor-5);
   border-top: 1px solid var(--cor-10);
 }
-
 @media (max-width: 1000px) {
   .footer {
     grid-template-columns: 1fr 1fr;

@@ -44,7 +44,7 @@
   background: linear-gradient(var(--cor-11) 10px, var(--cor-9) 100px)
 }
 .faculdade-lista-unico:hover{
-  box-shadow: 8px 3px 0 #3228fa;
+  box-shadow: 3px 3px 0 #3228fa;
   transform: translateY(-15px);
 }
 .faculdade-lista-unico picture img {
@@ -68,7 +68,7 @@
   background: linear-gradient(var(--cor-11) 10px, var(--cor-9) 100px)
 }
 .faculdade-lista:hover{
-  box-shadow: 8px 3px 0 #3228fa;
+  box-shadow: 3px 3px 0 #3228fa;
   transform: translateY(-15px);
 }
 .faculdade-lista picture img {
