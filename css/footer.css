@@ -30,6 +30,10 @@
   left: 20px;
   top: 30px;
   z-index: 1;
+  transition: background 0.5s;
+}
+.footer-texto:hover::before {
+  background: url(../img/detalhe-hover.svg) no-repeat center;
 }
 .footer-contato ul {
   margin-bottom: 32px;
@@ -124,7 +128,7 @@
   .footer-texto::before {
     width: 50px;
     height: 20px;
-    top: 55px;
+    top: 65px;
   }
   .footer {
     grid-template-columns: 1fr;
