@@ -116,6 +116,7 @@
   line-height: 1.5;
 }
 .certificado {
+  justify-self: center;
   width: 70px;
   height: 85px;
   margin: auto 0px auto auto;
@@ -180,7 +181,6 @@
     background: linear-gradient(var(--cor-11) 100px, var(--cor-9) 400px)
   }
   .faculdade-lista-unico picture img {
-    padding: 0px 15px 15px 15px;
     grid-row: 1;
   }
   .faculdade-lista {
@@ -189,7 +189,6 @@
     background: linear-gradient(var(--cor-11) 100px, var(--cor-9) 400px); 
   }
   .faculdade-lista picture img {
-    padding: 0px 15px 15px 15px;
     grid-row: 1;
   }
   .faculdade-lista-unico .faculdade-ordem {
@@ -198,5 +197,8 @@
   .faculdade-lista .faculdade-ordem {
     grid-row: 2;
   }
-
+  .certificado {
+    justify-self: center;
+    margin:auto;
+  }
 }
