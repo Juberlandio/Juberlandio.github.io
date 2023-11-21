@@ -31,7 +31,7 @@ img {
   right: 18px;
   width: 46px;
   height: 46px;
-  background: #ffffff;
+  background: var(--cor-0);
   display: flex;
   flex-direction: row;
   align-items: center;

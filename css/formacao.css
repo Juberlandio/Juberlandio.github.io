@@ -114,7 +114,7 @@
 }
 .imagem-certificado-girar{
   display: block;
-  animation: girar 50.5s infinite;
+  animation: girar 100.5s infinite;
 }
 @keyframes girar{
   30% {
