@@ -114,17 +114,17 @@
 }
 .imagem-certificado-girar{
   display: block;
-  animation: girar 100.5s infinite;
+  animation: girar 50.5s infinite;
 }
 @keyframes girar{
   30% {
-      transform: rotate(14deg);
+      transform: rotate(8deg);
   }
   40% {
-      transform: rotate(-4deg);
+      transform: rotate(0deg);
   }
   50% {
-      transform: rotate(10deg);
+      transform: rotate(8deg);
   }
 }
 .certificado {
