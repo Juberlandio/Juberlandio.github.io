@@ -112,6 +112,24 @@
   font-size: 1.3rem;
   line-height: 1.5;
 }
+.imagem-certificado-icone{
+  display: block;
+  animation: girar 12.5s infinite;
+}
+@keyframes girar{
+  20% {
+      transform: rotate(-8deg);
+  }
+  30% {
+      transform: rotate(14deg);
+  }
+  40% {
+      transform: rotate(-4deg);
+  }
+  50% {
+      transform: rotate(10deg);
+  }
+}
 .certificado {
   place-self: center end;
   width: 70px;
