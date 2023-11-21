@@ -137,11 +137,11 @@
 .botao-link img:hover{
   transform: scale(1.1);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background: var(--cor-p1);
 }
 .seta {
   display: none;
 }
-
 @media (max-width: 1000px) {
   .projeto-bg {
     background: var(--cor-0);

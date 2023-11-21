@@ -114,6 +114,19 @@
   font-size: 1.3rem;
   line-height: 1.5;
 }
+.certificado {
+  justify-self: center;
+  align-items: center;
+  position: relative;
+}
+.imagem-certificado {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+}
+.imagem-certificado:active {
+  opacity: 0;
+}
 @media (max-width: 1234px){
   .faculdade-unidade {
     grid-template-columns: 1fr 1fr 1fr;  
