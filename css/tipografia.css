@@ -1,10 +1,13 @@
 .font-b {
   font: 300 1rem/1.5 "Poppins", sans-serif;
 }
-.font-l-b {
-  font: 300 1rem/1.5 "Poppins", sans-serif;
+.font-l-p {
+  font: 300 1.1rem/1.5 "Poppins", sans-serif;
 }
-.font-l-bold {
+.font-l-b {
+  font: 300 1.5rem/1.5 "Poppins", sans-serif;
+}
+.font-l-linguagens {
   font: 600 1rem/1.5 "Poppins", sans-serif;
 }
 .font-l {
