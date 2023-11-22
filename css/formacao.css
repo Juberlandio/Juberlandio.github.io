@@ -78,11 +78,11 @@
   display: block;
 }
 .faculdade-tipo {
-  letter-spacing: .15rem;
+  letter-spacing: .11rem;
 }
 .faculdade-curso {
   position: relative;
-  letter-spacing: .11rem;
+  letter-spacing: .15rem;
 }
 .faculdade-curso::before {
   content: "";
@@ -163,9 +163,11 @@
   .faculdade-unidade {
     gap: 20px;
   }
+  .font-xx {
+    font: 700 1.6rem/1.25 "Roboto", sans-serif;
+  }
   .formacao .titulo {
     margin-bottom: 20px;
-    font-size: 1.2rem;
   }
   .faculdade-curso {
     font-size: 1.5rem;

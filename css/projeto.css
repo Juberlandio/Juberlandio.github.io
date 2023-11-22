@@ -5,14 +5,14 @@
 .projeto {
   padding: 90px 20px;
 }
-.projeto .conteudo-projeto {
+.projeto .titulo-projeto {
   text-align: left;
   position: relative;
   display: inline-block;
   margin-bottom: 60px;
   text-transform: uppercase;
 }
- .projeto .conteudo-projeto:after {
+ .projeto .titulo-projeto:after {
     content: "";
     width: 0%;
     height: 3px;
@@ -21,7 +21,7 @@
     position: absolute; 
     transition: width 0.5s;
 } 
-.projeto .conteudo-projeto:hover:after{
+.projeto .titulo-projeto:hover:after{
   width: 50%;
 }
 .projeto-ul li + li {
@@ -242,8 +242,10 @@
   }
 }
 @media (max-width: 600px) { 
-  .projeto .conteudo-projeto {
-    font-size: 1.2rem;
+  .font-xx {
+    font: 700 1.6rem/1.25 "Roboto", sans-serif;
+  }
+  .projeto .titulo-projeto {
     margin-bottom: 20px;
   }
   .projeto-container {
