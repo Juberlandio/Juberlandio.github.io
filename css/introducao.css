@@ -11,8 +11,6 @@
   height: 100vh;
 }
 .introducao h1 {
-  font-size: 1.8em;
-  line-height: 1.125;
   margin-bottom: 30px;
   position: relative;
 }
@@ -44,8 +42,7 @@
   opacity: 0;
 }
 .introducao p {
-  font-size: 1.5rem;
-  color: #000000;
+  color: var(--cor-13);
 }
 .ilustracao-principal{
   animation: animacaoy 3.5s linear infinite alternate;
@@ -56,7 +53,6 @@
   }
 }
 .nome{
-  font-size: 3rem;
   border-right: 4px solid;
   box-sizing: content-box;
   animation: piscando 0.5s alternate infinite step-end;
@@ -119,8 +115,6 @@
 }
 .botao-linkedin .text {
   color: white;
-  font-weight: 700;
-  font-size: 1.125rem;
   transition: 400ms;
   width: auto;
 }
@@ -154,8 +148,6 @@
 }
 .botao-github .text{
   color: white;
-  font-weight: 700;
-  font-size: 1.125rem;
   transition: 400ms;
   width: auto;
 }
