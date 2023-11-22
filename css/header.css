@@ -30,8 +30,6 @@
   justify-content: center;
 }
 #menu a {
-  font-size: 1.125rem;
-  line-height: 1.3;
   padding: 10px 0px;
   text-decoration: none;
   color: var(--cor-13);

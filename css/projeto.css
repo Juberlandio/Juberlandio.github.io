@@ -50,8 +50,7 @@
 }
 .projeto .paragrafo {
   text-align: right;
-  font-size: 1.25rem;
-  color: #000000;
+  color: var(--cor-13);
   letter-spacing: 0.15rem;
   align-self: center;
   margin-bottom: 15px;
