@@ -50,7 +50,7 @@ img {
 	background-color: rgb(35, 38, 41);
 }
 ::-webkit-scrollbar-thumb {
-	background-color: #3228FA;
+	background-color: var(--cor-p2);
   border-radius: 20px;
 }
 ::-webkit-scrollbar-track {

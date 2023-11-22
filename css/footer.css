@@ -78,15 +78,15 @@
   animation: bounce_613 0.4s linear;
 }
 .facebook:hover {
-  background-color: #0866FF;
+  background-color: var(--cor-p3);
   animation: bounce_613 0.4s linear;
 }
 .likedin:hover{
-  background: #1C92FF;
+  background: var(--cor-p3);
   animation: bounce_613 0.4s linear;
 }
 .github:hover{
-  background: #181717;
+  background: var(--cor-p4);
   animation: bounce_613 0.4s linear;
 }
 @keyframes bounce_613 {
