@@ -97,7 +97,7 @@
     background-color: var(--cor-p3);
     outline: 3px var(--cor-p3) solid;
     outline-offset: -3px;
-    border-radius: 29px;
+    border-radius: 50px;
     border: none;
     cursor: pointer;
     transition: 400ms;
@@ -129,7 +129,7 @@
     gap: 15px;
     background-color: var(--cor-p4);
     outline: 3px var(--cor-p4) solid;
-    border-radius: 29px;
+    border-radius: 50px;
     outline-offset: -3px;
     border: none;
     cursor: pointer;
