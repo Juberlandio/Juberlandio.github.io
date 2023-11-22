@@ -149,10 +149,10 @@
   outline: 3px var(--cor-0) solid;
 }
 .botao-github:hover .text{
-  color: var(--cor-p3);
+  color: var(--cor-p4);
 }
 .botao-github:hover svg path {
-  fill: var(--cor-p3);
+  fill: var(--cor-p4);
 }
 .botao-linkedin .botao-github{
   flex: 1;
