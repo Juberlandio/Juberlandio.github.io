@@ -15,8 +15,9 @@
   margin-top: 25px;
   position: relative;
 }
-.introducao  picture img {
+.introducao picture img {
   border-radius: 50%;
+  width: 350px;
 }
 .introducao .ilustracao-principal{
   justify-self: center;

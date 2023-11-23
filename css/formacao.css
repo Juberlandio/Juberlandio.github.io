@@ -104,7 +104,7 @@
 }
 .imagem-certificado-girar{
   display: block;
-  animation: girar 60.5s infinite;
+  animation: girar 30.5s infinite;
 }
 @keyframes girar{
   40% {
@@ -117,21 +117,21 @@
       transform: rotate(5deg);
   }
 }
-/* .imagem-certificado-girar-reverse{
+.imagem-certificado-girar-reverse{
   display: block;
-  animation: girar-alternado 40.5s reverse infinite;
+  animation: girar-alternado 60.5s reverse infinite ;
 }
 @keyframes girar-alternado{
   40% {
-    transform: rotate(8deg);
+    transform: rotate(5deg);
   }
   50% {
       transform: rotate(-4deg);
   }
   60% {
-      transform: rotate(8deg);
+      transform: rotate(5deg);
   }
-} */
+}
 .certificado {
   place-self: center end;
   width: 70px;
