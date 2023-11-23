@@ -26,7 +26,7 @@
 #menu {
   display: flex;
   flex-wrap: nowrap;
-  gap: 72px;
+  gap: 106.95px;
   justify-content: center;
 }
 #menu a {
@@ -61,8 +61,8 @@
   display: none;
 }
 @media (max-width: 1100px) {
-#menu {
-  gap: 65px; 
+  #menu {
+    gap: 80px; 
   }
 }
 @media (max-width: 1000px) {
@@ -76,7 +76,7 @@
     border-bottom: none;
   }
   #menu {
-    gap: 0px;
+    gap: 0px; 
   }
   #menu a {
     padding: 20px 20px;
