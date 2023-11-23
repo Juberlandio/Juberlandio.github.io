@@ -102,7 +102,6 @@
   }
   .botao-linkedin .text {
     transition: 500ms;
-    width: auto;
   }
   .botao-linkedin svg path {
     transition: 900ms;
@@ -138,7 +137,6 @@
   }
   .botao-github .text{
     transition: 500ms;
-    width: auto;
   }
   .botao-github svg path {
     transition: 500ms;
@@ -174,7 +172,6 @@
   .home {
     display: none;
   }
- 
   .introducao {
     display: flex;
     gap: 20px;
@@ -194,7 +191,7 @@
     background: var(--cor-p2);
   }
   .introducao h1 {
-    font-size: 1.5rem;
+    font-size: 1.745rem;
     text-align: center;
   }
   .introducao picture img {
@@ -207,25 +204,22 @@
     opacity: 100%;
   }
   .nome {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
   }
   .links{
     justify-content: center;
     gap: 12px;
   }
-  .botao-linkedin .text {
-    font-size: 1rem;
-  }
   .botao-linkedin svg {
     width: 25px;
     height: 25px;
   }
-  .botao-github .text{
-    font-size: 1rem;
-  }
   .botao-github svg {
     width: 25px;
     height: 25px;
+  }
+  .font-xxl-b {
+    font-size: 1rem;
   }
 }
   @media (max-width: 600px) { 
@@ -239,26 +233,22 @@
     font-size: 1.3rem;
   }
   .botao-linkedin {
-    padding: 8px 12px;
+    padding: 10px 14px;
     gap: 10px;
-  }
-  .botao-linkedin .text {
-    font-size: 0.8rem;
   }
   .botao-linkedin svg {
     width: 20px;
     height: 20px;
   }
   .botao-github {
-    padding: 8px 17px;
+    padding: 10px 19px;
     gap: 10px;
-  }
-  .botao-github .text{
-    font-size: 0.8rem;
   }
   .botao-github svg {
     width: 20px;
     height: 20px;
   }
- 
+  .font-xxl-b {
+    font-size: 0.845rem;
+  }
 }
