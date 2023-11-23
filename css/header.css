@@ -30,9 +30,9 @@
   justify-content: center;
 }
 #menu a {
+  color: inherit;
   padding: 10px 0px;
   text-decoration: none;
-  color: var(--cor-13);
   position: relative;
   display: inline-block;
   padding: 1rem 0;

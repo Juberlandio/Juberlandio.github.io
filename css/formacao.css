@@ -1,6 +1,5 @@
 .formacao {
   background: var(--cor-2);
-  color: var(--cor-0);
 }
 .formacao .formacao-padding {
   padding: 90px 20px;
@@ -9,7 +8,6 @@
   text-align: left;
   position: relative;
   display: inline-block;
-  color: var(--cor-13);
   margin-bottom: 60px;
   text-transform: uppercase;
 }

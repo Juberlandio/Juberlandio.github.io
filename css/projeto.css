@@ -1,6 +1,5 @@
 .projeto-bg {
   background: var(--cor-1);
-  color: var(--cor-13);
 }
 .projeto {
   padding: 90px 20px;
@@ -49,7 +48,7 @@
 }
 .projeto .paragrafo {
   text-align: right;
-  color: var(--cor-13);
+  color: var(--cor-12);
   letter-spacing: 0.15rem;
   align-self: center;
   margin-bottom: 15px;
@@ -174,7 +173,7 @@
   }
   .projeto .paragrafo {
     text-align: center;
-    color: var(--cor-13);
+    color: var(--cor-12);
     letter-spacing: 0.15rem;
     margin-bottom: 30px;
   } 
@@ -254,5 +253,8 @@
   }
   .projeto li {
     min-width: 343px;
+  }
+  .font-l-p {
+    font-size: 1rem;
   }
 }
