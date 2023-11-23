@@ -13,13 +13,13 @@
   text-transform: uppercase;
 }
  .projeto .titulo-projeto:after {
-    content: "";
-    width: 0%;
-    height: 3px;
-    background-color: var(--cor-p2);
-    display: block; 
-    position: absolute; 
-    transition: width 0.5s;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: var(--cor-p2);
+  display: block; 
+  position: absolute; 
+  transition: width 0.5s;
 } 
 .projeto .titulo-projeto:hover:after{
   width: 50%;
@@ -241,7 +241,7 @@
     justify-self: center;
   }
 }
-@media (max-width: 500px) { 
+@media (max-width: 600px) { 
   .font-xx {
     font-size: 1.6rem;
   }
