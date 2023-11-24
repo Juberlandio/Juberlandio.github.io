@@ -20,6 +20,7 @@
           <nav id="nav">
             <button id="btn-mobile"><span id="hamburger"></span></button>
               <ul id="menu" role="menu" class="font-b cor-12">
+                  <li><a href="index.html">Home</a></li>
                   <li><a href="#projeto">Projetos</a></li>
                   <li><a href="#formacao">Formação</a></li>
                   <li><a href="#contato">Contato</a></li>
@@ -28,10 +29,10 @@
       </div>           
 </header>
 <main class="introducao-bg">
-<div class="introducao container cor-12">
+<div class="introducao container cor-12 fadeInLeft" data-anime="200">
     <div>
-      <h1 class="font-xxl">Oi <span class="mao">👋</span>, eu sou<br><span class="nome font-xxl-g">Juberlandio Oliveira</span><br>Desenvolvedor Front-End</h1>
-               <div class="links">
+      <h1 class="font-xxl">Oi <span class="mao">👋</span>, eu sou<br><span class="nome font-xxl-g" >Juberlandio Oliveira</span><br>Desenvolvedor Front-End</h1>
+               <div class="links" data-anime="400">
                       <a class="botao-linkedin font-xxl-b cor-0" href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="24" width="24">
                         <path fill="white" d="M23.15 2.587L18.21 0.210001C17.9308 0.075557 17.6167 0.03124 17.3113 0.083204C17.0058 0.135162 16.724 0.280818 16.505 0.500001L7.04499 9.13L2.92499 6.002C2.73912 5.86101 2.50976 5.78953 2.27669 5.79994C2.04363 5.81035 1.82156 5.902 1.64899 6.059L0.326993 7.261C0.223973 7.35465 0.141644 7.46878 0.0852761 7.59608C0.0289081 7.72339 -0.00025659 7.86106 -0.000350724 8.00028C-0.000444857 8.1395 0.0285336 8.27721 0.0847294 8.40459C0.140925 8.53197 0.2231 8.64621 0.325993 8.74L3.89899 12L0.325993 15.26C0.2231 15.3538 0.140925 15.468 0.0847294 15.5954C0.0285336 15.7228 -0.000444857 15.8605 -0.000350724 15.9997C-0.00025659 16.1389 0.0289081 16.2766 0.0852761 16.4039C0.141644 16.5312 0.223973 16.6454 0.326993 16.739L1.64999 17.94C1.82256 18.097 2.04463 18.1887 2.27769 18.1991C2.51076 18.2095 2.74012 18.138 2.92599 17.997L7.04599 14.869L16.506 23.499C16.7248 23.7182 17.0064 23.8639 17.3117 23.9159C17.6171 23.9679 17.931 23.9235 18.21 23.789L23.152 21.412C23.4062 21.2893 23.6207 21.0973 23.7707 20.8581C23.9207 20.619 24.0002 20.3423 24 20.06V3.939C24 3.65647 23.9203 3.37967 23.7699 3.14048C23.6195 2.90129 23.4046 2.70943 23.15 2.587ZM18.004 17.448L10.826 12L18.004 6.552V17.448Z"></path>
@@ -54,13 +55,13 @@
 </main>
 <article id="projeto" class="projeto-bg cor-12">
 <div class="projeto container">
-  <div class="titulo-projeto">
-       <h2 class="font-xx">Projetos<span class="cor-p2">.</span></h2>   
+  <div class="titulo-projeto" >
+       <h2 class="font-xx" data-anime="200">Projetos<span class="cor-p2">.</span></h2>   
   </div>
   <span class="seta">Role.</span>
  <ul class="projeto-ul">
    <li>
-    <div class="projeto-container">
+    <div class="projeto-container fadeInLeft" data-anime="200">
         <h3 class="titulo-projeto-interno font-xx-t">Bikcraft</h3>
         <p class="paragrafo font-l-p">Site fictício de bicicletas elétricas, sendo criado como projeto final do curso de HTML e CSS para Iniciantes - Origamid. Neste projeto trabalhei com CSS, HTML e JavaScript.</p>
         <div class="linguagens font-l-l">
@@ -82,7 +83,7 @@
     </div>
   </li>
   <li>
-    <div id="projeto-par" class="projeto-container" >
+    <div id="projeto-par" class="projeto-container fadeInRight" data-anime="200">
         <h3 class="titulo-projeto-interno font-xx-t">Barber Shop</h3>
         <p class="paragrafo font-l-p">Página de Barbearia, produzida no curso de React js DevMedia. Nese curso pude fixar conhecimentos de State Hook e eventos onClick aplicados nos modos de cores Dark e Light do site.</p>
         <div class="linguagens font-l-l">
@@ -104,18 +105,17 @@
     </div>
   </li>
 </div>
+<div class="botao-projetos container backgraund" data-anime="200">
+  <a class="button-link cor-0" href="./projetos.html"><img src="./img/down-arrow.svg" width="70" height="85" alt=""></a>
+</div>
 </article>
-<section>
-    <div class="botao-projetos backgraund">
-    <a class="button-link" href="./projetos.html"><img src="./img/down-arrow.svg" width="70" height="85" alt=""></a>
-    </div>
-</section>
+
 <section class="formacao cor-12" id="formacao" aria-label="Formação">
   <div class="formacao-padding container">
     <div class="titulo-formacao">
-    <h2 class="font-xx">Formação<span class="cor-p2">.</span></h2>
+    <h2 class="font-xx" data-anime="200">Formação<span class="cor-p2">.</span></h2>
     </div>
-   <ul class="faculdade-unidade cor-0">
+   <ul class="faculdade-unidade cor-0" data-anime="200">
     <li class="faculdade-lista-unico">
         <div class="faculdade-ordem">
           <span class="faculdade-tipo font-xx-b">Bacharelado</span>
@@ -298,10 +298,8 @@
     </li>
    </ul>
   </div>
-</section>
-<section>
-  <div class="botao-projetos">
-  <a class="button-link" href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank"><img src="./img/down-arrow.svg" width="70" height="85" alt=""></a>
+  <div class="botao-projetos container" data-anime="200">
+    <a class="button-link" href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank"><img src="./img/down-arrow.svg" width="70" height="85" alt=""></a>
   </div>
 </section>
 <section>
@@ -312,8 +310,8 @@
 <footer class="footer-bg" id="contato">
   <div>
   <div class="footer">
-    <p class="footer-texto font-f cor-0">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa <span class="mao">👋</span></p>
-    <div class="footer-contato">
+    <p class="footer-texto font-f cor-0 fadeInLeft" data-anime="200">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa <span class="mao">👋</span></p>
+    <div class="footer-contato  fadeInRight" data-anime="200">
       <h3 class="contato font-xx cor-0">Contato</h3>
       <ul class="contato-ul font-b cor-5">
         <li><a href="tel:+552199999999">+55 83 <wbr>999795350</a></li>
@@ -339,6 +337,7 @@
       <p>© 2023 - Design and Code by Juberlandio Oliveira.</p>
    </div>
   </footer>
+  <script src="js/plugins/simple-anime.js"></script>
   <script src="js/menu-hamburguer.js"></script>
   <script src="js/maquina-escrever.js"></script>
   <script src="js/main.js"></script>
