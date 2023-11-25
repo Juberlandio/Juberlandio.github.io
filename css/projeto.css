@@ -28,7 +28,7 @@
 }
 .projeto-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns:1fr 1fr;
   gap: 10px 30px;
   align-content: start;
 }
@@ -47,6 +47,7 @@
   margin-bottom:15px;
 }
 .projeto .paragrafo {
+  max-width: 70ch;
   text-align: right;
   color: var(--cor-12);
   letter-spacing: 0.15rem;
@@ -109,27 +110,28 @@
 }  */
 .code-botao {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   gap: 25px;
   grid-column: 1;
   justify-self: end; 
   align-items: center;
 }
 .botao-link img {
-   display: block;
+   display: grid;
    width: 30px;
    height: 30px;
    border: 1px solid var(--cor-p2);
    padding: 10px;
-   border-radius: 50%;
+   border-radius: 50px;
    margin-bottom: 0px;
 }
+
 .botao-link  img{
   transition: transform 0.3s;
 }
 .botao-link img:hover{
   transform: scale(1.1);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   background: var(--cor-p1);
 }
 .seta {
