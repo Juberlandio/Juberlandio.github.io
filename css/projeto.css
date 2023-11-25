@@ -76,7 +76,11 @@
   cursor: pointer;
   overflow: hidden;
   transition: transform 0.5s 0.1s;
+  transition: ease-in-out 0.3s;
   background-color: var(--cor-5);
+}
+.pro:hover {
+  letter-spacing: 5px;
 }
 .embreve div {
   background: var(--cor-p2);
@@ -88,6 +92,7 @@
 .embreve:hover{
   transform: scale(1.1);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  letter-spacing: 5px;
 }
 .linguagens{
   display: flex;
