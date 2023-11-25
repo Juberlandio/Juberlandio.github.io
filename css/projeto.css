@@ -67,7 +67,6 @@
   object-position: left;
 }
 .embreve {
-  background-color: var(--cor-5);
   height: 309px;
   width: 503px;
   border-radius: 8px;
@@ -76,8 +75,8 @@
   justify-content: center;
   cursor: pointer;
   overflow: hidden;
-  transition: ease-in-out 0.3s;
   transition: transform 0.5s 0.1s;
+  background-color: var(--cor-5);
 }
 .embreve div {
   background: var(--cor-p2);
