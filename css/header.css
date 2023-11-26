@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   box-shadow:  1px 1px  #fbfbfb32;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(1px);
   text-shadow: 1px 1px 1px var(--cor-5);
   transition: 0.3s;
 }
