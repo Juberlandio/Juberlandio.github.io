@@ -4,25 +4,41 @@
 .formacao .formacao-padding {
   padding: 90px 20px;
 }
+.formacao .titulo-formacao-grid {
+  margin-bottom: 60px;
+  margin-left: 45px;
+}
 .formacao .titulo-formacao {
   text-align: left;
   position: relative;
   display: inline-block;
-  margin-bottom: 60px;
-  text-transform: uppercase;
+  text-transform: uppercase; 
 }
-.formacao .titulo-formacao:after {
+.formacao .titulo-formacao::after{
   content: "";
-  width: 0%;
+  width: 50px;
+  height: 100%;
+  left: -45px;
+  background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
+  position: absolute;
+}
+.formacao .titulo-formacao::before{
+  content: "";
+  width: 50px;
+  height: 100%;
+  right: -45px;
+  background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
+  position: absolute;
+}
+/* .formacao .titulo-formacao:after {
+  content: "";
+  width: 40%;
   height: 3px;
   background-color: var(--cor-p2);
   display: block; 
-  position: absolute;
+  position: absolute; 
   transition: width 0.5s;
-}
-.formacao .titulo-formacao:hover:after {
-  width: 50%;
-}
+}  */
 .faculdade-unidade {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -135,6 +151,14 @@
   }
 }
 @media (max-width: 1000px){
+  .formacao .titulo-formacao-grid {
+    display: grid;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+  .formacao .titulo-formacao {
+    margin: 0 auto;
+  }
   .formacao .formacao-container {
     padding: 90px 20px;
   }
@@ -145,12 +169,6 @@
 @media (max-width: 800px){
   .faculdade-unidade {
     gap: 20px;
-  }
-  .font-xx {
-    font-size: 1.6rem;
-  }
-  .formacao .titulo-formacao {
-    margin-bottom: 20px;
   }
   .faculdade-curso {
     font-size: 1.5rem;
