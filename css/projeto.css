@@ -65,6 +65,7 @@
   height: 100%;
   object-fit: cover;
   object-position: left;
+  background: black;
 }
 .embreve {
   height: 309px;
@@ -78,9 +79,6 @@
   transition: transform 0.5s 0.1s;
   transition: ease-in-out 0.3s;
   background-color: var(--cor-5);
-}
-.pro:hover {
-  letter-spacing: 5px;
 }
 .embreve div {
   background: var(--cor-p2);
@@ -97,7 +95,7 @@
 .linguagens{
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
   align-content: center;
   justify-self: end;
   margin-bottom:15px
