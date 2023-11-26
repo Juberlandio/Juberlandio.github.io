@@ -32,9 +32,6 @@
   transition: background 0.5s;
   position: absolute;
 }
-.footer-texto:hover::before {
-  background: url(../media/svg/detalhe-hover.svg) no-repeat center;
-}
 .footer-contato ul {
   margin-bottom: 32px;
   padding-left: 20px;
