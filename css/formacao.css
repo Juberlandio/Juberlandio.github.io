@@ -6,7 +6,7 @@
 }
 .formacao .titulo-formacao-grid {
   margin-bottom: 60px;
-  margin-left: 45px;
+  margin-left: 55px;
 }
 .formacao .titulo-formacao {
   text-align: left;
@@ -19,14 +19,6 @@
   width: 50px;
   height: 100%;
   left: -45px;
-  background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
-  position: absolute;
-}
-.formacao .titulo-formacao::before{
-  content: "";
-  width: 50px;
-  height: 100%;
-  right: -45px;
   background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
   position: absolute;
 }
@@ -158,6 +150,22 @@
   }
   .formacao .titulo-formacao {
     margin: 0 auto;
+  }
+  .formacao .titulo-formacao::after{
+    content: "";
+    width: 50px;
+    height: 100%;
+    left: -55px;
+    background: url(../media/svg/detalhe-titulo-grande.svg) no-repeat center;
+    position: absolute;
+  }
+  .formacao .titulo-formacao::before{
+    content: "";
+    width: 50px;
+    height: 100%;
+    right: -55px;
+    background: url(../media/svg/detalhe-titulo-grande.svg) no-repeat center;
+    position: absolute;
   }
   .formacao .formacao-container {
     padding: 90px 20px;
