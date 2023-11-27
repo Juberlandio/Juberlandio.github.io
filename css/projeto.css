@@ -36,10 +36,11 @@
   transition: transform 0.5s 0.1s;
   border: 1px solid var(--cor-p2);
   border-radius: 8px;
+  transition: 0.5s;
 }
 .projeto-container picture img:hover{
   transform: scale(1.1);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
 .projeto .titulo-projeto-interno {
   text-align: right;
@@ -90,7 +91,7 @@
 }
 .embreve:hover{
   transform: scale(1.1);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   letter-spacing: 5px;
 }
 .linguagens{
