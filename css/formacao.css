@@ -145,7 +145,7 @@
 @media (max-width: 1000px){
   .formacao .titulo-formacao-grid {
     display: grid;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-left: 0px;
   }
   .formacao .titulo-formacao {
@@ -199,6 +199,9 @@
   }
 }
 @media (max-width: 600px){ 
+  .formacao .titulo-formacao-grid {
+    margin-bottom: 30px;
+  }
   .faculdade-lista-unico {
     grid-template-columns: 1fr;
     text-align: center;

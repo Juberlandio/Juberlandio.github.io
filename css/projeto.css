@@ -170,7 +170,7 @@
   }
   .projeto .titulo-projeto-grid {
     display: grid;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-left: 0px;
   }
   .projeto .titulo-projeto {
@@ -294,7 +294,9 @@
   }
 }
 @media (max-width: 600px) { 
-
+  .projeto .titulo-projeto-grid {
+    margin-bottom: 30px;
+  }
   .projeto-container {
     gap: 0px;
     margin-bottom: 0px;
