@@ -41,6 +41,7 @@
   max-width: 290px;
   height: 2px;
   background: var(--cor-11);
+  margin: 20px 0px 0px 0px;
   margin-top: 16px;
   margin-bottom: -20px;
 }
@@ -167,6 +168,9 @@
   text-align: center;
   grid-row: 1;
   }
+.footer-contato li:nth-child(1)::after {
+  margin: 20px auto 0px auto;
+}
 /* .contato-ul {
   padding-top: 30px;
   } */
