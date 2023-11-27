@@ -150,7 +150,6 @@
    border-radius: 50px;
    margin-bottom: 0px;
 }
-
 .botao-link  img{
   transition: transform 0.3s;
 }
@@ -243,10 +242,9 @@
     grid-column: 1;
     grid-row: 3;
   }
-  .projeto > span {
-    position: relative;
+  /* .projeto > span {
     display: block;
-    padding-bottom:15px;
+    text-align: left;
   }
   .seta{
     display: initial;
@@ -255,20 +253,20 @@
   .seta::after{
     content:"→"; 
     font-weight:bold;
-    position: absolute;
+    position: relative;
     top: -3px;
     color:black;
-    font-size:1.25rem;
+    font-size: 1.25rem;
     animation:seta .5s ease-out 0s infinite alternate;
   }
   @keyframes seta{
     from{
-        right:25px
+        right:35px
     }
     to{
         right:15px
     }
-  }
+  } */
   .code-botao {
     justify-self: center;
   }
