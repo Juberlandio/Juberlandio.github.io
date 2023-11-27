@@ -27,7 +27,7 @@
   height: 10%;
   background: url(../media/svg/detalhe.svg) no-repeat center;
   left: 20px;
-  top: 30px;
+  top: 50px;
   z-index: 1;
   transition: background 0.5s;
   position: absolute;
