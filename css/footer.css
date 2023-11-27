@@ -152,9 +152,6 @@
 .footer {
   grid-template-columns: 1fr;
 }
-.footer-texto::before {
-  display: none;
-}
 .footer h3 {
   display: inline;
   margin: 0px;
@@ -164,6 +161,9 @@
   grid-row: 2;
   text-align: center;
   margin: 0 auto;
+}
+.footer-texto::before {
+  display: none;
 }
 .footer-contato {
   text-align: center;
