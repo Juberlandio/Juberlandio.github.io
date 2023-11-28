@@ -22,7 +22,7 @@ img {
   height: auto;
   display: block;
 }
-#botao-topo {
+/* #botao-topo {
   position: fixed;
   bottom: 18px;
   right: 18px;
@@ -41,7 +41,7 @@ img {
   border-width: 0 7px 7px 0;
   padding: 0px;
   display: inline-block;
-}
+} */
 ::-webkit-scrollbar {
 	width: 10px;
 	background-color: rgb(35, 38, 41);
@@ -53,6 +53,10 @@ img {
 ::-webkit-scrollbar-track {
 	background-color: transparent;
 }
-
+/* @media (max-width: 770px) { 
+  #botao-topo {
+    display: none;
+  }
+} */
 
 

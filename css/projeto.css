@@ -81,6 +81,7 @@
   transition: ease-in-out 0.3s;
   background-color: var(--cor-5);
   border: 1px solid var(--cor-p2);
+  position: relative;
 }
 .embreve div {
   background: var(--cor-p2);
