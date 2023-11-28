@@ -13,13 +13,14 @@
   text-align: left;
   position: relative;
   text-transform: uppercase;
-  padding-left: 20px;
+  margin-bottom: 60px;
+  padding-left: 65px;
 }
 .contato-titulo::after { 
   content: "";
   width: 30px;
   height: 100%;
-  left: -20px;
+  left: 25px;
   background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
   position: absolute;
 }
@@ -35,8 +36,8 @@
   height: 100%;
   cursor: pointer;
 }
-.instagram, .whats-app, .likedin, .github{
-  padding: 20px;
+.instagram, .whats-app, .likedin, .github {
+  padding: 25px;
   border-radius: 50%;
 }
 .instagram:hover {
@@ -76,6 +77,44 @@
     transform: scale(1);
   }
 }
+.contato-dados,
+.contato-formulario {
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.contato-dados {
+  border-radius: 5px;
+  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
+}
+.contato-formulario {
+  border-radius: 0 5px 5px 0;
+  background: var(--cor-0) url("../../img/dec/bottom-right.svg") no-repeat
+    bottom 20px right 20px;
+}
+.contato-texto {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  position: relative;
+  padding-left: 25px;
+}
+.contato-meios a {
+  display: block;
+  max-width: max-content;
+  margin-bottom: 30px;
+  padding-left: 25px;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+.contato-meios a:hover {
+  color: var(--cor-0);
+}
+.titulo-2{
+  padding-left: 25px;
+  margin-bottom: 10px;
+  color: var(--cor-0);
+}
 .final  {
   display: block;
   text-align: center;
@@ -83,11 +122,50 @@
   background: var(--cor-12);
   border-top: 1px solid var(--cor-10);
 }
+@media (max-width: 1180px) {
+  .contato-titulo { 
+    margin-bottom: 60px;
+    padding-left: 60px;
+  }
+  .contato-titulo::after { 
+    content: "";
+    width: 30px;
+    height: 100%;
+    left: 25px;
+    background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
+    position: absolute;
+  }
+  .contato-meios a {
+    padding-left: 20px;
+  }
+  .titulo-2{
+    padding-left: 20px;
+  }
+  .contato-texto {
+    font-size: 1.3rem;
+    padding-left: 20px;
+  }
+  .contato-dados,
+  .contato-formulario {
+  padding: 30px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.footer-redes img {
+  width: 25px;
+}
+.instagram, .whats-app, .likedin, .github {
+  padding: 20px;
+  border-radius: 50%;
+}
+}
 @media (max-width: 1000px) {
+.titulo-footer {
+  display: grid;
+}
 .contato-titulo {
+  margin: auto;
+  margin-bottom: 60px;
   padding-left: 0px;
-  margin: 0px;
-  text-align: center;
 }
 .contato-titulo::after{
   content: "";
@@ -105,11 +183,56 @@
   background: url(../media/svg/detalhe-titulo-grande.svg) no-repeat center;
   position: absolute;
   }
+  .contato-meios a {
+    padding-left: 15px;
+  }
+  .titulo-2{
+    padding-left: 15px;
+  }
+  .contato-texto {
+    font-size: 1.3rem;
+    padding-left: 15px;
+  }
+  .footer-redes img {
+    width: 25px;
+  }
+  .instagram, .whats-app, .likedin, .github {
+    padding: 15px;
+    border-radius: 50%;
+  }
 }
-@media (max-width: 770px) { 
+@media (max-width: 800px) { 
 .footer {
   grid-template-columns: 1fr;
 }
+.contato-meios a {
+  margin: 0px auto 30px auto;
+}
+.titulo-2{
+  padding-left: 0px;
+  text-align: center;
+  color: var(--cor-0);
+}
+.contato-texto {
+  max-width: 40ch;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  padding-left: 0px;
+}
+.contato-dados,
+.contato-formulario {
+  padding: 20px;
+}
+.contato-dados {
+  border-radius: 5px 5px 0 0;
+  background: var(--cor-12);
+}
+.contato-formulario {
+  border-radius: 0 0 5px 5px;
+}
+
 .titulo-footer {
   margin-bottom: 30px;
   margin-left: 0px;
