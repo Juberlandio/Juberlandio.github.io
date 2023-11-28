@@ -8,12 +8,14 @@
   grid-template-columns: 1fr 1.5fr;
   padding: 90px 20px;
 }
+.titulo-footer {
+  margin-bottom: 30px;
+}
 .contato-titulo { 
   display: inline-block;
   text-align: left;
   position: relative;
   text-transform: uppercase;
-  margin-bottom: 60px;
   padding-left: 65px;
 }
 .contato-titulo::after { 
@@ -79,7 +81,7 @@
 }
 .contato-dados,
 .contato-formulario {
-  padding: 60px;
+  padding: 50px 60px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 .contato-dados {
@@ -123,8 +125,11 @@
   border-top: 1px solid var(--cor-10);
 }
 @media (max-width: 1180px) {
+  .titulo-footer {
+    margin-bottom: 30px;
+  }
   .contato-titulo { 
-    margin-bottom: 60px;
+    margin-bottom: 0px;
     padding-left: 60px;
   }
   .contato-titulo::after { 
@@ -136,27 +141,26 @@
     position: absolute;
   }
   .contato-meios a {
-    padding-left: 20px;
+    padding-left: 25px;
   }
   .titulo-2{
-    padding-left: 20px;
+    padding-left: 25px;
   }
   .contato-texto {
-    font-size: 1.3rem;
-    padding-left: 20px;
+    font-size: 1.2rem;
+    padding-left: 25px;
   }
   .contato-dados,
   .contato-formulario {
-  padding: 30px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
+   padding: 50px 25px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
 .footer-redes img {
-  width: 25px;
-}
+  width: 30px;
+  }
 .instagram, .whats-app, .likedin, .github {
-  padding: 20px;
-  border-radius: 50%;
-}
+  padding: 25px;
+  }
 }
 @media (max-width: 1000px) {
 .titulo-footer {
@@ -164,7 +168,6 @@
 }
 .contato-titulo {
   margin: auto;
-  margin-bottom: 60px;
   padding-left: 0px;
 }
 .contato-titulo::after{
@@ -188,18 +191,18 @@
   }
   .titulo-2{
     padding-left: 15px;
+    font-size: 1.5rem;
   }
   .contato-texto {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-left: 15px;
   }
   .footer-redes img {
-    width: 25px;
-  }
+    width: 23.60px;
+    }
   .instagram, .whats-app, .likedin, .github {
-    padding: 15px;
-    border-radius: 50%;
-  }
+    padding: 20px;
+    }
 }
 @media (max-width: 800px) { 
 .footer {
@@ -217,7 +220,6 @@
   max-width: 30ch;
   margin: 0 auto;
   text-align: center;
-  font-size: 1.3rem;
   margin-bottom: 30px;
   padding-left: 0px;
 }
@@ -233,7 +235,6 @@
   border-radius: 0 0 5px 5px;
 }
 .titulo-footer {
-  margin-bottom: 30px;
   margin-left: 0px;
   text-align: center;
 }
