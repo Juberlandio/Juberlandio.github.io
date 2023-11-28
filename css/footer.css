@@ -210,6 +210,7 @@
 }
 .contato-meios a {
   margin: 0px auto 30px auto;
+  padding-left: 0px;
 }
 .titulo-2{
   padding-left: 0px;
@@ -217,7 +218,7 @@
   color: var(--cor-0);
 }
 .contato-texto {
-  max-width: 30ch;
+  max-width: 25ch;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 30px;
