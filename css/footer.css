@@ -190,7 +190,7 @@
     padding-left: 15px;
   }
   .contato-texto {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding-left: 15px;
   }
   .footer-redes img {
@@ -214,7 +214,7 @@
   color: var(--cor-0);
 }
 .contato-texto {
-  max-width: 40ch;
+  max-width: 30ch;
   margin: 0 auto;
   text-align: center;
   font-size: 1.3rem;
@@ -232,13 +232,11 @@
 .contato-formulario {
   border-radius: 0 0 5px 5px;
 }
-
 .titulo-footer {
   margin-bottom: 30px;
   margin-left: 0px;
   text-align: center;
 }
-
 .footer-redes {
   justify-content: center;
 }
