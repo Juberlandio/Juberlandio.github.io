@@ -40,7 +40,7 @@
 }
 .projeto-container picture img:hover{
   transform: scale(1.1);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 .projeto .titulo-projeto-interno {
   text-align: right;
@@ -91,7 +91,7 @@
 }
 .embreve:hover{
   transform: scale(1.1);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   letter-spacing: 5px;
 }
 .linguagens{
@@ -143,7 +143,7 @@
   grid-column: 1;
   justify-self: end; 
   align-items: center;
-  z-index: 1;
+  z-index: 3;
 }
 .botao-link {
   display: flex;
@@ -154,7 +154,7 @@
   background: var(--cor-1);
   border-radius: 50%;
   position: relative;
-  transition: 0.3s;
+  transition: transform 0.8s;
   text-decoration: none;
 }
 .botao-link::before {
@@ -170,6 +170,7 @@
   );
   background-size: 400%;
   animation: move infinite forwards 4s;
+  transition: transform 0.4s;
 }
 @keyframes move {
   0% {
@@ -184,13 +185,9 @@
     background-position: 0% 50%;
   }
 }
-.botao-link{
-  transition: transform 0.3s;
-}
-.botao-link:hover{
+.botao-link:hover::before{
   transform: scale(1.1);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  background: var(--cor-p1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 .botao-link img{
   width: 25px;

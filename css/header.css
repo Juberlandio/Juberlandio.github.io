@@ -39,16 +39,14 @@
 }
 #menu a:after {
   content: "";
-  width: 0%;
-  height: 3px;
-  background-color: var(--cor-p2);
-  display: block; 
-  margin-top: 4px;
-  transition: 0.3s;
-  position: absolute; /* Realinhando ao centro */
+  display: block;
+  border-bottom: 2px solid var(--cor-p2);
+  margin-top: 0px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
 }
 #menu a:hover:after {
-  width: 100%;
+  transform: scaleX(1);
 }
 #btn-mobile {
   z-index: 4;
