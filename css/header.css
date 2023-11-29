@@ -49,10 +49,9 @@
   transform: scaleX(1);
 }
 #btn-mobile {
-  z-index: 4;
+  z-index: 1;
   position: fixed;
   display: block;
-  /* position: initial; */
   color:rgba(255, 255, 255, 0.835);
 }  
 #btn-mobile{
@@ -126,6 +125,7 @@
     border-radius: 5px;
     padding: 10px;
     position: fixed;
+    z-index: 10;
   }
   #hamburger {
     border-top: 3px solid;

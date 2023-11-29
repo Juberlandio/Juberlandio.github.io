@@ -8,7 +8,6 @@
   gap: 10px;
   align-items: center;
   height: 100vh;
-  
 }
 .introducao h1 {
   margin-bottom: 25px;
@@ -41,7 +40,7 @@
   }
 }
 .intro {
-  z-index: 1;
+  z-index: 0;
 }
 .nome{
   border-right: 4px solid;
