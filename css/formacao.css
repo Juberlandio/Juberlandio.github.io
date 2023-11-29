@@ -22,15 +22,6 @@
   background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
   position: absolute;
 }
-/* .formacao .titulo-formacao:after {
-  content: "";
-  width: 40%;
-  height: 3px;
-  background-color: var(--cor-p2);
-  display: block; 
-  position: absolute; 
-  transition: width 0.5s;
-}  */
 .faculdade-unidade {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -158,6 +149,7 @@
     left: -55px;
     background: url(../media/svg/detalhe-titulo-grande.svg) no-repeat center;
     position: absolute;
+    transform: rotate(180deg);
   }
   .formacao .titulo-formacao::before{
     content: "";

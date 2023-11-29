@@ -53,6 +53,11 @@
 .botao:hover {
   background: var(--cor-p1);
 }
+.botao-projetos.backgraund {
+  background: var(--cor-1);
+  position: relative;
+  top: 0px;
+}
 .botao-projetos {
   display: flex;
   justify-content: center;
@@ -60,11 +65,6 @@
   margin: 0px auto;
   background: var(--cor-2);
   position: relative;
-}
-.botao-projetos.backgraund {
-  background: var(--cor-1);
-  position: relative;
-  top: 0px;
 }
 .button-link img {
   border: none;

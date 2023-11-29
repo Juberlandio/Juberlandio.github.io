@@ -176,6 +176,7 @@
   left: -55px;
   background: url(../media/svg/detalhe-titulo-grande.svg) no-repeat center;
   position: absolute;
+  transform: rotate(180deg);
 }
 .contato-titulo::before{
   content: "";
