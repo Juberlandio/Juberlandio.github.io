@@ -86,12 +86,12 @@
 }
 .contato-dados {
   border-radius: 8px 0px 0px 8px;
-  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat
-    bottom 20px left 20px;
+  background: var(--cor-12);
 }
 .contato-formulario {
   border-radius: 0px 8px 8px 0px;
-  background: var(--cor-2) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
+  background: rgb(8, 8, 8);
+
   z-index: 1;
 }
 .contato-texto {
@@ -125,33 +125,33 @@
   border-top: 1px solid var(--cor-10);
 }
 @media (max-width: 1180px) {
-  .titulo-footer {
-    margin-bottom: 30px;
-  }
-  .contato-titulo { 
-    margin-bottom: 0px;
-    padding-left: 60px;
-  }
-  .contato-titulo::after { 
-    content: "";
-    width: 30px;
-    height: 100%;
-    left: 25px;
-    background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
-    position: absolute;
-  }
-  .contato-meios a {
-    padding-left: 25px;
-  }
-  .titulo-2{
-    padding-left: 25px;
-  }
-  .contato-texto {
-    font-size: 1.2rem;
-    padding-left: 25px;
-  }
-  .contato-dados,
-  .contato-formulario {
+.titulo-footer {
+  margin-bottom: 30px;
+}
+.contato-titulo { 
+  margin-bottom: 0px;
+  padding-left: 60px;
+}
+.contato-titulo::after { 
+  content: "";
+  width: 30px;
+  height: 100%;
+  left: 25px;
+  background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
+  position: absolute;
+}
+.contato-meios a {
+  padding-left: 25px;
+}
+.titulo-2{
+  padding-left: 25px;
+}
+.contato-texto {
+  font-size: 1.2rem;
+  padding-left: 25px;
+}
+.contato-dados,
+.contato-formulario {
    padding: 50px 25px;
    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
@@ -185,24 +185,24 @@
   right: -55px;
   background: url(../media/svg/detalhe-titulo-grande.svg) no-repeat center;
   position: absolute;
-  }
-  .contato-meios a {
-    padding-left: 20px;
-  }
-  .titulo-2{
-    padding-left: 20px;
-    font-size: 1.680rem;
-  }
-  .contato-texto {
-    font-size: 1.1rem;
-    padding-left: 20px;
-  }
-  .footer-redes img {
-    width: 23.60px;
-    }
-  .instagram, .whats-app, .likedin, .github {
-    padding: 20px;
-    }
+}
+.contato-meios a {
+  padding-left: 20px;
+}
+.titulo-2{
+  padding-left: 20px;
+  font-size: 1.680rem;
+}
+.contato-texto {
+  font-size: 1.1rem;
+  padding-left: 20px;
+}
+.footer-redes img {
+  width: 23.60px;
+}
+.instagram, .whats-app, .likedin, .github {
+  padding: 20px;
+}
 }
 @media (max-width: 800px) { 
 .footer {
