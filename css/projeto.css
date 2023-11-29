@@ -3,7 +3,6 @@
 }
 .projeto {
   padding: 90px 20px;
-  
 }
 .projeto .titulo-projeto-grid {
   margin-bottom: 60px;
@@ -186,8 +185,8 @@
     background-position: 0% 50%;
   }
 }
-.botao-link:hover::before{
-  transform: scale(1.1);
+.botao-link:hover{
+  background: var(--cor-p1);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 .botao-link img{
