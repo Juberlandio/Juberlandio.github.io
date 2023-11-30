@@ -5,7 +5,7 @@
   padding: 20px;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   height: 100vh;
 }
@@ -14,43 +14,8 @@
   margin-top: 25px;
   position: relative;
 }
-.introducao picture img {
-  border-radius: 50%;
-  max-width: 350px;
-}
-.introducao .ilustracao-principal{
-  justify-self: center;
-  align-items: center;
-  position: relative;
-}
-.introducao .ilustracao-principal #imagem{
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-}
-.introducao .ilustracao-principal #imagem:hover {
-  opacity: 0;
-}
-.ilustracao-principal{
-  animation: animacaoy 3.5s linear infinite alternate;
-}
-@keyframes animacaoy{
-  from{
-      transform: translatey(-20px);
-  }
-}
 .intro {
   z-index: 0;
-}
-.nome{
-  border-right: 4px solid;
-  box-sizing: content-box;
-  animation: piscando 0.5s alternate infinite step-end;
-}
-@keyframes piscando {
-  50% {
-      border-color: transparent;
-  }
 }
 .mao{
   font-size: 0.9em;
@@ -83,232 +48,267 @@
       transform: rotate(0deg);
   }
 }
-  .links{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    z-index: 1;
-    
+.nome{
+   border-right: 4px solid;
+   box-sizing: content-box;
+   animation: piscando 0.5s alternate infinite step-end;
+}
+@keyframes piscando {
+  50% {
+    border-color: transparent;
   }
-  .botao-linkedin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 25px;
-    gap: 15px;
-    background: var(--cor-p3);
-    outline: 3px var(--cor-p3) solid;
-    outline-offset: -3px;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-    transition: 500ms;
-    text-decoration: none;
-    position: relative;
+}
+
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  z-index: 1;
+}
+.botao-linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+  gap: 15px;
+  background: var(--cor-p3);
+  outline: 3px var(--cor-p3) solid;
+  outline-offset: -3px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: 500ms;
+  text-decoration: none;
+  position: relative;
+}
+.botao-linkedin::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -2px;
+  border-radius: 50px;
+  background: linear-gradient(
+    -45deg,
+    rgba(147, 88, 247, 1),
+    rgba(16, 215, 226, 1)
+  );
+  background-size: 400%;
+  animation: move infinite forwards 4s;
+}
+@keyframes move {
+  0% {
+    background-position: 0% 50%;
   }
-  .botao-linkedin::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    inset: -2px;
-    border-radius: 50px;
-    background: linear-gradient(
-      -45deg,
-      rgba(147, 88, 247, 1),
-      rgba(16, 215, 226, 1)
-    );
-    background-size: 400%;
-    animation: move infinite forwards 4s;
+
+  50% {
+    background-position: 100% 50%;
   }
-  @keyframes move {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
+
+  100% {
+    background-position: 0% 50%;
   }
-  .botao-linkedin .text {
-    transition: 500ms;
+}
+.botao-linkedin .text {
+  transition: 500ms;
+}
+.botao-linkedin svg path {
+  transition: 900ms;
+}
+.botao-linkedin svg {
+  width: 35px;
+  height: 35px;
+}
+.botao-linkedin:hover {
+  background-color: var(--cor-0);
+  outline: 3px var(--cor-0) solid;
+}
+.botao-linkedin:hover .text {
+  color: var(--cor-p3);
+}
+.botao-linkedin:hover svg path {
+  fill: var(--cor-p3);
+}
+.botao-github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 31px;
+  gap: 15px;
+  background: var(--cor-p4);
+  outline: 3px var(--cor-p4) solid;
+  border-radius: 50px;
+  outline-offset: -3px;
+  border: none;
+  cursor: pointer;
+  transition: 500ms;
+  text-decoration: none;
+  position: relative;
+}
+.botao-github::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -2px;
+  border-radius: 50px;
+  background: linear-gradient(
+    -45deg,
+    rgba(147, 88, 247, 1),
+    rgba(16, 215, 226, 1)
+  );
+  background-size: 400%;
+  animation: move infinite forwards 4s;
+}
+@keyframes move {
+  0% {
+    background-position: 0% 50%;
   }
-  .botao-linkedin svg path {
-    transition: 900ms;
+
+  50% {
+    background-position: 100% 50%;
   }
-  .botao-linkedin svg {
-    width: 35px;
-    height: 35px;
+
+  100% {
+    background-position: 0% 50%;
   }
-  .botao-linkedin:hover {
-    background-color: var(--cor-0);
-    outline: 3px var(--cor-0) solid;
+}
+.botao-github .text{
+  transition: 500ms;
+}
+.botao-github svg path {
+  transition: 500ms;
+  width: 70px;
+  height: 70px;
+}
+.botao-github svg {
+  width: 35px;
+  height: 35px;
+}
+.botao-github:hover {
+  background-color: var(--cor-0);
+  outline: 3px var(--cor-0) solid;
+}
+.botao-github:hover .text{
+  color: var(--cor-p4);
+}
+.botao-github:hover svg path {
+  fill: var(--cor-p4);
+}
+.botao-linkedin .botao-github{
+  flex: 1;
+}
+.introducao picture img {
+  border-radius: 50%;
+  max-width: 350px;
+}
+.introducao .ilustracao-principal{
+  justify-self: center;
+  align-items: center;
+  position: relative;
+}
+.introducao .ilustracao-principal #imagem{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+}
+.introducao .ilustracao-principal #imagem:hover {
+  opacity: 0;
+}
+.ilustracao-principal{
+  animation: animacaoy 3.5s linear infinite alternate;
+}
+@keyframes animacaoy{
+  from{
+      transform: translatey(-20px);
   }
-  .botao-linkedin:hover .text {
-    color: var(--cor-p3);
-  }
-  .botao-linkedin:hover svg path {
-    fill: var(--cor-p3);
-  }
-  .botao-github {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 31px;
-    gap: 15px;
-    background: var(--cor-p4);
-    outline: 3px var(--cor-p4) solid;
-    border-radius: 50px;
-    outline-offset: -3px;
-    border: none;
-    cursor: pointer;
-    transition: 500ms;
-    text-decoration: none;
-    position: relative;
-  }
-  .botao-github::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    inset: -2px;
-    border-radius: 50px;
-    background: linear-gradient(
-      -45deg,
-      rgba(147, 88, 247, 1),
-      rgba(16, 215, 226, 1)
-    );
-    background-size: 400%;
-    animation: move infinite forwards 4s;
-  }
-  @keyframes move {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  .botao-github .text{
-    transition: 500ms;
-  }
-  .botao-github svg path {
-    transition: 500ms;
-    width: 70px;
-    height: 70px;
-  }
-  .botao-github svg {
-    width: 35px;
-    height: 35px;
-  }
-  .botao-github:hover {
-    background-color: var(--cor-0);
-    outline: 3px var(--cor-0) solid;
-  }
-  .botao-github:hover .text{
-    color: var(--cor-p4);
-  }
-  .botao-github:hover svg path {
-    fill: var(--cor-p4);
-  }
-  .botao-linkedin .botao-github{
-    flex: 1;
-  }
+}
 @media (max-width: 1100px) {
-  .introducao {
-    gap: 5px;
-  }
+.introducao {
+  gap: 20px;
+}
 }
 @media (max-width: 1000px) {
-  .introducao-bg {
-    background: var(--cor-0);
- }
-  .home {
-    display: none;
-  }
-  .introducao {
-    display: flex;
-    padding: 100px 20px 40px 20px;
-    grid-template-columns: 1fr;
-    flex-direction: column-reverse;
-    height: 100%;
-  }
-  .introducao::before {
-    grid-column: 1 / -1;
-    justify-self: center;
-    display: block;
-    content: "";
-    width: 100%;
-    height: 3px;
-    margin-top: 40px;
-    background: var(--cor-p2);
-  }
-  .introducao h1 {
-    font-size: 1.745rem;
-    text-align: center;
-  }
-  .introducao picture img {
-    max-width: 100%;
-  }
-  .introducao img {
-    flex-direction: column;
-  }
-  .introducao .ilustracao-principal #imagem:hover {
-    opacity: 100%;
-  }
-  .nome {
-    font-size: 2.2rem;
-  }
-  .links{
-    justify-content: center;
-    gap: 12px;
-  }
-  .botao-linkedin svg {
-    width: 25px;
-    height: 25px;
-  }
-  .botao-github svg {
-    width: 25px;
-    height: 25px;
-  }
-  .font-xxl-b {
-    font-size: 1rem;
-  }
+.introducao-bg {
+  background: var(--cor-0);
 }
-  @media (max-width: 600px) { 
-  .introducao {
-    padding: 115px 20px 5px 20px;
-  }
-  .nome {
-    font-size: 1.650rem;
-  }
-  .introducao h1 {
-    font-size: 1.3rem;
-  }
-  .botao-linkedin {
-    padding: 10px 14px;
-    gap: 10px;
-  }
-  .botao-linkedin svg {
-    width: 20px;
-    height: 20px;
-  }
-  .botao-github {
-    padding: 10px 19px;
-    gap: 10px;
-  }
-  .botao-github svg {
-    width: 20px;
-    height: 20px;
-  }
-  .font-xxl-b {
-    font-size: 0.845rem;
-  }
+.home {
+  display: none;
+}
+.introducao {
+  display: flex;
+  padding: 100px 20px 40px 20px;
+  grid-template-columns: 1fr;
+  flex-direction: column-reverse;
+  height: 100%;
+}
+.introducao::before {
+  grid-column: 1 / -1;
+  justify-self: center;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 3px;
+  margin-top: 40px;
+  background: var(--cor-p2);
+}
+.introducao h1 {
+  font-size: 1.745rem;
+  text-align: center;
+}
+.introducao picture img {
+  max-width: 100%;
+}
+.introducao img {
+  flex-direction: column;
+}
+.introducao .ilustracao-principal #imagem:hover {
+  opacity: 100%;
+}
+.nome {
+  font-size: 2.2rem;
+}
+.links{
+  justify-content: center;
+  gap: 12px;
+}
+.botao-linkedin svg {
+  width: 25px;
+  height: 25px;
+}
+.botao-github svg {
+  width: 25px;
+  height: 25px;
+}
+.font-xxl-b {
+  font-size: 1rem;
+}
+}
+@media (max-width: 600px) { 
+.introducao {
+  padding: 115px 20px 5px 20px;
+}
+.nome {
+  font-size: 1.650rem;
+}
+.introducao h1 {
+  font-size: 1.3rem;
+}
+.botao-linkedin {
+  padding: 10px 14px;
+  gap: 10px;
+}
+.botao-linkedin svg {
+  width: 20px;
+  height: 20px;
+}
+.botao-github {
+  padding: 10px 19px;
+  gap: 10px;
+}
+.botao-github svg {
+  width: 20px;
+  height: 20px;
+}
+.font-xxl-b {
+  font-size: 0.845rem;
+}
 }
