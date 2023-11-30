@@ -197,30 +197,30 @@
   position: absolute;
 }
 .contato-meios a {
-  padding-left: 43px;
+  padding-left: 50px;
 }
 .contato-meios a::before{
   content: "";
   width: 20px;
   height: 20px;
   top: 0px;
-  left: 18px;
+  left: 23px;
   background: url(../media/svg/email.svg) no-repeat 0px 2px;
   position: absolute;
 }
 .titulo-2{
-  padding-left: 20px;
-  font-size: 1.680rem;
+  padding-left: 24px;
+  font-size: 1.9rem;
 }
 .contato-texto {
   font-size: 1.1rem;
-  padding-left: 20px;
+  padding-left: 24px;
 }
 .footer-redes img {
-  width: 23.60px;
+  width: 24.60px;
 }
 .instagram, .whats-app, .likedin, .github {
-  padding: 20px;
+  padding: 24px;
 }
 }
 @media (max-width: 800px) { 
@@ -235,6 +235,7 @@
   display: none;
 }
 .titulo-2{
+  font-size: 1.7rem;
   padding-left: 0px;
   text-align: center;
   color: var(--cor-0);
@@ -263,5 +264,11 @@
 }
 .footer-redes {
   justify-content: center;
+}
+.footer-redes img {
+  width: 20px;
+}
+.instagram, .whats-app, .likedin, .github {
+  padding: 21px;
 }
 }
