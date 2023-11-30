@@ -8,23 +8,61 @@
   grid-template-columns: 1fr 1.5fr;
   padding: 90px 20px;
 }
-.titulo-footer {
+.footer-dados {
+  padding: 50px 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px 0px 0px 8px;
+  background: var(--cor-12);
+}
+.titulo-contato-grid {
   margin-bottom: 30px;
 }
-.contato-titulo { 
+.titulo-contato { 
   display: inline-block;
   text-align: left;
   position: relative;
   text-transform: uppercase;
   padding-left: 65px;
 }
-.contato-titulo::after { 
+.titulo-contato::after { 
   content: "";
   width: 30px;
   height: 100%;
   left: 25px;
   background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
   position: absolute;
+}
+.footer-texto {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  position: relative;
+  padding-left: 25px;
+}
+.titulo-2{
+  padding-left: 25px;
+  margin-bottom: 10px;
+  color: var(--cor-0);
+}
+.contato-meios a {
+  display: block;
+  max-width: max-content;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+.contato-meios a::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  left: 23px;
+  background: url(../media/svg/email.svg) no-repeat 0px 2px;
+  position: absolute;
+}
+.contato-meios a:hover {
+  color: var(--cor-0);
 }
 .footer-redes {
   display: flex;
@@ -79,54 +117,15 @@
     transform: scale(1);
   }
 }
-.contato-dados,
-.contato-formulario {
+.footer-formulario {
   padding: 50px 60px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-.contato-dados {
-  border-radius: 8px 0px 0px 8px;
-  background: var(--cor-12);
-}
-.contato-formulario {
   border-radius: 0px 8px 8px 0px;
   background: rgb(5, 5, 5);
   background: var(--cor-2);
   z-index: 0;
 }
-.contato-texto {
-  font-size: 1.5rem;
-  margin-bottom: 40px;
-  position: relative;
-  padding-left: 25px;
-}
-.contato-meios a {
-  display: block;
-  max-width: max-content;
-  margin-bottom: 30px;
-  padding-left: 50px;
-  text-decoration: none;
-  color: inherit;
-  position: relative;
-}
-.contato-meios a::before{
-  content: "";
-  width: 20px;
-  height: 20px;
-  top: 0px;
-  left: 23px;
-  background: url(../media/svg/email.svg) no-repeat 0px 2px;
-  position: absolute;
-}
-.contato-meios a:hover {
-  color: var(--cor-0);
-}
-.titulo-2{
-  padding-left: 25px;
-  margin-bottom: 10px;
-  color: var(--cor-0);
-}
-.final  {
+.footer-final  {
   display: block;
   text-align: center;
   padding: 20px;
@@ -134,14 +133,18 @@
   border-top: 1px solid var(--cor-10);
 }
 @media (max-width: 1180px) {
-.titulo-footer {
+.footer-dados {
+  padding: 30px 40px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.titulo-contato-grid {
   margin-bottom: 30px;
 }
-.contato-titulo { 
+.titulo-contato { 
   margin-bottom: 0px;
   padding-left: 60px;
 }
-.contato-titulo::after { 
+.titulo-contato::after { 
   content: "";
   width: 30px;
   height: 100%;
@@ -149,37 +152,40 @@
   background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
   position: absolute;
 }
-.contato-meios a {
-  padding-left: 50px;
+.footer-texto {
+  font-size: 1.2rem;
+  padding-left: 25px;
 }
 .titulo-2{
   padding-left: 25px;
 }
-.contato-texto {
-  font-size: 1.2rem;
-  padding-left: 25px;
+.contato-meios a {
+  padding-left: 50px;
 }
-.contato-dados,
-.contato-formulario {
-   padding: 50px 25px;
-   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  }
 .footer-redes img {
-  width: 30px;
+  width: 26px;
   }
 .instagram, .whats-app, .likedin, .github {
   padding: 25px;
   }
+.footer-formulario {
+  padding: 30px 40px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}  
 }
 @media (max-width: 1000px) {
-.titulo-footer {
+.footer-dados {
+  padding: 20px 30px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.titulo-contato-grid {
   display: grid;
 }
-.contato-titulo {
+.titulo-contato {
   margin: auto;
   padding-left: 0px;
 }
-.contato-titulo::after{
+.titulo-contato::after{
   content: "";
   width: 50px;
   height: 100%;
@@ -188,13 +194,21 @@
   position: absolute;
   transform: rotate(180deg);
 }
-.contato-titulo::before{
+.titulo-contato::before{
   content: "";
   width: 50px;
   height: 100%;
   right: -55px;
   background: url(../media/svg/detalhe-titulo-grande.svg) no-repeat center;
   position: absolute;
+}
+.footer-texto {
+  font-size: 1.1rem;
+  padding-left: 24px;
+}
+.titulo-2{
+  padding-left: 24px;
+  font-size: 1.955rem;
 }
 .contato-meios a {
   padding-left: 50px;
@@ -208,31 +222,36 @@
   background: url(../media/svg/email.svg) no-repeat 0px 2px;
   position: absolute;
 }
-.titulo-2{
-  padding-left: 24px;
-  font-size: 1.9rem;
-}
-.contato-texto {
-  font-size: 1.1rem;
-  padding-left: 24px;
-}
 .footer-redes img {
-  width: 24.60px;
+  width: 26px;
 }
 .instagram, .whats-app, .likedin, .github {
   padding: 24px;
 }
+.footer-formulario {
+  padding: 20px 30px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}  
 }
 @media (max-width: 800px) { 
 .footer {
   grid-template-columns: 1fr;
 }
-.contato-meios a {
-  margin: 0px auto 30px auto;
-  padding-left: 0px;
+.footer-dados{
+  padding: 20px;
+  border-radius: 5px 5px 0 0;
+  background: var(--cor-12);
 }
-.contato-meios a::before{
-  display: none;
+.titulo-contato-grid {
+  margin-left: 0px;
+  text-align: center;
+}
+.footer-texto {
+  max-width: 25ch;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-left: 0px;
 }
 .titulo-2{
   font-size: 1.7rem;
@@ -240,27 +259,12 @@
   text-align: center;
   color: var(--cor-0);
 }
-.contato-texto {
-  max-width: 25ch;
-  margin: 0 auto;
-  text-align: center;
-  margin-bottom: 30px;
+.contato-meios a {
+  margin: 0px auto 30px auto;
   padding-left: 0px;
 }
-.contato-dados,
-.contato-formulario {
-  padding: 20px;
-}
-.contato-dados {
-  border-radius: 5px 5px 0 0;
-  background: var(--cor-12);
-}
-.contato-formulario {
-  border-radius: 0 0 5px 5px;
-}
-.titulo-footer {
-  margin-left: 0px;
-  text-align: center;
+.contato-meios a::before{
+  display: none;
 }
 .footer-redes {
   justify-content: center;
@@ -270,5 +274,9 @@
 }
 .instagram, .whats-app, .likedin, .github {
   padding: 21px;
+}
+.footer-formulario {
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
 }
 }
