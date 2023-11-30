@@ -96,7 +96,7 @@
     align-items: center;
     padding: 15px 25px;
     gap: 15px;
-    background-color: var(--cor-p3);
+    background: var(--cor-p3);
     outline: 3px var(--cor-p3) solid;
     outline-offset: -3px;
     border-radius: 50px;
@@ -159,7 +159,7 @@
     align-items: center;
     padding: 15px 31px;
     gap: 15px;
-    background-color: var(--cor-p4);
+    background: var(--cor-p4);
     outline: 3px var(--cor-p4) solid;
     border-radius: 50px;
     outline-offset: -3px;

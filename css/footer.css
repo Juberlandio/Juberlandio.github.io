@@ -90,7 +90,8 @@
 }
 .contato-formulario {
   border-radius: 0px 8px 8px 0px;
-  background: rgb(8, 8, 8);
+  background: rgb(5, 5, 5);
+  background: var(--cor-2);
   z-index: 0;
 }
 .contato-texto {
@@ -103,10 +104,19 @@
   display: block;
   max-width: max-content;
   margin-bottom: 30px;
-  padding-left: 25px;
+  padding-left: 50px;
   text-decoration: none;
   color: inherit;
   position: relative;
+}
+.contato-meios a::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  left: 24px;
+  background: url(../media/svg/email.svg) no-repeat 0px 2px;
+  position: absolute;
 }
 .contato-meios a:hover {
   color: var(--cor-0);
@@ -140,7 +150,7 @@
   position: absolute;
 }
 .contato-meios a {
-  padding-left: 25px;
+  padding-left: 50px;
 }
 .titulo-2{
   padding-left: 25px;
@@ -187,7 +197,16 @@
   position: absolute;
 }
 .contato-meios a {
-  padding-left: 20px;
+  padding-left: 43px;
+}
+.contato-meios a::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  left: 18px;
+  background: url(../media/svg/email.svg) no-repeat 0px 2px;
+  position: absolute;
 }
 .titulo-2{
   padding-left: 20px;
@@ -211,6 +230,9 @@
 .contato-meios a {
   margin: 0px auto 30px auto;
   padding-left: 0px;
+}
+.contato-meios a::before{
+  display: none;
 }
 .titulo-2{
   padding-left: 0px;
