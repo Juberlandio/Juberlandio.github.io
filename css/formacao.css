@@ -36,11 +36,11 @@
   border-radius: 8px;
   grid-column: span 2;
   border: 1px solid var(--cor-p2);
+  background: linear-gradient(var(--cor-11) 10px, var(--cor-9) 100px);
   transition: transform 0.5s 0.1s;
-  background: linear-gradient(var(--cor-11) 10px, var(--cor-9) 100px)
 }
 .faculdade-lista-unico:hover{
-  box-shadow: 3px 3px 0 var(--cor-p2);
+  box-shadow: 3px 3px 0 var(--cor-p1);
   transform: translateY(-15px);
 }
 .faculdade-lista-unico picture img {
@@ -60,10 +60,11 @@
   border-radius: 5px;
   border: 1px solid var(--cor-p2);
   transition: transform 0.5s 0.1s;
-  background: linear-gradient(var(--cor-11) 10px, var(--cor-9) 100px)
+  background: linear-gradient(var(--cor-11) 10px, var(--cor-9) 100px);
+  transition: transform 0.5s 0.1s;
 }
 .faculdade-lista:hover{
-  box-shadow: 3px 3px 0 var(--cor-p2);
+  box-shadow: 3px 3px 0 var(--cor-p1);
   transform: translateY(-15px);
 }
 .faculdade-lista picture img {
@@ -84,12 +85,12 @@
 .faculdade-curso::before {
   content: "";
   display: block;
-  width: 6px;
-  height: 31px;
+  width: 4px;
+  height: 28px;
   background: var(--cor-p2);
   position: absolute;
-  left: -17px;
-  bottom: 5px;
+  left: -15px;
+  bottom: 6px;
 }
 .faculdade-instituicao {
   letter-spacing: .11rem;
@@ -115,10 +116,11 @@
   }
 }
 .certificado {
-  place-self: center end;
+  place-self: center;
   width: 70px;
   height: 85px;
   position: relative;
+  opacity: 1;
 }
 .imagem-certificado {
   position: absolute;
@@ -127,6 +129,9 @@
 }
 .imagem-certificado:active {
   opacity: 0;
+}
+.medalha-click {
+  opacity: 0.150;
 }
 @media (max-width: 1234px){
   .faculdade-unidade {

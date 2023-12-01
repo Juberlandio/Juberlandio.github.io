@@ -40,6 +40,7 @@
 .projeto-container picture img:hover{
   transform: scale(1.1);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--cor-p1);
 }
 .projeto .titulo-projeto-interno {
   text-align: right;
@@ -92,6 +93,7 @@
 .embreve:hover{
   transform: scale(1.1);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--cor-p1);
   letter-spacing: 5px;
 }
 .linguagens{
@@ -165,8 +167,8 @@
   border-radius: 50%;
   background: linear-gradient(
     -45deg,
-    rgba(147, 88, 247, 1),
-    rgba(16, 215, 226, 1)
+    var(--cor-p1),
+    var(--cor-p2)
   );
   background-size: 400%;
   animation: move infinite forwards 4s;

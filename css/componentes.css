@@ -29,8 +29,8 @@
   border-radius: 8px;
   background: linear-gradient(
     -45deg,
-    rgba(147, 88, 247, 1),
-    rgba(16, 215, 226, 1)
+    var(--cor-p1),
+    var(--cor-p2)
   );
   background-size: 400%;
   animation: move infinite forwards 4s;
