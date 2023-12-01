@@ -271,17 +271,19 @@
 }
 .links{
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
 }
 .botao-linkedin {
-  flex-basis: 100px;
+  flex-basis: 123px;
+  padding: 10px 15px;
 }
 .botao-linkedin svg {
   width: 25px;
   height: 25px;
 }
 .botao-github {
-  flex-basis: 100px;
+  flex-basis: 123px;
+  padding: 10px 15px;
 }
 .botao-github svg {
   width: 25px;
