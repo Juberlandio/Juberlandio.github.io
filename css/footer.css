@@ -283,7 +283,10 @@
 }
 @media (max-width: 400px){ 
   .titulo-contato {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+  }
+  .titulo-2{
+    font-size: 1.5rem;
   }
   .contato-meios a {
     font-size: 0.7rem;
@@ -293,7 +296,7 @@
     content: "";
     width: 50px;
     height: 100%;
-    left: -40px;
+    left: -45px;
     background: url(../media/svg/detalhe-titulo-medio.svg) no-repeat center;
     position: absolute;
     transform: rotate(180deg);
@@ -302,7 +305,7 @@
     content: "";
     width: 50px;
     height: 100%;
-    right: -40px;
+    right: -45px;
     background: url(../media/svg/detalhe-titulo-medio.svg) no-repeat center;
     position: absolute;
   }
