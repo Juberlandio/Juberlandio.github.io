@@ -262,6 +262,7 @@
 .contato-meios a {
   margin: 0px auto 30px auto;
   padding-left: 0px;
+  font-size: 0.8rem;
 }
 .contato-meios a::before{
   display: none;
@@ -280,3 +281,25 @@
   border-radius: 0 0 5px 5px;
 }
 }
+@media (max-width: 400px){ 
+  .titulo-contato {
+    font-size: 1.5rem;
+  }
+  .titulo-contato::after{
+    content: "";
+    width: 50px;
+    height: 100%;
+    left: -45px;
+    background: url(../media/svg/detalhe-titulo-pequeno.svg) no-repeat center;
+    position: absolute;
+    transform: rotate(180deg);
+  }
+  .titulo-contato::before{
+    content: "";
+    width: 50px;
+    height: 100%;
+    right: -45px;
+    background: url(../media/svg/detalhe-titulo-pequeno.svg) no-repeat center;
+    position: absolute;
+  }
+  }

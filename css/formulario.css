@@ -15,7 +15,7 @@
 .form input[type="text"],
 .form input[type="email"],
 .form textarea {
-  font: 400 1.1rem/1.5 "Roboto", sans-serif;
+  font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--cor-0);
   border: 1px solid var(--cor-p2);
   padding: 8px;
@@ -38,4 +38,9 @@
   .form .col-2 {
     grid-column: 1;
   }
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+  font: 400 0.7rem/1.5 "Roboto", sans-serif;
+}
 }

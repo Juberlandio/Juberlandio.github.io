@@ -90,5 +90,8 @@
     width: 30px;
     padding: 10px;
   }
+  .botao {
+    padding: 12px 24px;
+  }
 
 }

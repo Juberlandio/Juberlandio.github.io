@@ -193,9 +193,7 @@
 .botao-github:hover svg path {
   fill: var(--cor-p4);
 }
-.botao-linkedin .botao-github{
-  flex: 1;
-}
+
 .introducao picture img {
   border-radius: 50%;
   max-width: 350px;
