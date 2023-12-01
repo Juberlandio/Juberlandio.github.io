@@ -327,8 +327,3 @@
   font-size: 0.845rem;
 }
 }
-@media (max-width: 400px) { 
-  .links{
-    flex-wrap: wrap;
-  }
-}
