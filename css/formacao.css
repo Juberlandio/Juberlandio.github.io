@@ -232,7 +232,7 @@
 }
 @media (max-width: 420px){ 
 .titulo-formacao {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 .formacao .titulo-formacao::after{
   content: "";

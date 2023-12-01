@@ -266,13 +266,12 @@
 }
 @media (max-width: 420px){ 
   .titulo-contato {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
   .titulo-2{
     font-size: 1.5rem;
   }
   .contato-meios a {
-    font-size: 0.7rem;
     text-align: center;
   }
   .titulo-contato::after{
