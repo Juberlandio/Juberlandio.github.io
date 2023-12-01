@@ -149,8 +149,8 @@
     content: "";
     width: 50px;
     height: 100%;
-    left: -55px;
-    background: url(../media/svg/detalhe-titulo-grande.svg) no-repeat center;
+    left: -45px;
+    background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
     position: absolute;
     transform: rotate(180deg);
   }
@@ -158,8 +158,8 @@
     content: "";
     width: 50px;
     height: 100%;
-    right: -55px;
-    background: url(../media/svg/detalhe-titulo-grande.svg) no-repeat center;
+    right: -45px;
+    background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
     position: absolute;
   }
   .formacao .formacao-container {
@@ -232,14 +232,14 @@
 }
 @media (max-width: 400px){ 
 .titulo-formacao {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 .formacao .titulo-formacao::after{
   content: "";
   width: 50px;
   height: 100%;
-  left: -45px;
-  background: url(../media/svg/detalhe-titulo-pequeno.svg) no-repeat center;
+  left: -40px;
+  background: url(../media/svg/detalhe-titulo-medio.svg) no-repeat center;
   position: absolute;
   transform: rotate(180deg);
 }
@@ -247,8 +247,8 @@
   content: "";
   width: 50px;
   height: 100%;
-  right: -45px;
-  background: url(../media/svg/detalhe-titulo-pequeno.svg) no-repeat center;
+  right: -40px;
+  background: url(../media/svg/detalhe-titulo-medio.svg) no-repeat center;
   position: absolute;
 }
 }
