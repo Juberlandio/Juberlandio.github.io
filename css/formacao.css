@@ -230,7 +230,7 @@
    place-self: center;
   }
 }
-@media (max-width: 400px){ 
+@media (max-width: 420px){ 
 .titulo-formacao {
   font-size: 1.6rem;
 }
@@ -238,8 +238,8 @@
   content: "";
   width: 50px;
   height: 100%;
-  left: -40px;
-  background: url(../media/svg/detalhe-titulo-medio.svg) no-repeat center;
+  left: -50px;
+  background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
   position: absolute;
   transform: rotate(180deg);
 }
@@ -247,8 +247,8 @@
   content: "";
   width: 50px;
   height: 100%;
-  right: -40px;
-  background: url(../media/svg/detalhe-titulo-medio.svg) no-repeat center;
+  right: -50px;
+  background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
   position: absolute;
 }
 }

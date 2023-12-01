@@ -279,31 +279,6 @@
     grid-column: 1;
     grid-row: 3;
   }
-  /* .projeto > span {
-    display: block;
-    text-align: left;
-  }
-  .seta{
-    display: initial;
-    font-weight: bold;
-  }
-  .seta::after{
-    content:"→"; 
-    font-weight:bold;
-    position: relative;
-    top: -3px;
-    color:black;
-    font-size: 1.25rem;
-    animation:seta .5s ease-out 0s infinite alternate;
-  }
-  @keyframes seta{
-    from{
-        right:35px
-    }
-    to{
-        right:15px
-    }
-  } */
   .code-botao {
     justify-self: center;
   }
@@ -349,7 +324,7 @@
     font-size: 1rem;
   }
 }
-@media (max-width: 400px){ 
+@media (max-width: 420px){ 
   .titulo-projeto {
     font-size: 1.6rem;
   }
@@ -359,9 +334,9 @@
   .projeto .titulo-projeto::after{
     content: "";
     width: 50px;
-    height: 100%;
-    left: -45px;
-    background: url(../media/svg/detalhe-titulo-medio.svg) no-repeat center;
+    height: 31.98px;
+    left: -50px;
+    background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
     position: absolute;
     transform: rotate(180deg);
   }
@@ -369,8 +344,8 @@
     content: "";
     width: 50px;
     height: 100%;
-    right: -45px;
-    background: url(../media/svg/detalhe-titulo-medio.svg) no-repeat center;
+    right: -50px;
+    background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
     position: absolute;
   }
   }
