@@ -303,7 +303,7 @@
   font-size: 1.3rem;
 }
 .links{
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .botao-linkedin {
   padding: 10px;
@@ -324,4 +324,9 @@
 .font-xxl-b {
   font-size: 0.845rem;
 }
+}
+@media (max-width: 400px) { 
+  .links{
+    flex-wrap: wrap;
+  }
 }
