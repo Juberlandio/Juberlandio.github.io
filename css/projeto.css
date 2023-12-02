@@ -135,9 +135,6 @@
   justify-self: start;
   grid-column: 2;
 }
-/* .reverse{
-  flex-direction: row-reverse;
-}  */
 .code-botao {
   display: grid;
   grid-template-columns: auto auto;
@@ -150,7 +147,7 @@
 .botao-link {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 45px;
   height: 45px;
   background: var(--cor-1);
