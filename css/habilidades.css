@@ -53,8 +53,6 @@
   transform: rotate(360deg);
   transition: ease-in-out 0.3s;
 }
-
-
 .texto-descricao{
   display: block;
   animation: opacity 3s forwards;

@@ -107,6 +107,7 @@
   opacity: 1;
 }
 .imagem-certificado:active {
+  transition: ease-in-out 0.1s;
   opacity: 0;
 }
 .faculdade-lista-unico picture {
@@ -118,6 +119,7 @@
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: ease-in-out 0.1s;
   opacity: 1;
 }
 .faculdade-lista picture {
@@ -129,6 +131,7 @@
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: ease-in-out 0.1s;
   opacity: 1;
 }
 @keyframes girar{
