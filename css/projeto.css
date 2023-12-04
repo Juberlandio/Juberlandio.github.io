@@ -171,6 +171,7 @@
   animation: move infinite forwards 4s;
   transition: transform 0.4s;
 }
+
 @keyframes move {
   0% {
     background-position: 0% 50%;

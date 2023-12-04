@@ -201,14 +201,11 @@
 .introducao .ilustracao-principal{
   justify-self: center;
   align-items: center;
-  position: relative;
+  background-image: url(../media/img/Juberlandiopretoebranco.png);
+  background-position: center center;
+  background-size: contain;
 }
-.introducao .ilustracao-principal #imagem{
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-}
-.introducao .ilustracao-principal #imagem:hover {
+.ilustracao-principal .imagem:hover {
   opacity: 0;
 }
 .ilustracao-principal{

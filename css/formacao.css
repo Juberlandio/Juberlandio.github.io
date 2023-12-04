@@ -99,9 +99,37 @@
   font-size: 1.3rem;
   line-height: 1.5;
 }
-.imagem-certificado-girar{
+.certificado {
+  place-self: center;
+  width: 70px;
+  height: 85px;
+  position: relative;
+  opacity: 1;
+}
+.imagem-certificado:active {
+  opacity: 0;
+}
+.faculdade-lista-unico picture {
   display: block;
-  animation: girar 40.5s infinite;
+  animation: girar 30.5s infinite;
+}
+.faculdade-lista-unico picture:active{
+  background-image: url(../media/svg/icon-medalha-click.svg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+.faculdade-lista picture {
+  display: block;
+  animation: girar 30.5s infinite;
+}
+.faculdade-lista picture:active{
+  background-image: url(../media/svg/icon-medalha-click.svg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
 }
 @keyframes girar{
   40% {
@@ -114,23 +142,7 @@
       transform: rotate(3deg);
   }
 }
-.certificado {
-  place-self: center;
-  width: 70px;
-  height: 85px;
-  position: relative;
-}
-.imagem-certificado {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-}
-.imagem-certificado:active {
-  opacity: 0;
-}
-.medalha-click {
-  opacity: 0.150;
-}
+
 @media (max-width: 1234px){
   .faculdade-unidade {
     grid-template-columns: 1fr 1fr 1fr;  
