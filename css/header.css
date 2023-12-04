@@ -40,7 +40,7 @@
 #menu a:after {
   content: "";
   display: block;
-  border-bottom: 2px solid var(--cor-p2);
+  border-bottom: 3px solid var(--cor-p2);
   margin-top: 0px;
   transform: scaleX(0);
   transition: transform 0.3s ease;

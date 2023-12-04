@@ -84,7 +84,7 @@
   position: relative;
 }
 .embreve div {
-  background: var(--cor-p2);
+  background: var(--cor-p1);
   width: 1000px;
   text-align: center;
   padding: 20px;
