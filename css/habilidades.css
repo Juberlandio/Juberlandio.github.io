@@ -131,57 +131,12 @@
   position: absolute;
 }
 }
-
-
-
-
-
-
-
-
-
-
-/* 
-
-
-
-
-
-
-.habilidades-imagem {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: flex-start;
-  align-items: center;
+@media (max-width: 600px) {
+  .img-content img {
+    width: 90px;
+    height: 90px;
+  } 
+  .habilidades-imagem {
+    gap: 20px;
+  }
 }
-.img-content {
-  padding: 10px 20px;
- background: var(--cor-5);
-  border-radius: 20px;
-  cursor: pointer;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.img-content img {
-  justify-content: center;
-  align-items: center;
-  width: 110px;
-  height: 110px;
-  transition: all 0.8s ease 0s;
-}
-.img-content img:hover {
-  transform: rotate(360deg);
-  transition: ease-in-out 0.3s;
-}
-.imagem-1:hover .icones-habilidades{
-  opacity: 0;
-  transform: rotate(360deg);
-}
-.imagem-1{
-  background-image: url(../media/svg/html2.svg);
-  transition: ease-in-out 0.3s;
-}
-.imagem-1:hover {
-  transform: rotate(360deg);
-} */
