@@ -54,7 +54,7 @@
   transition: ease-in-out 0.3s;
 }
 .texto-descricao{
-  height: 180px;
+  height: 250px;
   display: block;
   animation: opacity 3s forwards;
 }
@@ -141,6 +141,6 @@
   position: absolute;
 }
 .texto-descricao{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 }
