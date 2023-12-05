@@ -54,7 +54,7 @@
   transition: ease-in-out 0.3s;
 }
 .texto-descricao{
-  height: 210px;
+  height: 180px;
   display: block;
   animation: opacity 3s forwards;
 }
