@@ -51,7 +51,6 @@
 }
 .img-content img:hover {
   transform: rotate(360deg);
-  transition: ease-in-out 0.3s;
 }
 .texto-descricao{
   height: 250px;

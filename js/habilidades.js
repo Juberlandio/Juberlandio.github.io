@@ -43,7 +43,7 @@ skills.forEach(  (elemento, index) => {
         descricao.innerHTML = `<p>${sobreSkill[index1]}</p>` ;
     } )
     elemento.addEventListener('mouseout', (evento, elemento,) => {
-        descricao.innerHTML = '/* Passe o mouse por cima de alguma habilidade para ler a descrição */';
+        descricao.innerHTML = '<p style="display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}">/* Passe o mouse por cima de alguma habilidade para ler a descrição */</p>';
     } )
 } );
 
