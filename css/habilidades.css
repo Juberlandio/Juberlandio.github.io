@@ -54,6 +54,7 @@
   transition: ease-in-out 0.3s;
 }
 .texto-descricao{
+  height: 210px;
   display: block;
   animation: opacity 3s forwards;
 }
@@ -109,6 +110,15 @@
   text-align: center;
 }
 } 
+@media (max-width: 600px) {
+  .img-content img {
+    width: 90px;
+    height: 90px;
+  } 
+  .habilidades-imagem {
+    gap: 20px;
+  }
+}
 @media (max-width: 420px){ 
 .habilidades .titulo-habilidades { 
   font-size: 1.7rem;
@@ -130,13 +140,4 @@
   background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
   position: absolute;
 }
-}
-@media (max-width: 600px) {
-  .img-content img {
-    width: 90px;
-    height: 90px;
-  } 
-  .habilidades-imagem {
-    gap: 20px;
-  }
 }
