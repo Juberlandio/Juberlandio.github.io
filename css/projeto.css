@@ -247,7 +247,7 @@
     grid-template-columns: 1fr;
     gap: 5px;
     border: 1px solid var(--cor-p2); 
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 20px;
     margin-bottom: 0px;
   }
