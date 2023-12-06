@@ -279,9 +279,6 @@
   width: 25px;
   height: 25px;
 }
-.font-xxl-b {
-  font-size: 1rem;
-}
 }
 @media (max-width: 600px) { 
 .introducao {

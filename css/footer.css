@@ -35,7 +35,6 @@
 .footer-texto {
   text-align: justify;
   max-width: 30.50ch;
-  font-size: 1.5rem;
   margin-bottom: 40px;
   position: relative;
   padding-left: 25px;
@@ -147,7 +146,6 @@
   padding-left: 60px;
 }
 .footer-texto {
-  font-size: 1.2rem;
   padding-left: 25px;
 }
 .titulo-2{
@@ -196,16 +194,13 @@
   position: absolute;
 }
 .footer-texto {
-  font-size: 1.1rem;
   padding-left: 24px;
 }
 .titulo-2{
   padding-left: 24px;
-  font-size: 1.9rem;
 }
 .contato-meios a {
   padding-left: 50px;
-  font-size: 0.9rem;
 }
 .contato-meios a::before{
   content: "";
@@ -248,7 +243,6 @@
   padding-left: 0px;
 }
 .titulo-2{
-  font-size: 1.7rem;
   padding-left: 0px;
   text-align: center;
   color: var(--cor-0);
@@ -256,7 +250,6 @@
 .contato-meios a {
   margin: 0px auto 30px auto;
   padding-left: 0px;
-  font-size: 0.8rem;
 }
 .contato-meios a::before{
   display: none;
@@ -276,12 +269,6 @@
 }
 }
 @media (max-width: 420px){ 
-  .titulo-contato {
-    font-size: 1.7rem;
-  }
-  .titulo-2{
-    font-size: 1.5rem;
-  }
   .contato-meios a {
     text-align: center;
   }

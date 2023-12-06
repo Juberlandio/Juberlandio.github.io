@@ -96,7 +96,6 @@
 }
 .faculdade-data {
   font-weight: 400;
-  font-size: 1.3rem;
   line-height: 1.5;
 }
 .certificado {
@@ -186,24 +185,17 @@
     gap: 20px;
   }
   .faculdade-curso {
-    font-size: 1.5rem;
     grid-template-columns: 7fr 1fr;
+    letter-spacing: 0;
   }
   .faculdade-curso::before {
    display: none;
-  }
-  .faculdade-instituicao {
-    font-size: 0.740rem;
   }
   .faculdade-lista-unico {
     grid-column: span 1;
   }
   .faculdade-lista {
     grid-template-columns: 6fr 1fr;
-  }
-  .faculdade-curso {
-    letter-spacing: 0;
-    font-size: 1.5rem;
   }
   .faculdade-unidade {
     grid-template-columns: 1fr;  
@@ -243,9 +235,6 @@
   }
 }
 @media (max-width: 420px){ 
-.titulo-formacao {
-  font-size: 1.7rem;
-}
 .formacao .titulo-formacao::after{
   content: "";
   width: 50px;

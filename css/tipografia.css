@@ -31,7 +31,17 @@
 .font-xxl-g {
   font: 900 3.002rem/1.5 "Roboto", sans-serif;
 }
+
 @media (max-width: 1000px) { 
+  .font-xx-b {
+    font-size: 1.1rem;
+  }
+  .font-l-l {
+    font-size: 0.9rem;
+  }
+  .font-xx-t2 {
+    font-size: 1.9rem;
+  }
   .font-xxl-b {
     font: 700 1rem/1.25 "Roboto", sans-serif;
   }
@@ -42,14 +52,42 @@
     font: 900 2.2rem/1.5 "Roboto", sans-serif;
   }
 }
+@media (max-width: 800px){
+  .font-l-b {
+    font-size: 1.5rem;
+  }
+  .font-l-l {
+    font-size: 0.8rem;
+  }
+  .font-l {
+    font-size: 0.740rem;
+  }
+  .font-xx-t2 {
+    font-size: 1.7rem;
+  }
+}
 @media (max-width: 600px) { 
   .font-xxl-b {
     font: 700 0.845rem/1.25 "Roboto", sans-serif;
+  }
+  .font-l-p {
+    font: 300 1rem/1.5 "Roboto", sans-serif;
   }
   .font-xxl {
     font: 700 1.3rem/1.125 "Roboto", sans-serif;
   }
   .font-xxl-g {
     font: 900 1.650rem/1.5 "Roboto", sans-serif;
+  }
+}
+  @media (max-width: 420px){ 
+  .font-l-b {
+      font: 300 1.5rem/1.5 "Roboto", sans-serif;
+  }
+  .font-xx-t2 {
+    font: 700 1.550rem/1.25 "Roboto", sans-serif;
+  }
+  .font-xx {
+  font: 700 1.7rem/1.25 "Roboto", sans-serif;
   }
 }
