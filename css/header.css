@@ -17,6 +17,12 @@
   align-items: center;
   justify-content: space-between;
 }
+.home {
+  transition: ease 0.5s;
+}
+.home:hover {
+  transform: scale(1.050);
+}
 #header.fixar {
   z-index: 1;
   background-color: rgba(65, 65, 65, 0.15);
@@ -26,7 +32,7 @@
 #menu {
   display: flex;
   flex-wrap: nowrap;
-  gap: 42.90px;
+  gap: 40px;
   justify-content: center;
 }
 #menu a {

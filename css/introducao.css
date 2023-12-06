@@ -4,7 +4,7 @@
 .introducao {
   padding: 20px;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.7fr 1fr;
   gap: 20px;
   align-items: center;
   height: 100vh;
@@ -202,6 +202,7 @@
   justify-self: center;
   align-items: center;
   background-image: url(../media/img/Juberlandiopretoebranco.png);
+  background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
 }

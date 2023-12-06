@@ -39,6 +39,9 @@
   position: relative;
   padding-left: 25px;
 }
+.footer-texto:hover {
+  color: var(--cor-0);
+}
 .titulo-2{
   padding-left: 25px;
   margin-bottom: 10px;

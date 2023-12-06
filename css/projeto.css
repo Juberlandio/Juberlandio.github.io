@@ -37,6 +37,7 @@
   border-radius: 8px;
   transition: 0.5s;
 }
+
 .projeto-container picture img:hover{
   transform: scale(1.1);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
