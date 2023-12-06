@@ -1,14 +1,15 @@
 @import "./global.css";
-@import "./tipografia.css";
-@import "./cores.css";
-@import "./componentes.css";
-@import "./animacao.css";
 @import "./header.css";
 @import "./introducao.css";
 @import "./experiencia.css";
 @import "./formacao.css";
+@import "./habilidades.css";
 @import "./footer.css";
 @import "./projetos/projetos.css";
 @import "./projeto.css";
+@import "./tipografia.css";
+@import "./cores.css";
+@import "./componentes.css";
+@import "./animacao.css";
 @import "./formulario.css";
-@import "./habilidades.css";
+
