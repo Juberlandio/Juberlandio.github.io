@@ -22,7 +22,7 @@
   text-align: left;
   position: relative;
   text-transform: uppercase;
-  padding-left: 65px;
+  padding-left: 63px;
 }
 .titulo-contato::after { 
   content: "";
