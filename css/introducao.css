@@ -247,7 +247,6 @@
   background: var(--cor-p2);
 }
 .introducao h1 {
-  font-size: 1.745rem;
   text-align: center;
 }
 .introducao picture img {
@@ -259,11 +258,9 @@
 .introducao .ilustracao-principal #imagem:hover {
   opacity: 100%;
 }
-.nome {
-  font-size: 2.2rem;
-}
 .links{
   justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 .botao-linkedin {
@@ -288,18 +285,11 @@
 }
 @media (max-width: 600px) { 
 .introducao {
-  /* padding: 115px 20px 5px 20px; */
   padding: 100px 20px 5px 20px; 
-}
-.nome {
-  font-size: 1.650rem;
-}
-.introducao h1 {
-  font-size: 1.3rem;
 }
 .botao-linkedin {
   padding: 10px 5px;
-  flex-basis: 100px;
+  flex-basis: 103px;
 }
 .botao-linkedin svg {
   width: 20px;
@@ -307,13 +297,10 @@
 }
 .botao-github {
   padding: 10px 5px;
-  flex-basis: 100px;
+  flex-basis: 103px;
 }
 .botao-github svg {
   width: 20px;
   height: 20px;
-}
-.font-xxl-b {
-  font-size: 0.845rem;
 }
 }
