@@ -13,6 +13,9 @@
 .font-l-l {
   font: 500 1rem/1.5 "Roboto", sans-serif;
 }
+.font-l-c {
+  font: 500 1.581rem/1.5 "Roboto", sans-serif;
+}
 .font-xx-t2 {
   font: 700 1.860rem/1.25 "Roboto", sans-serif;
 }
@@ -52,11 +55,14 @@
   }
 }
 @media (max-width: 800px){
-  .font-l-b {
-    font-size: 1.5rem;
+  .font-l-l {
+    font-size: 0.8rem;
   }
   .font-l {
     font-size: 0.740rem;
+  }
+  .font-l-c {
+    font-size: 1.470rem;
   }
   .font-xx-t2 {
     font-size: 1.7rem;
@@ -77,8 +83,8 @@
   }
 }
   @media (max-width: 420px){ 
-  .font-l-b {
-    font-size: 1.3rem;
+  .font-l-c {
+    font-size: 1.470rem;
   }
   .font-xx-t2 {
     font-size: 1.550rem;
