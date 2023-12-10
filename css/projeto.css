@@ -49,7 +49,7 @@
   margin-bottom:15px;
 }
 .projeto .paragrafo {
-  max-width: 70ch;
+  max-width: 75ch; /*Entre 45 E 75 */
   text-align: right;
   color: var(--cor-12);
   letter-spacing: 0.15rem;
