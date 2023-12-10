@@ -110,6 +110,7 @@
 }
 .botao-linkedin .text {
   transition: 500ms;
+  text-transform: uppercase;
 }
 .botao-linkedin svg path {
   transition: 900ms;
@@ -174,6 +175,7 @@
 }
 .botao-github .text{
   transition: 500ms;
+  text-transform: uppercase;
 }
 .botao-github svg path {
   transition: 500ms;
