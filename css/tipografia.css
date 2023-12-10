@@ -1,14 +1,14 @@
 .font-b {
-  font: 300 1.2rem/1.5 "Roboto", sans-serif;
+  font: 300 1.2rem/1.5 "Roboto Slab", sans-serif;
 }
 .font-l-b {
-  font: 300 1.615rem/1.5 "Roboto", sans-serif;
+  font: 300 1.615rem/1.5 "Roboto Slab", sans-serif;
 }
 .font-l-p {
-  font: 300 1.050rem/1.5 "Roboto", sans-serif;
+  font: 300 1.050rem/1.5 "Roboto Slab", sans-serif;
 }
 .font-l {
-  font: 400 1rem/1.5 "Roboto", sans-serif;
+  font: 400 0.915rem/1.7 "Roboto Slab", sans-serif;
 }
 .font-l-l {
   font: 500 1rem/1.5 "Roboto", sans-serif;
@@ -23,7 +23,7 @@
   font: 700 2rem/1.25 "Roboto", sans-serif;
 }
 .font-xx-b {
-  font: 700 1.2rem/1.5 "Roboto", sans-serif;
+  font: 500 1.2rem/1.5 "Roboto", sans-serif;
 }
 .font-xxl-b {
   font: 700 1.755rem/1.25 "Roboto", sans-serif;
@@ -59,7 +59,7 @@
     font-size: 0.8rem;
   }
   .font-l {
-    font-size: 0.740rem;
+    font-size: 0.672rem;
   }
   .font-l-c {
     font-size: 1.470rem;
