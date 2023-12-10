@@ -79,6 +79,7 @@
   transition: 500ms;
   text-decoration: none;
   position: relative;
+  letter-spacing: 0.8px;
   flex: 0 0 162px; /* grow, shrink, basis */
 }
 .botao-linkedin::before {
@@ -110,14 +111,14 @@
 }
 .botao-linkedin .text {
   transition: 500ms;
-  text-transform: uppercase;
+
 }
 .botao-linkedin svg path {
   transition: 900ms;
 }
 .botao-linkedin svg {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 .botao-linkedin:hover {
   background-color: var(--cor-0);
@@ -144,6 +145,7 @@
   transition: 500ms;
   text-decoration: none;
   position: relative;
+  letter-spacing: 0.8px;
   flex: 0 0 162px; /* grow, shrink, basis */
 }
 .botao-github::before {
@@ -175,16 +177,13 @@
 }
 .botao-github .text{
   transition: 500ms;
-  text-transform: uppercase;
 }
 .botao-github svg path {
   transition: 500ms;
-  width: 70px;
-  height: 70px;
 }
 .botao-github svg {
   width: 35px;
-  height: 35px;
+  height: 30px;
 }
 .botao-github:hover {
   background-color: var(--cor-0);
