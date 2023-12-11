@@ -20,6 +20,7 @@
   transition: 0.5s;
   position: relative;
   margin-left: 2px;
+  letter-spacing: 1px;
 }
 .botao::before {
   content: "";

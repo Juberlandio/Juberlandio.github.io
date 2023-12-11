@@ -154,7 +154,7 @@
   background: var(--cor-1);
   border-radius: 50%;
   position: relative;
-  transition: transform 0.8s;
+  transition: 0.8s;
   text-decoration: none;
 }
 .botao-link::before {
@@ -172,7 +172,6 @@
   animation: move infinite forwards 4s;
   transition: transform 0.4s;
 }
-
 @keyframes move {
   0% {
     background-position: 0% 50%;
