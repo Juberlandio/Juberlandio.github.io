@@ -138,7 +138,7 @@
 }
 .code-botao {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   gap: 25px;
   grid-column: 1;
   justify-self: end; 
