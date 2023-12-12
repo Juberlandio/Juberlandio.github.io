@@ -24,7 +24,7 @@
 }
 .faculdade-unidade {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
 .faculdade-lista-unico {
@@ -144,7 +144,7 @@
 
 @media (max-width: 1234px){
   .faculdade-unidade {
-    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-columns: repeat(3, 1fr);  
   }
 }
 @media (max-width: 1000px){
