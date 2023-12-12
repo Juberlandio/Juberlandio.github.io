@@ -19,7 +19,7 @@
   background: var(--cor-0);
   border: 1px solid var(--cor-p2);
   padding: 8px;
-  border-radius: 8px;
+  border-radius: 4px;
   width: 100%;
   box-sizing: border-box;
   transition: 0.5s;

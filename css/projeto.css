@@ -35,7 +35,7 @@
 .projeto-container picture img{
   transition: transform 0.5s 0.1s;
   border: 1px solid var(--cor-p2);
-  border-radius: 8px;
+  border-radius: 4px;
   transition: 0.5s;
 }
 .projeto-container picture img:hover{
@@ -183,7 +183,7 @@
 .embreve {
   height: 309px;
   width: 503px;
-  border-radius: 8px;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,7 +270,7 @@
     grid-template-columns: 1fr;
     gap: 0px;
     border: 1px solid var(--cor-p2); 
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 20px;
     margin-bottom: 0px;
   }
@@ -278,7 +278,7 @@
     grid-template-columns: 1fr;
     gap: 0px;
     border: 1px solid var(--cor-p2); 
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 20px;
     margin-bottom: 0px;
   }
@@ -286,7 +286,7 @@
     grid-template-columns: 1fr;
     gap: 0px;
     border: 1px solid var(--cor-p2); 
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 20px;
     margin-bottom: 0px;
   }
