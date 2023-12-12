@@ -291,6 +291,9 @@
     background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
     position: absolute;
   }
+  .footer-texto {
+    max-width: 25ch;
+  }
   .footer-redes {
     flex-wrap: wrap;
   }
