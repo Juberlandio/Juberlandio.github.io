@@ -177,7 +177,7 @@
     padding: 90px 20px;
   }
   .faculdade-unidade {
-    grid-template-columns: 1fr 1fr;  
+    grid-template-columns: repeat(2, 1fr);  
   }
 }
 @media (max-width: 800px){
