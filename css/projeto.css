@@ -96,7 +96,7 @@
   padding: 0px;
   transition: transform 0.5s 0.1s;
 }
-.projeto .projeto-container .linguagens p:hover{
+.projeto .linguagens p:hover{
   transform: scale(1.3);
 }
 #projeto-par h3 {
