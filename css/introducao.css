@@ -109,6 +109,8 @@
 }
 .botao-linkedin .text {
   transition: 500ms;
+  text-transform: uppercase;
+  align-items: center;
 }
 .botao-linkedin svg path {
   transition: 900ms;
@@ -174,12 +176,13 @@
 }
 .botao-github .text{
   transition: 500ms;
+  text-transform: uppercase;
 }
 .botao-github svg path {
   transition: 500ms;
 }
 .botao-github svg {
-  width: 35px;
+  width: 30px;
   height: 30px;
 }
 .botao-github:hover {
@@ -260,23 +263,31 @@
 .links{
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 .botao-linkedin {
   padding: 10px 15px;
+  gap: 10px;
   flex-basis: 123px;
 }
+.botao-linkedin .text{
+  height: 18px;
+}
 .botao-linkedin svg {
-  width: 25px;
-  height: 25px;
+  width: 18px;
+  height: 18px;
 }
 .botao-github {
   padding: 10px 15px;
+  gap: 10px;
   flex-basis: 123px;
 }
+.botao-github .text{
+  height: 18px;
+}
 .botao-github svg {
-  width: 25px;
-  height: 25px;
+  width: 18px;
+  height: 18px;
 }
 }
 @media (max-width: 600px) { 
@@ -285,18 +296,26 @@
 }
 .botao-linkedin {
   padding: 10px 5px;
+  gap: 8px;
   flex-basis: 103px;
 }
+.botao-linkedin .text{
+  height: 15px;
+}
 .botao-linkedin svg {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 .botao-github {
   padding: 10px 5px;
+  gap: 8px;
   flex-basis: 103px;
 }
+.botao-github .text{
+  height: 15px;
+}
 .botao-github svg {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 }
