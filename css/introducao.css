@@ -268,7 +268,7 @@
 .botao-linkedin {
   padding: 10px 15px;
   gap: 10px;
-  flex-basis: 123px;
+  flex-basis: 110px;
 }
 .botao-linkedin .text{
   height: 18px;
@@ -280,7 +280,7 @@
 .botao-github {
   padding: 10px 15px;
   gap: 10px;
-  flex-basis: 123px;
+  flex-basis: 110px;
 }
 .botao-github .text{
   height: 18px;
