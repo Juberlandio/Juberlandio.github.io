@@ -28,11 +28,7 @@
   gap: 40px;
 }
 .faculdade-lista-unico {
-  display: grid;
-  grid-template-columns: 6fr 1fr;
-  gap: 10px;
   padding: 20px 10px;
-  background: #2e2e2e;
   border-radius: 4px;
   grid-column: span 2;
   border: 1px solid var(--cor-p2);
@@ -42,6 +38,7 @@
 .faculdade-lista-unico:hover{
   box-shadow: 3px 3px 0 var(--cor-p2);
   transform: translateY(-15px);
+  background: linear-gradient(var(--cor-11) 10px, var(--cor-11) 100px);
 }
 .faculdade-lista-unico picture img {
   cursor: pointer;
@@ -52,11 +49,8 @@
   display: block;
 }
 .faculdade-lista {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 10px;
   padding: 20px 10px;
-  background: #2e2e2e;
+  background: var(--cor-10);
   border-radius: 4px;
   border: 1px solid var(--cor-p2);
   background: linear-gradient(var(--cor-11) 10px, var(--cor-9) 100px);
@@ -65,11 +59,22 @@
 .faculdade-lista:hover{
   box-shadow: 3px 3px 0 var(--cor-p2);
   transform: translateY(-15px);
+  background: linear-gradient(var(--cor-11) 10px, var(--cor-11) 100px);
 }
 .faculdade-lista picture img {
   cursor: pointer;
   width: 70px;
   height: 85px;
+}
+.cursos-link-unico {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  position: relative;
+}
+.cursos-link {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  position: relative;
 }
 .faculdade-lista span {
   display: block;
@@ -182,7 +187,14 @@
 }
 @media (max-width: 800px){
   .faculdade-unidade {
+    grid-template-columns: 1fr;  
     gap: 20px;
+  }
+  .cursos-link-unico {
+    grid-template-columns: 6fr 1fr;
+  }
+  .cursos-link {
+    grid-template-columns: 6fr 1fr;
   }
   .faculdade-curso {
     grid-template-columns: 7fr 1fr;
@@ -194,16 +206,17 @@
   .faculdade-lista-unico {
     grid-column: span 1;
   }
-  .faculdade-lista {
-    grid-template-columns: 6fr 1fr;
-  }
-  .faculdade-unidade {
-    grid-template-columns: 1fr;  
-  }
+
 }
 @media (max-width: 600px){ 
   .formacao .titulo-formacao-grid {
     margin-bottom: 30px;
+  }
+  .cursos-link-unico {
+    grid-template-columns: 1fr;
+  }
+  .cursos-link {
+    grid-template-columns: 1fr;
   }
   .faculdade-lista-unico {
     grid-template-columns: 1fr;
