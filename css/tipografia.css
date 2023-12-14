@@ -83,6 +83,9 @@
   }
 }
   @media (max-width: 420px){ 
+  .font-l-b {
+    font-size: 1.4rem;
+  }
   .font-xx-t2 {
     font-size: 1.550rem;
   }
