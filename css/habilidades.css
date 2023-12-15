@@ -52,11 +52,10 @@
 .img-content img:hover {
   transform: rotate(360deg);
 }
-.conteiner-descricao-bg {
+.conteiner-descricao-container {
   background: var(--cor-3);
   border-radius: 4px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 10px;
 }
 .texto-descricao{
   text-align: center;
@@ -112,11 +111,9 @@
 .conteiner-descricao {
   grid-row: 1;
 }
-.texto-descricao {
-  text-align: center;
-}
 .texto-descricao{
   height: 210px;
+  text-align: center;
 }
 }
 @media (max-width: 600px) {
@@ -129,7 +126,6 @@
   }
 }
 @media (max-width: 420px){ 
-
 .habilidades .titulo-habilidades::after{
   content: "";
   width: 50px;
