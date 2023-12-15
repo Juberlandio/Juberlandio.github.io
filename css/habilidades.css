@@ -24,8 +24,8 @@
 }
 .conteiner-skills {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 40px;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 10px;
 }
 .habilidades-imagem {
   display: flex;
@@ -61,6 +61,7 @@
   transition: 0.8s;
 }
 .texto-descricao{
+  margin-top: 25px;
   text-align: center;
   height: 250px;
   display: block;
