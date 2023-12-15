@@ -52,6 +52,7 @@
 .img-content img:hover {
   transform: rotate(360deg);
 }
+
 .texto-descricao{
   height: 250px;
   display: block;

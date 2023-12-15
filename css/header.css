@@ -45,15 +45,16 @@
 }
 #menu a:after {
   content: "";
-  display: block;
-  border-bottom: 3px solid var(--cor-p2);
+  width: 0%;
+  height: 3px;
+  background-color: #3228FA;
+  display: block; 
   margin-top: 0px;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-  position: absolute;
+  transition: 0.3s;
+  position: absolute; /* Realinhando ao centro */
 }
 #menu a:hover:after {
-  transform: scaleX(1);
+  width: 100%;
 }
 #btn-mobile {
   z-index: 1;
