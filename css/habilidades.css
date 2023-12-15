@@ -24,19 +24,19 @@
 }
 .conteiner-skills {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
   gap: 40px;
 }
 .habilidades-imagem {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
 }
 .img-content {
   padding: 10px 20px;
-  background: var(--cor-5);
+  background: var(--cor-3);
   border-radius: 4px;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -52,8 +52,14 @@
 .img-content img:hover {
   transform: rotate(360deg);
 }
-
+.conteiner-descricao-bg {
+  background: var(--cor-3);
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .texto-descricao{
+  text-align: center;
   height: 250px;
   display: block;
   animation: opacity 3s forwards;
@@ -119,7 +125,7 @@
     height: 90px;
   } 
   .habilidades-imagem {
-    gap: 20px;
+    gap: 25px;
   }
 }
 @media (max-width: 420px){ 
