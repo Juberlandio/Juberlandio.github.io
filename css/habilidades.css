@@ -117,10 +117,10 @@
 .conteiner-descricao-container {
   background: var(--cor-1);
   transition: 0.8s;
+  box-shadow: none;
 }
 .texto-descricao{
   height: 210px;
-  text-align: center;
 }
 }
 @media (max-width: 600px) {
