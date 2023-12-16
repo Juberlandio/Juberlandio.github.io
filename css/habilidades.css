@@ -35,7 +35,7 @@
   align-items: center;
 }
 .img-content {
-  padding: 10px 20px;
+  
   background: var(--cor-2);
   border-radius: 4px;
   cursor: pointer;
@@ -44,6 +44,7 @@
   box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.2);
 }
 .img-content img {
+  padding: 10px 20px;
   justify-content: center;
   align-items: center;
   width: 110px;
