@@ -55,7 +55,7 @@
 .habilidades-imagem {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 25px;
   justify-content: flex-end;
   align-items: center;
 }
@@ -70,12 +70,12 @@
   box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.2);
 }
 .img-content img {
-  margin: 15px;
-  padding: 10px 20px;
+  margin: 10px;
+  padding: 8px 12px;
   justify-content: center;
   align-items: center;
-  width: 95px;
-  height: 95px;
+  width: 100px;
+  height: 100px;
   transition: 0.8s;
 }
 .img-content img:hover {
@@ -85,7 +85,7 @@
 .imagem-1{
   transition: 0.8s;
 }
-.imagem-1:hover{ 
+.imagem-1:hover { 
   background-image: url(../media/svg/html1.svg);
   background-position: center center;
   background-size: 100% 100%;
