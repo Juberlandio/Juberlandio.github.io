@@ -35,12 +35,13 @@
   align-items: center;
 }
 .img-content {
-  
+  padding: 0px;
   background: var(--cor-2);
   border-radius: 4px;
   cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
+  border: 1px solid var(--cor-4);
   box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.2);
 }
 .img-content img {
@@ -54,11 +55,12 @@
 .img-content img:hover {
   transform: rotate(360deg);
 }
-.conteiner-descricao-container {
+.texto-container {
   background: var(--cor-2);
   border-radius: 4px;
   padding: 10px;
   box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--cor-4);
   transition: 0.8s;
 }
 .texto-descricao{
@@ -110,29 +112,32 @@
   align-items: center;
   gap: 20px;
 }
-.habilidades-imagem {
-  justify-content: center;
+.texto-container {
+  border: none;
 }
-.conteiner-descricao {
-  grid-row: 1;
-}
-.conteiner-descricao-container {
+.texto-container {
   background: var(--cor-1);
   transition: 0.8s;
   box-shadow: none;
 }
+.conteiner-descricao {
+  grid-row: 1;
+}
 .texto-descricao{
   height: 210px;
 }
+.habilidades-imagem {
+  justify-content: center;
+}
 }
 @media (max-width: 600px) {
+  .habilidades-imagem {
+    gap: 25px;
+  }
   .img-content img {
     width: 90px;
     height: 90px;
   } 
-  .habilidades-imagem {
-    gap: 25px;
-  }
 }
 @media (max-width: 420px){ 
 .habilidades .titulo-habilidades::after{
