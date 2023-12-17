@@ -24,7 +24,7 @@
 }
 .conteiner-skills {
   display: grid;
-  grid-template-columns: 1fr 1.2fr;
+  grid-template-columns: 1fr 1.3fr;
   gap: 10px;
 }
 .texto-container {
@@ -70,7 +70,6 @@
   box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.2);
 }
 .img-content img {
-  margin: 10px;
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
@@ -82,7 +81,8 @@
   transform: rotate(360deg);
   opacity: 0;
 }
-.imagem-1{
+.imagem-1{  
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-1:hover { 
@@ -94,6 +94,7 @@
   opacity: 1;
 }
 .imagem-2{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-2:hover{
@@ -105,6 +106,7 @@
   opacity: 1;
 }
 .imagem-3{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-3:hover{
@@ -116,6 +118,7 @@
   opacity: 1;
 }
 .imagem-4{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-4:hover{
@@ -126,10 +129,8 @@
   transform: rotate(360deg);
   opacity: 1;
 }
-.imagem-4{
-  transition: 0.8s;
-}
 .imagem-5{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-5:hover{
@@ -141,6 +142,7 @@
   opacity: 1;
 }
 .imagem-6{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-6:hover{
@@ -152,6 +154,7 @@
   opacity: 1;
 }
 .imagem-6{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-6:hover{
@@ -163,6 +166,7 @@
   opacity: 1;
 }
 .imagem-7{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-7:hover{
@@ -174,6 +178,7 @@
   opacity: 1;
 }
 .imagem-8{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-8:hover{
@@ -185,6 +190,7 @@
   opacity: 1;
 }
 .imagem-9{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-9:hover{
@@ -196,6 +202,7 @@
   opacity: 1;
 }
 .imagem-10{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-10:hover{
@@ -207,6 +214,7 @@
   opacity: 1;
 }
 .imagem-11{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-11:hover{
@@ -218,6 +226,7 @@
   opacity: 1;
 }
 .imagem-12{
+  margin: 10px;
   transition: 0.8s;
 }
 .imagem-12:hover{
