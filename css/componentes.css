@@ -67,6 +67,14 @@
   background: var(--cor-3);
   position: relative;
 }
+.botao-habilidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background: var(--cor-1);
+  position: relative;
+}
 .button-link img {
   border: none;
   border-radius: 50%;
