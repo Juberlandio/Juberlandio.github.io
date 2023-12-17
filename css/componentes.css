@@ -64,7 +64,7 @@
   justify-content: center;
   align-items: center;
   margin: 0px auto;
-  background: var(--cor-1);
+  background: var(--cor-3);
   position: relative;
 }
 .button-link img {
