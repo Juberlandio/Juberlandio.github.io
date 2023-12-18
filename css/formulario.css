@@ -17,7 +17,7 @@
 .form textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--cor-0);
-  border: 1px solid var(--cor-p2);
+  border: 1px solid var(--cor-13);
   padding: 8px;
   border-radius: 4px;
   width: 100%;
