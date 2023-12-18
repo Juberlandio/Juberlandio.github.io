@@ -24,7 +24,7 @@
 }
 .conteiner-skills {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 2fr;
   gap: 10px;
 }
 .texto-container {
@@ -85,7 +85,7 @@
   box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.2);
 }
 .img-content img {
-  padding: 12px 24px;
+  padding: 4px 10px;
   justify-content: center;
   align-items: center;
   width: 100px;
@@ -137,7 +137,7 @@
   transition: 0.8s;
 }
 .imagem-4:hover{
-  background-image: url(../media/svg/sass1.svg);
+  background-image: url(../media/svg/redux1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -149,19 +149,7 @@
   transition: 0.8s;
 }
 .imagem-5:hover{
-  background-image: url(../media/svg/typescript1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-6{
-  margin: 10px;
-  transition: 0.8s;
-}
-.imagem-6:hover{
-  background-image: url(../media/svg/react1.svg);
+  background-image: url(../media/svg/sass1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -185,7 +173,7 @@
   transition: 0.8s;
 }
 .imagem-7:hover{
-  background-image: url(../media/svg/vue1.svg);
+  background-image: url(../media/svg/php1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -209,7 +197,7 @@
   transition: 0.8s;
 }
 .imagem-9:hover{
-  background-image: url(../media/svg/redux1.svg);
+  background-image: url(../media/svg/tailwind1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -221,7 +209,7 @@
   transition: 0.8s;
 }
 .imagem-10:hover{
-  background-image: url(../media/svg/git1.svg);
+  background-image: url(../media/svg/bootstrap1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -233,7 +221,7 @@
   transition: 0.8s;
 }
 .imagem-11:hover{
-  background-image: url(../media/svg/github1.svg);
+  background-image: url(../media/svg/vue1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -245,6 +233,54 @@
   transition: 0.8s;
 }
 .imagem-12:hover{
+  background-image: url(../media/svg/typescript1.svg);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transform: rotate(360deg);
+  opacity: 1;
+}
+.imagem-13{
+  margin: 10px;
+  transition: 0.8s;
+}
+.imagem-13:hover{
+  background-image: url(../media/svg/database1.svg);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transform: rotate(360deg);
+  opacity: 1;
+}
+.imagem-14{
+  margin: 10px;
+  transition: 0.8s;
+}
+.imagem-14:hover{
+  background-image: url(../media/svg/git1.svg);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transform: rotate(360deg);
+  opacity: 1;
+}
+.imagem-15{
+  margin: 10px;
+  transition: 0.8s;
+}
+.imagem-15:hover{
+  background-image: url(../media/svg/github1.svg);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transform: rotate(360deg);
+  opacity: 1;
+}
+.imagem-16{
+  margin: 10px;
+  transition: 0.8s;
+}
+.imagem-16:hover{
   background-image: url(../media/svg/figma1.svg);
   background-position: center center;
   background-size: 100% 100%;
@@ -252,6 +288,7 @@
   transform: rotate(360deg);
   opacity: 1;
 }
+
 @media (max-width: 1145px) { 
   .habilidades-margin {
     justify-content: center;
@@ -264,7 +301,7 @@
     justify-content: center;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
 .habilidades .titulo-habilidades-grid {
   display: grid;
   margin-bottom: 50px;
@@ -326,13 +363,11 @@
   }
   .img-content img {
     margin: 3px;
-    padding: 8px 16px;
     width: 90px;
     height: 90px;
   } 
 }
 @media (max-width: 600px) {
-
   .habilidades-imagem {
     gap: 20px;
   }
@@ -341,7 +376,6 @@
   }
   .img-content img {
     margin: 3px;
-    padding: 5px 10px;
     width: 80px;
     height: 80px;
   } 
