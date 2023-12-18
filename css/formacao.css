@@ -25,7 +25,7 @@
 .faculdade-unidade {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 25px;
 }
 .faculdade-lista-unico {
   border-radius: 4px;

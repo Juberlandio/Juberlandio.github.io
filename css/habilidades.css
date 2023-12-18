@@ -55,14 +55,14 @@
 .habilidades-imagem {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 25px;
   justify-content: flex-end;
   align-items: center;
 }
 .habilidades-margin {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 25px;
   justify-content: flex-end;
   align-items: center;
   margin-right: 50px;
