@@ -65,7 +65,7 @@
   position: absolute;
 }
 .contato-meios a:hover {
-  color: var(--cor-0);
+  color: var(--cor-13);
 }
 .footer-redes {
   display: flex;
