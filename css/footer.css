@@ -11,7 +11,7 @@
 .footer-dados {
   padding: 50px 60px;
   border-radius: 4px 0px 0px 4px;
-  border-right: 1px solid var(--cor-13);
+  border-right: 1px solid var(--cor-11);
   background: var(--cor-0);
 }
 .titulo-contato-grid {
@@ -39,12 +39,12 @@
   padding-left: 25px;
 }
 .footer-texto:hover {
-  color: var(--cor-);
+  color: var(--cor-11);
 }
 .titulo-2{
   padding-left: 25px;
   margin-bottom: 10px;
-  color: var(--cor-13);
+  color: var(--cor-11);
 }
 .contato-meios a {
   display: block;
@@ -65,7 +65,7 @@
   position: absolute;
 }
 .contato-meios a:hover {
-  color: var(--cor-13);
+  color: var(--cor-11);
 }
 .footer-redes {
   display: flex;
@@ -130,8 +130,8 @@
   display: block;
   text-align: center;
   padding: 20px;
-  background: var(--cor-13);
-  border-top: 1px solid var(--cor-10);
+  background: var(--cor-11);
+  border-top: 1px solid var(--cor-11);
 }
 @media (max-width: 1180px) {
 .footer-dados {
