@@ -85,7 +85,7 @@
   box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.2);
 }
 .img-content img {
-  padding: 0px;
+  padding: 15px 10px;
   justify-content: center;
   align-items: center;
   width: 100px;
