@@ -35,10 +35,9 @@
   transition: 0.5s ease;
 }
 .faculdade-lista-unico:hover{
-  box-shadow: 3px 3px 0 var(--cor-p2);
   transform: translateY(-15px);
   background: linear-gradient(var(--cor-11) 10px, var(--cor-11) 100px);
-  box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 0 var(--cor-p2);
 }
 .faculdade-lista-unico picture img {
   cursor: pointer;
@@ -56,10 +55,9 @@
   transition: 0.5s ease;
 }
 .faculdade-lista:hover{
-  box-shadow: 3px 3px 0 var(--cor-p2);
   transform: translateY(-15px);
   background: linear-gradient(var(--cor-11) 10px, var(--cor-11) 100px);
-  box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 0 var(--cor-p2);
 }
 .faculdade-lista picture img {
   cursor: pointer;
