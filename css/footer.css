@@ -1,5 +1,5 @@
 .footer-bg {
-  background-color: var(--cor-0);
+  background-color: var(--cor-2);
 }
 .footer {
   max-width: 1250px;
@@ -12,7 +12,7 @@
   padding: 50px 60px;
   border-radius: 4px 0px 0px 4px;
   border-right: 1px solid var(--cor-11);
-  background: var(--cor-0);
+  background: var(--cor-2);
 }
 .titulo-contato-grid {
   margin-bottom: 30px;
@@ -123,7 +123,7 @@
 .footer-formulario {
   padding: 50px 60px;
   border-radius: 0px 4px 4px 0px;
-  background: var(--cor-0);
+  background: var(--cor-2);
   z-index: 0;
 }
 .footer-final  {
