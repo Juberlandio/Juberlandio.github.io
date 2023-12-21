@@ -22,7 +22,7 @@
   background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
   position: absolute;
 }
-.faculdade-unidade {
+.faculdade-espaco {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
@@ -150,8 +150,8 @@
 }
 
 @media (max-width: 1234px){
-  .faculdade-unidade {
-    grid-template-columns: repeat(3, 1fr);  
+  .faculdade-espaco {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (max-width: 1000px){
@@ -183,70 +183,28 @@
   .formacao .formacao-container {
     padding: 90px 20px;
   }
-  .faculdade-unidade {
-    grid-template-columns: repeat(2, 1fr);  
+  .faculdade-espaco {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 800px){
-  .faculdade-unidade {
-    grid-template-columns: 1fr;  
+  .faculdade-espaco {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+  .faculdade-unidade { 
     gap: 20px;
-  }
-  .cursos-link-unico {
-    grid-template-columns: 6fr 1fr;
-  }
-  .cursos-link {
-    grid-template-columns: 6fr 1fr;
-  }
-  .faculdade-curso {
-    grid-template-columns: 7fr 1fr;
-    letter-spacing: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .faculdade-curso::before {
    display: none;
   }
-  .faculdade-lista-unico {
-    grid-column: span 1;
-  }
+
 }
 @media (max-width: 600px){ 
-  .formacao .titulo-formacao-grid {
-    margin-bottom: 30px;
-  }
-  .cursos-link-unico {
-    grid-template-columns: 1fr;
-  }
-  .cursos-link {
-    grid-template-columns: 1fr;
-  }
-  .faculdade-lista-unico {
-    grid-template-columns: 1fr;
-    text-align: center;
-    background: linear-gradient(var(--cor-11) 100px, var(--cor-9) 400px)
-  }
-  .faculdade-lista-unico picture img {
-    grid-row: 1;
-  }
-  .faculdade-lista {
-    grid-template-columns: 1fr;
-    text-align: center;
-    background: linear-gradient(var(--cor-11) 100px, var(--cor-9) 400px); 
-  }
-  .faculdade-lista picture img {
-    grid-row: 1;
-  }
-  .faculdade-lista-unico .faculdade-ordem {
-    grid-row: 2;
-  }
-  .faculdade-lista .faculdade-ordem {
-    grid-row: 2;
-  }
-  .imagem-certificado-girar{
-    animation: girar 10.5s infinite;
-  }
-  .certificado {
-   place-self: center;
-  }
+
 }
 @media (max-width: 420px){ 
 .formacao .titulo-formacao::after{
