@@ -188,23 +188,27 @@
   }
 }
 @media (max-width: 800px){
-  .faculdade-espaco {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    margin-bottom: 20px;
-  }
   .faculdade-unidade { 
     gap: 20px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .faculdade-espaco {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+  .cursos-link-unico {
+    padding: 20px 20px;
+    gap: 50px;
+  }
+  .cursos-link {
+    padding: 20px 20px;
+    gap: 50px;
+  }
   .faculdade-curso::before {
    display: none;
   }
-
-}
-@media (max-width: 600px){ 
-
 }
 @media (max-width: 420px){ 
 .formacao .titulo-formacao::after{
