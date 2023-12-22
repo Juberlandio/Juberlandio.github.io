@@ -75,7 +75,7 @@
   padding: 20px 15px;
   display: grid;
   gap: 10px;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 6fr 1fr;
   position: relative;
 }
 .faculdade-lista span {
@@ -193,18 +193,23 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .faculdade-lista-unico {
+    grid-column: span 1;
+  }
   .faculdade-espaco {
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     margin-bottom: 20px;
   }
   .cursos-link-unico {
-    padding: 20px 20px;
-    gap: 100px;
+    padding: 15px 10px;
+    gap: 0px;
+    min-width: 320px;
   }
   .cursos-link {
-    padding: 20px 20px;
-    gap: 100px;
+    padding: 15px 10px;
+    gap: 0px;
+    min-width: 320px;
   }
   .faculdade-curso::before {
    display: none;
