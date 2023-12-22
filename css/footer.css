@@ -1,5 +1,5 @@
 .footer-bg {
-  background-color: var(--cor-2);
+  background-color: var(--cor-11);
 }
 .footer {
   max-width: 1250px;
@@ -10,9 +10,9 @@
 }
 .footer-dados {
   padding: 50px 60px;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 10px 0px 0px 10px;
   border-right: 1px solid var(--cor-11);
-  background: var(--cor-2);
+  background: var(--cor-13);
 }
 .titulo-contato-grid {
   margin-bottom: 30px;
@@ -39,7 +39,7 @@
   padding-left: 25px;
 }
 .footer-texto:hover {
-  color: var(--cor-11);
+  color: var(--cor-2);
 }
 .titulo-2{
   padding-left: 25px;
@@ -65,7 +65,7 @@
   position: absolute;
 }
 .contato-meios a:hover {
-  color: var(--cor-11);
+  color: var(--cor-2);
 }
 .footer-redes {
   display: flex;
@@ -122,15 +122,15 @@
 }
 .footer-formulario {
   padding: 50px 60px;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0px 10px 10px 0px;
   background: var(--cor-2);
   z-index: 0;
 }
-.footer-final  {
+.footer-final {
   display: block;
   text-align: center;
   padding: 20px;
-  background: var(--cor-11);
+  background: var(--cor-13);
   border-top: 1px solid var(--cor-11);
 }
 @media (max-width: 1180px) {
