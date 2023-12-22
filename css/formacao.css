@@ -197,8 +197,8 @@
     grid-column: span 1;
   }
   .faculdade-espaco {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     margin-bottom: 20px;
   }
   .cursos-link-unico {
