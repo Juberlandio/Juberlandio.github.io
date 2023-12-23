@@ -186,18 +186,11 @@
     background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
     position: absolute;
   }
-  .faculdade-espaco {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 @media (max-width: 860px){
   .faculdade-unidade {
     gap: 20px;
     grid-template-columns: 1fr; 
-  }
-
-  .faculdade-curso {
-    height: 3rem;
   }
   .faculdade-curso::before {
    display: none;
