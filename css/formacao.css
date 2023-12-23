@@ -24,7 +24,7 @@
 }
 .faculdade-espaco {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 25px;
 }
 .faculdade-lista-unico {
@@ -155,9 +155,9 @@
   }
 }
 
-@media (max-width: 1234px){
+@media (max-width: 1240px){
   .faculdade-espaco {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 1000px){
@@ -186,51 +186,65 @@
     background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
     position: absolute;
   }
-  .formacao .formacao-container {
-    padding: 90px 20px;
-  }
   .faculdade-espaco {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 880px){
-  .faculdade-unidade { 
+@media (max-width: 860px){
+  .faculdade-unidade {
     gap: 20px;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    grid-template-columns: 1fr; 
   }
-  .faculdade-espaco {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin-bottom: 20px;
-  }
-  .faculdade-lista-unico {
-    grid-column: span 1;
-  }
-  .faculdade-lista-unico:hover{
-    transform: none;
-    box-shadow: none;
-  }
-  .faculdade-lista:hover{
-    transform: none;
-    box-shadow: none;
-  }
-  .cursos-link-unico {
-    text-align: center;
-    padding: 15px 10px;
-    gap: 10px;
-    min-width: 320px;
-    grid-template-columns: 1fr;
-  }
-  .cursos-link {
-    text-align: center;
-    padding: 15px 10px;
-    gap: 10px;
-    min-width: 320px;
-    grid-template-columns: 1fr;
+
+  .faculdade-curso {
+    height: 3rem;
   }
   .faculdade-curso::before {
    display: none;
+  }
+}
+@media (max-width: 600px){ 
+  .formacao .titulo-formacao::after{
+    content: "";
+    width: 50px;
+    height: 100%;
+    left: -50px;
+    background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
+    position: absolute;
+    transform: rotate(180deg);
+  }
+  .formacao .titulo-formacao::before{
+    content: "";
+    width: 50px;
+    height: 100%;
+    right: -50px;
+    background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
+    position: absolute;
+  }
+  .faculdade-espaco {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cursos-link-unico {
+    text-align: center;
+    padding: 18px 15px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+  .cursos-link {
+    text-align: center;
+    padding: 18px 15px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+  .faculdade-curso {
+    height: auto;
+  }
+  .faculdade-lista-unico {
+    grid-column: span 1;
   }
   .faculdade-lista-unico picture .certificado {
     grid-row: 1;
@@ -244,23 +258,4 @@
   .faculdade-lista .faculdade-ordem {
     grid-row: 2;
   }
-}
-@media (max-width: 420px){ 
-.formacao .titulo-formacao::after{
-  content: "";
-  width: 50px;
-  height: 100%;
-  left: -50px;
-  background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
-  position: absolute;
-  transform: rotate(180deg);
-}
-.formacao .titulo-formacao::before{
-  content: "";
-  width: 50px;
-  height: 100%;
-  right: -50px;
-  background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
-  position: absolute;
-}
 }

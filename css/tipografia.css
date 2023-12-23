@@ -41,6 +41,12 @@
   .font-l-l {
     font-size: 0.9rem;
   }
+  .font-l {
+    font-size: 0.750rem;
+  }
+  .font-l-c {
+    font-size: 1.2rem;
+  }
   .font-xx-t2 {
     font-size: 1.9rem;
   }
@@ -58,12 +64,7 @@
   .font-l-l {
     font-size: 0.8rem;
   }
-  .font-l {
-    font-size: 0.620rem;
-  }
-  .font-l-c {
-    font-size: 1rem;
-  }
+ 
   .font-xx-t2 {
     font-size: 1.7rem;
   }
