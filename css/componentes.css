@@ -17,7 +17,7 @@
   max-width: max-content;
   border: none;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.5s ease-out;
   position: relative;
   margin-left: 2px;
   letter-spacing: 1px;
@@ -35,7 +35,7 @@
   );
   background-size: 400%;
   animation: move infinite forwards 4s;
-  transition: transform 0.4s;
+  transition: 0.5s ease-out;
   
 }
 @keyframes move {
@@ -84,7 +84,7 @@
   padding: 8px;
   cursor: pointer;
   animation: animacaoy 1.5s linear infinite alternate;
-  transition: 0.5s;
+  transition: 0.5s ease-out;
 }
 .button-link img:hover {
   background: var(--cor-p1);

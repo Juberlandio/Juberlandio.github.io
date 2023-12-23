@@ -22,7 +22,7 @@
   border-radius: 10px;
   width: 100%;
   box-sizing: border-box;
-  transition: 0.5s;
+  transition: 0.5s ease-out;
 }
 .form input[type="text"]:focus,
 .form input[type="email"]:focus,
