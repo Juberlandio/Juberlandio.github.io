@@ -233,9 +233,6 @@
     grid-template-columns: 1fr;
     position: relative;
   }
-  .faculdade-curso {
-    height: auto;
-  }
   .faculdade-lista-unico {
     grid-column: span 1;
   }
