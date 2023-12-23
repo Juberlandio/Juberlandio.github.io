@@ -201,6 +201,14 @@
     gap: 20px;
     margin-bottom: 20px;
   }
+  .faculdade-lista-unico:hover{
+    transform: none;
+    box-shadow: none;
+  }
+  .faculdade-lista:hover{
+    transform: none;
+    box-shadow: none;
+  }
   .cursos-link-unico {
     padding: 15px 10px;
     gap: 0px;
