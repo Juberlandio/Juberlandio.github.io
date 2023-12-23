@@ -24,7 +24,7 @@
 }
 .faculdade-espaco {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
 .faculdade-lista-unico {
@@ -65,14 +65,14 @@
   height: 85px;
 }
 .cursos-link-unico {
-  padding: 20px 15px;
+  padding: 18px 15px;
   display: grid;
   gap: 10px;
   grid-template-columns: 6fr 1fr;
   position: relative;
 }
 .cursos-link {
-  padding: 20px 15px;
+  padding: 18px 15px;
   display: grid;
   gap: 10px;
   grid-template-columns: 6fr 1fr;
@@ -96,14 +96,20 @@
   background: var(--cor-p2);
   position: absolute;
   left: -20px;
-  bottom: 6px;
+  bottom: 2px;
 }
 .faculdade-instituicao {
   letter-spacing: .11rem;
 }
-.faculdade-data {
+.cursos-info span {
+  display: inline;
   font-weight: 400;
   line-height: 1.5;
+  margin: 0px;
+  padding: 0px;
+}
+.cursos-info span + span {
+ padding-left: 10px;
 }
 .certificado {
   place-self: center;
@@ -187,14 +193,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 800px){
+@media (max-width: 880px){
   .faculdade-unidade { 
     gap: 20px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
   .faculdade-espaco {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-bottom: 20px;
   }
