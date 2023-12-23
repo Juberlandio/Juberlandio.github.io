@@ -226,10 +226,10 @@
   .faculdade-curso::before {
    display: none;
   }
-  .faculdade-lista-unico picture img {
+  .faculdade-lista-unico picture .certificado {
     grid-row: 1;
   }
-  .faculdade-lista picture img {
+  .faculdade-lista picture .certificado {
     grid-row: 1;
   }
   .faculdade-lista-unico .faculdade-ordem {
@@ -237,9 +237,6 @@
   }
   .faculdade-lista .faculdade-ordem {
     grid-row: 2;
-  }
-  .certificado {
-   place-self: center;
   }
 }
 @media (max-width: 420px){ 
