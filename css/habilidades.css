@@ -55,7 +55,7 @@
 .habilidades-imagem {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 25.80px;
   justify-content: flex-end;
   align-items: center;
 }
