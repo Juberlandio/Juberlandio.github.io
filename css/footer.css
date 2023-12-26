@@ -1,5 +1,5 @@
 .footer-bg {
-  background-color: var(--cor-11);
+  background-color: var(--cor-9);
 }
 .footer {
   max-width: 1250px;
@@ -27,7 +27,7 @@
 .titulo-contato::after { 
   content: "";
   width: 30px;
-  height: 100%;
+  height: 39px;
   left: 25px;
   background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
   position: absolute;
