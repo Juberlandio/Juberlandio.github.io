@@ -351,7 +351,7 @@
  padding: 8px 8px; 
 }
 }
-@media (max-width: 800px) {
+@media (max-width: 760px) {
   .habilidades-imagem {
     gap: 20px;
   }
