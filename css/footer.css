@@ -121,7 +121,7 @@
   }
 }
 .footer-formulario {
-  padding: 50px 60px;
+  padding: 48px 60px;
   border-radius: 0px 10px 10px 0px;
   background: var(--cor-2);
   z-index: 0;
@@ -220,7 +220,6 @@
 }  
 }
 @media (max-width: 760px) { 
-
 .footer {
   grid-template-columns: 1fr;
 }
