@@ -30,22 +30,22 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 10px 30px;
   align-content: start;
-  padding-bottom: 60px;
+  padding-bottom: 61px;
 }
 .projeto-container-2{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px 30px;
   align-content: start;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 61px;
+  padding-bottom: 61px;   
 }
 .projeto-container-3{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px 30px;
   align-content: start;
-  padding-top: 60px;
+  padding-top: 61px;
 }
 .projeto picture img{
   border: 1px solid var(--cor-p2);
@@ -213,7 +213,7 @@
     background: var(--cor-0);
   }
   .projeto {
-    padding: 90px 20px;
+    padding: 85px 20px;
   }
   .projeto .titulo-projeto-grid {
     display: grid;
@@ -296,7 +296,6 @@
   }
   .projeto .paragrafo {
     text-align: center;
-    color: var(--cor-13);
     letter-spacing: 0.15rem;
     margin-bottom: 30px;
   } 

@@ -32,7 +32,7 @@
   background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
   position: absolute;
 }
-.footer-texto {
+.footer-texto {  
   text-align: left;
   margin-bottom: 40px;
   position: relative;
