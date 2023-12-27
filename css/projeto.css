@@ -5,10 +5,10 @@
   background: linear-gradient(to right, var(--cor-1) 30%, var(--cor-11) 0%);
 }
 .projeto {
-  padding: 85px 0px;
+  padding: 90px 0px;
 }
 .projeto .titulo-projeto-grid {
-  margin-bottom: 61px;
+  margin-bottom: 60px;
   margin-left: 35px;
 }
 .projeto .titulo-projeto {
@@ -30,22 +30,22 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 10px 30px;
   align-content: start;
-  padding-bottom: 61px;
+  padding-bottom: 60px;
 }
 .projeto-container-2{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px 30px;
   align-content: start;
-  padding-top: 61px;
-  padding-bottom: 61px;   
+  padding-top: 60px;
+  padding-bottom: 60px;   
 }
 .projeto-container-3{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px 30px;
   align-content: start;
-  padding-top: 61px;
+  padding-top: 60px;
 }
 .projeto picture img{
   border: 1px solid var(--cor-p2);

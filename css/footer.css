@@ -130,7 +130,7 @@
   display: block;
   text-align: center;
   padding: 20px;
-  background: var(--cor-13);
+  background: var(--cor-12);
   border-top: 1px solid var(--cor-11);
 }
 @media (max-width: 1180px) {

@@ -2,10 +2,10 @@
   background: var(--cor-0);
 }
 .formacao .formacao-padding {
-  padding: 85px 20px;
+  padding: 90px 20px;
 }
 .formacao .titulo-formacao-grid {
-  margin-bottom: 61px;
+  margin-bottom: 60Fpx;
   margin-left: 35px;
 }
 .formacao .titulo-formacao {
@@ -113,7 +113,7 @@
 }
 .certificado {
   place-self: center;
-  width: 70px;
+  width: 71.92px;
   height: 85px;
   position: relative;
   opacity: 1;
