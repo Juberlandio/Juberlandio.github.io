@@ -9,7 +9,7 @@
   padding: 90px 20px;
 }
 .footer-dados {
-  padding: 50px 60px;
+  padding: 60px 50px;
   border-radius: 10px 0px 0px 10px;
   border-right: 1px solid var(--cor-11);
   background: var(--cor-13);
@@ -121,7 +121,7 @@
   }
 }
 .footer-formulario {
-  padding: 48px 60px;
+  padding: 42px 60px;
   border-radius: 0px 10px 10px 0px;
   background: var(--cor-2);
   z-index: 0;
