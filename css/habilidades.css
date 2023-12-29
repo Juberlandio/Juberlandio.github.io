@@ -85,19 +85,21 @@
   box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.2);
 }
 .img-content img {
-  padding: 10px 10px;
   justify-content: center;
   align-items: center;
   width: 90px;
   height: 90px;
   transition: 0.8s ease-out;
 }
-.img-content img:hover {
+.content img:hover {
   transform: rotate(360deg);
+  transform: scale(1.2);
   opacity: 0;
 }
+.content {
+  padding: 25px 25px;
+}
 .imagem-1{  
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-1:hover { 
@@ -109,7 +111,6 @@
   opacity: 1;
 }
 .imagem-2{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-2:hover{
@@ -121,7 +122,6 @@
   opacity: 1;
 }
 .imagem-3{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-3:hover{
@@ -133,7 +133,6 @@
   opacity: 1;
 }
 .imagem-4{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-4:hover{
@@ -145,7 +144,6 @@
   opacity: 1;
 }
 .imagem-5{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-5:hover{
@@ -157,7 +155,6 @@
   opacity: 1;
 }
 .imagem-6{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-6:hover{
@@ -169,11 +166,10 @@
   opacity: 1;
 }
 .imagem-7{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-7:hover{
-  background-image: url(../media/svg/react.svg);
+  background-image: url(../media/svg/react1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -181,7 +177,6 @@
   opacity: 1;
 }
 .imagem-8{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-8:hover{
@@ -193,7 +188,6 @@
   opacity: 1;
 }
 .imagem-9{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-9:hover{
@@ -205,7 +199,6 @@
   opacity: 1;
 }
 .imagem-10{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-10:hover{
@@ -217,7 +210,6 @@
   opacity: 1;
 }
 .imagem-11{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-11:hover{
@@ -229,7 +221,6 @@
   opacity: 1;
 }
 .imagem-12{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-12:hover{
@@ -241,7 +232,6 @@
   opacity: 1;
 }
 .imagem-13{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-13:hover{
@@ -253,7 +243,6 @@
   opacity: 1;
 }
 .imagem-14{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-14:hover{
@@ -265,7 +254,6 @@
   opacity: 1;
 }
 .imagem-15{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-15:hover{
@@ -277,7 +265,6 @@
   opacity: 1;
 }
 .imagem-16{
-  margin: 15px;
   transition: 0.8s ease-out;
 }
 .imagem-16:hover{
