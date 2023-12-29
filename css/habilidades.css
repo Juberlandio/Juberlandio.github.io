@@ -349,7 +349,6 @@
     gap: 20px;
   }
   .img-content img {
-    margin: 3px;
     width: 90px;
     height: 90px;
   } 
@@ -367,11 +366,6 @@
   .habilidades-margin {
     gap: 20px;
   }
-  .img-content img {
-    margin: 3px;
-    width: 80px;
-    height: 80px;
-  } 
 }
 @media (max-width: 420px){ 
 .habilidades .titulo-habilidades::after{
@@ -392,8 +386,11 @@
   position: absolute;
 }
 .img-content img {
-  margin: 3px;
-  padding: 5px 5px;
+  width: 80px;
+  height: 80px;
+} 
+.content {
+  padding: 12px 12px;
 }
 .texto-descricao{
   height: 250px;
