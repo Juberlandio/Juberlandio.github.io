@@ -275,7 +275,6 @@
   transform: rotate(360deg);
   opacity: 1;
 }
-
 @media (max-width: 1145px) { 
   .habilidades-margin {
     justify-content: center;
