@@ -161,7 +161,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-6:hover{
-  background-image: url(../media/svg/vue1.svg);
+  background-image: url(../media/svg/php1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-7:hover{
-  background-image: url(../media/svg/php1.svg);
+  background-image: url(../media/svg/react.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -185,7 +185,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-8:hover{
-  background-image: url(../media/svg/react1.svg);
+  background-image: url(../media/svg/vue1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
