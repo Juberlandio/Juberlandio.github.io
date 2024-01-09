@@ -76,13 +76,14 @@
 }
 .img-content {
   padding: 0px;
-  background: var(--cor-2);
-  border-radius: 50%;
+  background: var(--cor-4);
+  border-radius: 0%;
   cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid var(--cor-4);
   box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.2);
+  clip-path: polygon(0 0, 75% 0%, 100% 21%, 100% 100%, 0 100%, 0% 50%);
+
 }
 .img-content img {
   justify-content: center;
