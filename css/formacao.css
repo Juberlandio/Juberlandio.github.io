@@ -234,6 +234,9 @@
     grid-column: span 1;
     clip-path: polygon(0 0, 100% 0, 100% 79%, 91% 100%, 0 100%, 0% 50%);
   }
+  .faculdade-lista {
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 91% 100%, 0 100%, 0% 50%);
+  }
   .faculdade-lista-unico picture .certificado {
     grid-row: 1;
   }
