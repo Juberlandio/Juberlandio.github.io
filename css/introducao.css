@@ -73,7 +73,7 @@
   background: var(--cor-p3);
   outline: 3px var(--cor-p3) solid;
   outline-offset: -3px;
-  border-radius: 50px;
+  clip-path: polygon(1% 0, 85% 0, 100% 41%, 100% 100%, 0 100%, 0% 50%);
   border: none;
   cursor: pointer;
   transition: 500ms;
@@ -82,12 +82,11 @@
   letter-spacing: 0.8px;
   flex: 0 0 162px; /* grow, shrink, basis */
 }
-.botao-linkedin::before {
+/* .botao-linkedin::before {
   content: "";
   position: absolute;
   z-index: -1;
   inset: -3px;
-  border-radius: 50px;
   background: linear-gradient(
     -45deg,
     var(--cor-p1),
@@ -95,7 +94,7 @@
   );
   background-size: 400%;
   animation: move infinite forwards 4s;
-}
+} */
 @keyframes move {
   0% {
     background-position: 0% 50%;
@@ -137,8 +136,8 @@
   gap: 15px;
   background: var(--cor-p4);
   outline: 3px var(--cor-p4) solid;
-  border-radius: 50px;
   outline-offset: -3px;
+  clip-path: polygon(1% 0, 85% 0, 100% 41%, 100% 100%, 0 100%, 0% 50%);
   border: none;
   cursor: pointer;
   transition: 500ms;
@@ -147,12 +146,11 @@
   letter-spacing: 0.8px;
   flex: 0 0 162px; /* grow, shrink, basis */
 }
-.botao-github::before {
+/* .botao-github::before {
   content: "";
   position: absolute;
   z-index: -1;
   inset: -3px;
-  border-radius: 50px;
   background: linear-gradient(
     -45deg,
     var(--cor-p1),
@@ -160,7 +158,7 @@
   );
   background-size: 400%;
   animation: move infinite forwards 4s;
-}
+} */
 @keyframes move {
   0% {
     background-position: 0% 50%;

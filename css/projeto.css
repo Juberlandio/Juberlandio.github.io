@@ -133,20 +133,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 45px;
+  width: 60px;
   height: 45px;
+  clip-path: polygon(1% 0, 47% 0, 71% 0, 100% 40%, 100% 100%, 0 100%);
   background: var(--cor-1);
-  border-radius: 50%;
   position: relative;
   transition: 0.8s ease-out;
   text-decoration: none;
 }
-.botao-link::before {
+/* .botao-link::before {
   content: "";
   position: absolute;
   z-index: -1;
   inset: -3px;
-  border-radius: 50%;
   background: linear-gradient(
     -45deg,
     var(--cor-p1),
@@ -155,7 +154,20 @@
   background-size: 400%;
   animation: move infinite forwards 4s;
   transition: 0.5s ease-out;;
+} */
+.botao-link-projeto-impar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 45px;
+  clip-path: polygon(1% 0, 47% 0, 71% 0, 100% 40%, 100% 100%, 0 100%);
+  background: var(--cor-11);
+  position: relative;
+  transition: 0.8s ease-out;
+  text-decoration: none;
 }
+
 @keyframes move {
   0% {
     background-position: 0% 50%;
@@ -170,6 +182,10 @@
   }
 }
 .botao-link:hover{
+  background: var(--cor-p1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.botao-link-projeto-impar:hover{
   background: var(--cor-p1);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
