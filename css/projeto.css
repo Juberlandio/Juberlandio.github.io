@@ -226,7 +226,7 @@
     background: var(--cor-0);
   }
   .projeto-container-bg {
-    background: var(--cor-0);
+    background: var(--cor-11);
   }
   .projeto {
     padding: 85px 20px;
@@ -308,13 +308,25 @@
     text-align: center;
     margin-bottom: 50px;
     margin-top: 25px;
-    color: var(--cor-13);
+    color: var(--cor-11);
+  }
+  .projeto .titulo-projeto-interno-black {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    color: var(--cor-1);
   }
   .projeto .paragrafo {
     text-align: center;
     letter-spacing: 0.15rem;
     margin-bottom: 30px;
     color: var(--cor-11);
+  } 
+  .projeto .paragrafo-black {
+    text-align: center;
+    letter-spacing: 0.15rem;
+    margin-bottom: 30px;
+    color: var(--cor-1);
   } 
   .linguagens{
     justify-self: center; 

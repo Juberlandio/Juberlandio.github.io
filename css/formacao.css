@@ -26,6 +26,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
+  
 }
 .faculdade-lista-unico {
   border-radius: 10px;
@@ -33,6 +34,7 @@
   border: 1px solid var(--cor-p2);
   background: linear-gradient(var(--cor-11) 10px, var(--cor-9) 100px);
   transition: 0.5s ease-out;
+  
 }
 .faculdade-lista-unico:hover{
   transform: translateY(-15px);
