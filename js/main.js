@@ -1,10 +1,14 @@
-// Ativar botão menu hamburger
+//Menu hamburger
+function botaoMenu() {
 const btnMenu = document.querySelector("#btn-mobile");
 function toggleMenu() {
   const nav = document.querySelector("#nav");
   nav.classList.toggle("active");
 }
 btnMenu.addEventListener("click", toggleMenu);
+}
+botaoMenu();
+
 
 // Animação
 if (window.SimpleAnime) {
@@ -12,12 +16,15 @@ if (window.SimpleAnime) {
 }
 
 // Menu
+function menuFixo() {
 function fixarMenu(){
   let header = document.querySelector('#header')
   header.classList.toggle('fixar', window.scrollY > 0)
 }
-
 window.addEventListener('scroll', fixarMenu)
+}
+menuFixo();
+
 
 // Scroll Suave
 function initScrollSuave() {
