@@ -219,7 +219,7 @@
   padding: 20px 30px;
 }  
 }
-@media (max-width: 760px) { 
+@media (max-width: 938px) { 
 .footer {
   grid-template-columns: 1fr;
 }
