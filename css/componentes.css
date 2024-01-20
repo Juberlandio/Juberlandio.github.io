@@ -37,7 +37,7 @@
   animation: move infinite forwards 4s;
   transition: 0.5s ease-out;
 } */
-@keyframes move {
+/* @keyframes move {
   0% {
     background-position: 0% 50%;
   }
@@ -49,7 +49,7 @@
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 .botao:hover {
   background: var(--cor-p1);
 }
@@ -82,8 +82,14 @@
   background: var(--cor-p2);
   padding: 8px;
   cursor: pointer;
-  animation: animacaoy 1.5s linear infinite alternate;
+  animation: animacao 1.5s linear infinite alternate;
   transition: 0.5s ease-out;
+  margin-bottom: 5px;
+}
+@keyframes animacao{
+  from{
+      transform: translatey(6px);
+  }
 }
 .button-link img:hover {
   background: var(--cor-p1);
