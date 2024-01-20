@@ -134,7 +134,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
+  width: 80px;
   height: 45px;
   clip-path: polygon(1% 0, 47% 0, 71% 0, 100% 40%, 100% 100%, 0 100%);
   background: var(--cor-1);
@@ -160,7 +160,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
+  width: 80px;
   height: 45px;
   clip-path: polygon(1% 0, 47% 0, 71% 0, 100% 40%, 100% 100%, 0 100%);
   background: var(--cor-11);
@@ -416,7 +416,4 @@
     background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
     position: absolute;
   }
-  }
-  .js .js-accordion {
-    display: none;
   }

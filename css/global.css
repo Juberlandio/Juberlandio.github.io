@@ -37,3 +37,9 @@ img {
 ::-webkit-scrollbar-track {
 	background-color: transparent;
 }
+.js .js-accordion dt {
+  display: none;
+}
+.js-accordion dt.ativo {
+  display: block;
+}
