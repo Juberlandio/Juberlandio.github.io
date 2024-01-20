@@ -80,11 +80,11 @@ function animacaoButton() {
 const button = document.getElementById('read_button');
 
 button.addEventListener('click', function() {
-  const card = document.querySelector('.card');
-  card.classList.toggle('active');
+  const card = document.querySelectorAll('.card');
 
-  if (card.classList.contains('active')) {
-  }
+  card.forEach((item) => {
+    item.classList.toggle('active');
+  })
 });
 }
 animacaoButton();
