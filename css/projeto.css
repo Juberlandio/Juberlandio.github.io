@@ -2,7 +2,7 @@
   background: var(--cor-1);
 }
 .projeto-container-bg {
-  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-12) 0%);
+  background: linear-gradient(to right, var(--cor-1) 30%, var(--cor-12) 0%);
 }
 .projeto {
   padding: 90px 0px;
