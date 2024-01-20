@@ -37,9 +37,21 @@ img {
 ::-webkit-scrollbar-track {
 	background-color: transparent;
 }
-.js .js-accordion dt {
+.card{
   display: none;
 }
-.js-accordion dt.ativo {
+.card.active {
   display: block;
+  animation: slideDown 1s forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 2000px;
+  }
 }

@@ -10,7 +10,7 @@
 }
 .footer-dados {
   padding: 60px 50px;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 3px 0px 0px 3px;
   border-right: 1px solid var(--cor-11);
   background: var(--cor-13);
 }
@@ -122,7 +122,7 @@
 }
 .footer-formulario {
   padding: 42px 60px;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 3px 3px 0px;
   background: var(--cor-2);
   z-index: 0;
 }
