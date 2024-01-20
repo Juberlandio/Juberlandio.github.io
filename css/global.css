@@ -42,7 +42,7 @@ img {
 }
 .card.active {
   display: block;
-  animation: slideDown 1s forwards;
+  animation: slideDown 2s forwards;
 }
 
 @keyframes slideDown {
@@ -54,4 +54,7 @@ img {
     opacity: 1;
     max-height: 10000px;
   }
+}
+.button-active {
+   transform: rotate(180deg);
 }

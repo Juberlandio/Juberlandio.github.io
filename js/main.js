@@ -81,9 +81,10 @@ const button = document.getElementById('read_button');
 
 button.addEventListener('click', function() {
   const card = document.querySelectorAll('.card');
+  button.classList.toggle('button-active');
 
-  card.forEach((item) => {
-    item.classList.toggle('active');
+  card.forEach((event) => {
+    event.classList.toggle('active');
   })
 });
 }
