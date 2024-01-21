@@ -125,6 +125,16 @@
   border-radius: 0px 3px 3px 0px;
   background: var(--cor-2);
   z-index: 0;
+  position: relative;
+}
+.footer-formulario::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 40px solid transparent;
+  border-bottom: 40px solid var(--cor-p1);
+  border-right: 40px solid var(--cor-p1);
 }
 .footer-final {
   display: block;
