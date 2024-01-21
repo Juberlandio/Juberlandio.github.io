@@ -9,12 +9,10 @@ btnMenu.addEventListener("click", toggleMenu);
 }
 botaoMenu();
 
-
 // Animação
 if (window.SimpleAnime) {
   new SimpleAnime();
 }
-
 
 // Menu
 function menuFixo() {
@@ -25,7 +23,6 @@ function fixarMenu(){
 window.addEventListener('scroll', fixarMenu)
 }
 menuFixo();
-
 
 // Scroll Suave
 function initScrollSuave() {
@@ -52,7 +49,6 @@ function initScrollSuave() {
   });
 }
 initScrollSuave();
-
 
 function initAnimacaoScroll() {
   const sections = document.querySelectorAll('.js-scroll');
