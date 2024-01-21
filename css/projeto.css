@@ -414,4 +414,25 @@
     background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
     position: absolute;
   }
+}
+  .js .card{
+    display: none;
+  }
+  .js .card.active {
+    display: block;
+    animation: slideDown 2s forwards;
+  }
+  
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      max-height: 0;
+    }
+    to {
+      opacity: 1;
+      max-height: 10000px;
+    }
+  }
+  .js .button-active {
+     transform: rotate(180deg);
   }

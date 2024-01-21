@@ -50,7 +50,7 @@ function initScrollSuave() {
 }
 initScrollSuave();
 
-function initAnimacaoScroll() {
+function initAnimeScroll() {
   const sections = document.querySelectorAll('.js-scroll');
   if(sections.length) {
     const windowMetade = window.innerHeight * 0.6;
@@ -65,12 +65,13 @@ function initAnimacaoScroll() {
           section.classList.remove('ativo');
       })
     }
-
     animaScroll();
     window.addEventListener('scroll', animaScroll);
   }
 }
-initAnimacaoScroll();
+initAnimeScroll();
+
+
 
 function animacaoButton() {
 const button = document.getElementById('read_button');
