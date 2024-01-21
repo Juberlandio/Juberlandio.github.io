@@ -263,7 +263,7 @@
   border-radius: 0 0 4px 4px;
 }
 }
-@media (max-width: 420px){ 
+@media (max-width: 500px){ 
   .contato-meios a {
     text-align: center;
   }

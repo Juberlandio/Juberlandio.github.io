@@ -395,7 +395,7 @@
     width: 301px;
   }
 }
-@media (max-width: 420px){ 
+@media (max-width: 500px){ 
   .projeto .titulo-projeto::after{
     content: "";
     width: 50px;

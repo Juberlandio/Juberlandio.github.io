@@ -352,17 +352,25 @@
   .texto-container {
     padding: 10px;
   }
-  .texto-descricao{
-    height: 300px;
-  }
   .habilidades-imagem {
     gap: 20px;
   }
   .habilidades-margin {
     gap: 20px;
   }
+  .img-content img {
+    width: 80px;
+    height: 80px;
+  } 
+  .content {
+    padding: 15px 15px;
+  }
+  .texto-descricao{
+    height: 250px;
+    transition: 0.8s ease-out;
+  }
 }
-@media (max-width: 420px){ 
+@media (max-width: 500px){ 
 .habilidades .titulo-habilidades::after{
   content: "";
   width: 50px;
@@ -380,15 +388,5 @@
   background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
   position: absolute;
 }
-.img-content img {
-  width: 80px;
-  height: 80px;
-} 
-.content {
-  padding: 12px 12px;
-}
-.texto-descricao{
-  height: 250px;
-  transition: 0.8s ease-out;
-}
+
 }

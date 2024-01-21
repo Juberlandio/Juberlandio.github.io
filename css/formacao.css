@@ -211,23 +211,6 @@
   }
 }
 @media (max-width: 600px){ 
-  .formacao .titulo-formacao::after{
-    content: "";
-    width: 50px;
-    height: 100%;
-    left: -50px;
-    background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
-    position: absolute;
-    transform: rotate(180deg);
-  }
-  .formacao .titulo-formacao::before{
-    content: "";
-    width: 50px;
-    height: 100%;
-    right: -50px;
-    background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
-    position: absolute;
-  }
   .faculdade-espaco {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -261,5 +244,24 @@
   }
   .faculdade-lista .faculdade-ordem {
     grid-row: 2;
+  }
+}
+@media (max-width: 500px){ 
+  .formacao .titulo-formacao::after{
+    content: "";
+    width: 50px;
+    height: 100%;
+    left: -50px;
+    background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
+    position: absolute;
+    transform: rotate(180deg);
+  }
+  .formacao .titulo-formacao::before{
+    content: "";
+    width: 50px;
+    height: 100%;
+    right: -50px;
+    background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
+    position: absolute;
   }
 }

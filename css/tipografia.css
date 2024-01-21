@@ -76,7 +76,7 @@
     font-size: 1.650rem;
   }
 }
-  @media (max-width: 420px){ 
+  @media (max-width: 500px){ 
   .font-s {
     font-size: 1.4rem;
   }
