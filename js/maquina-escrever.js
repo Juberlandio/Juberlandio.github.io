@@ -6,7 +6,7 @@ function initMaquinaEscrever(){
         for(let i = 0; i < textoArray.length; i++) {
             setTimeout(() => elemento.innerHTML += textoArray[i], 170 * i);
         }}, 1500);
-        setTimeout(() => typeWriter(titulo),30000);
+        setTimeout(() => typeWriter(titulo),40000);
     }
     const titulo = document.querySelector('.nome');
     typeWriter(titulo);
