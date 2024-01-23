@@ -197,14 +197,26 @@
   border-radius: 50%;
   max-width: 350px;
 }
-.introducao .ilustracao-principal{
+.introducao .ilustracao-principal{ 
+  position: relative;
+  width: 458px;
+  height: 458px;
+  background: url(/media/img/backgraund.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .introducao .ilustracao-principal{
   justify-self: center;
   align-items: center;
   background-image: url(../media/img/Juberlandiopretoebranco.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-}
+} */
 .ilustracao-principal .imagem:hover {
   transition: ease-in-out 0.3s;
   opacity: 0;
