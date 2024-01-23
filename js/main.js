@@ -61,8 +61,6 @@ function initAnimeScroll() {
         const isSectionVisible = (sectionTop - windowMetade) < 0;
         if(isSectionVisible)
           section.classList.add('ativo');
-        else 
-          section.classList.remove('ativo');
       })
     }
     animaScroll();
@@ -73,16 +71,32 @@ initAnimeScroll();
 
 
 
-function animacaoButton() {
-const button = document.getElementById('read_button');
+function projetosanimacaoButton() {
+const button = document.getElementById('pbutton');
 
 button.addEventListener('click', function() {
-  const card = document.querySelectorAll('.card');
-  button.classList.toggle('button-active');
+  const card = document.querySelectorAll('.pcard');
+  button.classList.toggle('projetos-ativo');
 
   card.forEach((event) => {
-    event.classList.toggle('active');
+    event.classList.toggle('ativo');
   })
 });
 }
-animacaoButton();
+projetosanimacaoButton();
+
+
+function certificateanimacaoButton() {
+  const button = document.getElementById('cbutton');
+  
+  button.addEventListener('click', function() {
+    const card = document.querySelectorAll('.ccard');
+    button.classList.toggle('certificate-ativo');
+  
+    card.forEach((event) => {
+      event.classList.toggle('ativo');
+    })
+  });
+  }
+  certificateanimacaoButton();
+  

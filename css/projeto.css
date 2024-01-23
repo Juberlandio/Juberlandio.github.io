@@ -415,10 +415,10 @@
     position: absolute;
   }
 }
-  .js .card{
+  .js .pcard{
     display: none;
   }
-  .js .card.active {
+  .js .pcard.ativo {
     display: block;
     animation: slideDown 2s forwards;
   }
@@ -433,6 +433,6 @@
       max-height: 10000px;
     }
   }
-  .js .button-active {
+  .js .projetos-ativo {
      transform: rotate(180deg);
   }
