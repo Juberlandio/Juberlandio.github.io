@@ -310,7 +310,6 @@
 @media (max-width: 600px) { 
 .introducao {
   padding: 100px 20px 5px 20px;
-  gap: 40px; 
 }
 .botao-linkedin {
   padding: 10px 5px;
@@ -335,6 +334,12 @@
 .botao-github svg {
   width: 15px;
   height: 15px;
+}
+.intro {
+  padding-bottom: 40px;
+}
+.introducao picture {
+  padding-bottom: 25px;
 }
 .introducao picture img {
   max-width: 230px;
