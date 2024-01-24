@@ -196,7 +196,7 @@
 .introducao picture img {
   border-radius: 50%;
   max-width: 350px;
-  border: 2px solid var(--cor-p1);
+  max-height: 350px;
 }
 .introducao .ilustracao-principal{ 
   position: relative;
@@ -212,18 +212,23 @@
   margin: 0px auto;
   max-width: 100%;
 }
-/* .introducao .ilustracao-principal{
+.introducao .ilustracao-principal .imagempretoebranco{
+  max-width: 350px;
+  max-height: 350px;
   justify-self: center;
   align-items: center;
   background-image: url(../media/img/Juberlandiopretoebranco.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-} */
-/* .ilustracao-principal .imagem:hover {
+  border: 2px solid var(--cor-p1);
+  border-radius: 50%;
+  z-index: 3;
+}
+.ilustracao-principal .imagem:hover {
   transition: ease-in-out 0.3s;
   opacity: 0;
-} */
+}
 .ilustracao-principal{
   animation: animacaoy 3.5s linear infinite alternate;
 }
