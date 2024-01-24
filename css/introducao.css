@@ -196,6 +196,7 @@
 .introducao picture img {
   border-radius: 50%;
   max-width: 350px;
+  border: 2px solid var(--cor-p1);
 }
 .introducao .ilustracao-principal{ 
   position: relative;
@@ -208,19 +209,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 /* .introducao .ilustracao-principal{
   justify-self: center;
   align-items: center;
   background-image: url(../media/img/Juberlandiopretoebranco.png);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
 } */
-.ilustracao-principal .imagem:hover {
+/* .ilustracao-principal .imagem:hover {
   transition: ease-in-out 0.3s;
   opacity: 0;
-}
+} */
 .ilustracao-principal{
   animation: animacaoy 3.5s linear infinite alternate;
 }
@@ -261,9 +264,7 @@
 .introducao h1 {
   text-align: center;
 }
-.introducao picture img {
-  max-width: 100%;
-}
+
 .introducao img {
   flex-direction: column;
 }
@@ -299,7 +300,7 @@
   width: 18px;
   height: 18px;
 }
-}
+
 @media (max-width: 600px) { 
 .introducao {
   padding: 100px 20px 5px 20px; 
@@ -327,5 +328,13 @@
 .botao-github svg {
   width: 15px;
   height: 15px;
+}
+.introducao picture img {
+  max-width: 200px;
+}
+.introducao .ilustracao-principal{ 
+  max-width: 270px;
+  max-height: 270px;
+}
 }
 }
