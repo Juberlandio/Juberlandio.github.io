@@ -224,6 +224,7 @@
   border: 2px solid var(--cor-p1);
   border-radius: 50%;
   z-index: 3;
+  
 }
 .ilustracao-principal .imagem:hover {
   transition: ease-in-out 0.3s;
@@ -308,7 +309,8 @@
 }
 @media (max-width: 600px) { 
 .introducao {
-  padding: 100px 20px 5px 20px; 
+  padding: 100px 20px 5px 20px;
+  gap: 40px; 
 }
 .botao-linkedin {
   padding: 10px 5px;
@@ -335,11 +337,11 @@
   height: 15px;
 }
 .introducao picture img {
-  max-width: 200px;
+  max-width: 230px;
 }
 .introducao .ilustracao-principal{ 
-  max-width: 250px;
-  max-height: 250px;
+  width: 300px;
+  height: 300px;
   margin: 0px;
 }
 }
