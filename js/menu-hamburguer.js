@@ -1,31 +1,24 @@
-function initMenuHamburguer(){
-const btnMobile = document.getElementById('btn-mobile');
-const ul = document.getElementById('menu')
-const nav = document.getElementById('nav');
+// Função para o menu mobile - esconder as seções para a barra de pesquisa não fechar e bugar o Menu Mobile
+const Main = document.querySelector('main')
+const Footer = document.querySelector('footer')
+const menuOculto = document.getElementById('menu-oculto')
+const menuMobile = document.getElementById('menu-items')
 
-function toggleMenu(event) {
-  if (event.type === 'touchstart') event.preventDefault();
-  
-  nav.classList.toggle('ativo');
-  const ativo = nav.classList.contains('ativo');
-  event.currentTarget.setAttribute('aria-expanded', ativo);
-  if (ativo) {
-    event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
-  } else {
-    event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
-  }
+function abrir(){
+        menuMobile.classList.toggle('aberto')
+        menuOculto.classList.toggle('menu-animacao')
+        Main.classList.toggle('esconder')
+        Footer.classList.toggle('esconder')
 }
 
+// Função para o menu mobile - Scroll Menu Fixed
+function animacaoMenuFixed() {
+const menu = document.querySelector('header');
 
-btnMobile.addEventListener('click', toggleMenu);
-function clickMobile (event){
-  const tagName = event.target.tagName.toLowerCase()
-  if(tagName === 'a' || tagName === 'ul' || tagName === 'li'){
-    nav.classList.remove('ativo');
-  }
-
+function ativarScroll(){
+  menu.classList.toggle('ativo-menu', scrollY > 0)
 }
-ul.addEventListener('click', clickMobile);
-btnMobile.addEventListener('touchstart', toggleMenu);
-}    
-initMenuHamburguer()
+
+window.addEventListener('scroll', ativarScroll)
+}
+animacaoMenuFixed();

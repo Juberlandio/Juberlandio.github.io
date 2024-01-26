@@ -17,24 +17,51 @@
 </head>
 
 <body>
-  <header id="header" data-anime="200">
-    <div id="header-container" class="container">
-      <div class="home">
-        <a href="#inicio"><img src="./media/svg/coroa.svg" width="70" alt="Logo Coroa"></a>
-      </div>
-      <nav id="nav" class="js-menu">
-        <button id="btn-mobile"><span id="hamburger"></span></button>
-        <ul id="menu" role="menu" class="font-xs cor-12">
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#projeto">Projetos</a></li>
-          <li><a href="#formacao">Formação</a></li>
-          <li><a href="#habilidades">Habilidades</a></li>
-          <li><a href="#contato">Contato</a></li>
+  <header class="topo " data-anime="200">
+    <nav class="nav-bar container cor-0 font-xs js-menu">
+        <div class="container-logo">
+            <img src="media/svg/coroa.svg" alt="coroa">
+        </div>
+        <ul class="menu font-xs cor-12">
+        <li class="menu-item"><a href="#inicio">Inicio</a></li>
+        <li class="menu-item"><a href="#projeto">Projetos</a></li>
+        <li class="menu-item"><a href="#formacao">Formação</a></li>
+        <li class="menu-item"><a href="#habilidades">Habilidades</a></li>
+        <li class="menu-item"><a href="#contato">Contato</a></li>
         </ul>
-      </nav>
-    </div>
-  </header>
-  <main id="inicio" class="introducao-bg">
+    </nav>
+    <nav class="mobile-navbar container">
+        <div class="container-logo">
+            <img src="media/svg/coroa.svg" alt="Logo Robust Habit">
+        </div>
+        <div id="menu-oculto" class="mobile-menu" onclick="abrir()">
+          <!-- <div class="botao-menu1"> -->
+            <div class="primeiro"></div>
+            <div class="segundo"></div>
+            <!-- <div class="terceiro"></div> -->
+          </div>
+        <!-- </div> -->
+    </nav>
+    <ul id="menu-items" class="menu-items cor-0 font-1-b">
+        <li class="menu-item">
+            <a href="index.html">Inicio</a>
+        </li>
+        <li class="menu-item">
+            <a onclick="abrir()" href="#projeto">Projetos</a>
+        </li>
+        <li class="menu-item">
+            <a onclick="abrir()" href="#formacao">Formação</a>
+        </li>
+        <LI class="menu-item">
+            <a onclick="abrir()" href="#habilidades">Habilidades</a>
+        </LI>
+        <LI class="menu-item">
+          <a onclick="abrir()" href="#contato">Contato</a>
+      </LI>
+    </ul>
+</header>
+<main>
+  <section id="inicio" class="introducao-bg">
     <div class="introducao container cor-12 fadeInLeft" data-anime="400">
       <div class="intro">
         <h1 class="font-xxl">Olá <span class="mao">👋</span>, eu sou<br><span class="nome font-xxl-g">Juberlandio Oliveira</span><br>Desenvolvedor Front-End</h1>
@@ -61,7 +88,7 @@
         </div>
       </picture>
     </div>
-  </main>
+  </section>
   <article id="projeto" class="projeto-bg cor-12 js-scroll">
     <div class="projeto">
       <div class="container">
@@ -679,6 +706,7 @@
       <a class="button-link" href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank"><img src="media/svg/down-arrow.svg" width="70" height="85" alt=""></a>
     </div>
   </section>
+</main>
   <footer class="footer-bg" id="contato">
     <div>
       <div class="footer js-scroll">

@@ -1,14 +1,3 @@
-//Menu hamburger
-function botaoMenu() {
-const btnMenu = document.querySelector("#btn-mobile");
-function toggleMenu() {
-  const nav = document.querySelector("#nav");
-  nav.classList.toggle("active");
-}
-btnMenu.addEventListener("click", toggleMenu);
-}
-botaoMenu();
-
 // Animação
 if (window.SimpleAnime) {
   new SimpleAnime();
