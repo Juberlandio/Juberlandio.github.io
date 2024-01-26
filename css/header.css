@@ -52,6 +52,9 @@ background-color: var(--cor-13);
 .mobile-menu .segundo {
 background-color: var(--cor-13);
 }
+.mobile-menu .terceiro {
+  background-color: var(--cor-13);
+}
 .esconder{
 display: none;
 }
@@ -115,6 +118,9 @@ background-color: var(--cor-0);
 .menu-animacao .segundo {
 transform: rotate(-45deg) translate(-0px, -5px);
 background-color: var(--cor-0);
+}
+.menu-animacao .terceiro {
+display: none;
 }
 /* .menu-animacao .terceiro {  
 display: none; */
