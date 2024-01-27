@@ -11,6 +11,8 @@ display: none;
 width: 100%;
 position: fixed;
 top: 0;
+padding-top: 20px;
+padding-bottom: 20px;
 z-index: 4;
 }
 .ativo-menu{
@@ -115,12 +117,10 @@ justify-content: space-between;
 flex-wrap: nowrap;
 height: 80px;
 }
-.container-logo img{
-  width: 55px;
-  height: 55px;
-}
-.mobile-navbar .container-logo{
-width: 80%;
+.container-logo-img-2 img{
+/* width: 55px;
+height: 55px; */
+display: none;
 }
 .mobile-menu div{
 transition-duration: 0.5s;
