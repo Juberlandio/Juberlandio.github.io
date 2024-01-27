@@ -35,10 +35,14 @@ justify-content: space-between;
 padding: 0px;
 }
 .container-logo img{
-  width: 70px;
+width: 70px;
 }
 .container-logo{
-  margin: auto 0;
+margin: auto 0;
+}
+.container-logo:hover {
+transform: scale(1.050);
+transition: 0.5s;
 }
 .menu {
 display: flex;
