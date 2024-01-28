@@ -1,6 +1,9 @@
 
 
 /* Estilos do Topo*/
+#header {
+  transition: 0.3s;
+}
 .mobile-navbar, .menu-items{
 display: none;
 }
@@ -87,6 +90,7 @@ display: none;
 .topo{
 padding-top: 0px;
 padding-bottom: 0px;
+
 }
 .aberto{
 display: flex;
