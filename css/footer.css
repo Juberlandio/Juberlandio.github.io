@@ -18,6 +18,7 @@ box-sizing: content-box;
 animation: animacao1 4s linear forwards;
 animation-delay: 3s;
 z-index: -1;
+border-radius: 4px;
 }
 @keyframes animacao1{
 0%{
@@ -58,6 +59,7 @@ box-sizing: content-box;
 animation: animacao2 4s linear forwards;
 animation-delay: 3s;
 z-index: -1;
+border-radius: 4px;
 }
 @keyframes animacao2{
 0%{
