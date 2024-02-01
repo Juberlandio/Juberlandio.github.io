@@ -1,8 +1,102 @@
 .footer-bg {
-  background-color: var(--cor-12);
+  background: var(--cor-12);
+}
+.colunas{
+  display: flex;
+}
+.colunas section{
+  border: 2px solid transparent;
+  margin: 20px 10px;
+  position: relative;
+}
+.colunas section::before{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -2px;
+  left: -2px;
+  border: 2px solid transparent;
+  box-sizing: content-box;
+  animation: animacao1 6s linear forwards;
+  animation-delay: 3s;
+  z-index: -1;
+}
+
+@keyframes animacao1{
+  0%{
+    width: 0;
+    height: 0;
+    border-top-color: var(--cor-p1);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  50%{
+    width: 100%;
+    height: 0;
+    border-top-color: var(--cor-p1);
+    border-right-color: var(--cor-p1);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: var(--cor-p1);
+    border-right-color: var(--cor-p1);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+}
+
+.colunas section::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -2px;
+  left: -2px;
+  border: 2px solid transparent;
+  box-sizing: content-box;
+  animation: animacao2 6s linear forwards;
+  animation-delay: 3s;
+  z-index: -1;
+}
+@keyframes animacao2{
+  0%{
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: var(--cor-p1);
+  }
+  50%{
+    width: 0;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: var(--cor-p1);
+    border-left-color: var(--cor-p1);
+  }
+  100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: var(--cor-p1);
+    border-left-color: var(--cor-p1);
+  }
+}
+.colunas li{
+  margin: 15px 0;
+}
+.colunas{
+  flex-direction: column;/**/
 }
 .footer {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
@@ -12,7 +106,7 @@
   padding: 60px 50px;
   border-radius: 3px 0px 0px 3px;
   border-right: 1px solid var(--cor-0);
-  background: var(--cor-12);
+  background: transparent;
 }
 .titulo-contato-grid {
   margin-bottom: 30px;
@@ -71,7 +165,6 @@
   display: flex;
   gap: 0px;
   flex-wrap: nowrap;
-  padding-bottom: 20px;
 }
 .footer-redes img {
   display: flex;
@@ -123,11 +216,11 @@
 .footer-formulario {
   padding: 42px 60px;
   border-radius: 0px 3px 3px 0px;
-  background: var(--cor-12);
+  background: transparent;
   z-index: 0;
   position: relative;
 }
-.footer-formulario::before {
+/* .footer-formulario::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -135,7 +228,8 @@
   border: 40px solid transparent;
   border-bottom: 40px solid var(--cor-p1);
   border-right: 40px solid var(--cor-p1);
-}
+  z-index: 3;
+} */
 .footer-final {
   display: block;
   text-align: center;
