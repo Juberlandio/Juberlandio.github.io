@@ -50,6 +50,8 @@ function initAnimeScroll() {
         const isSectionVisible = (sectionTop - windowMetade) < 0;
         if(isSectionVisible)
           section.classList.add('ativo');
+        else 
+          section.classList.remove('ativo');
       })
     }
     animaScroll();
@@ -70,7 +72,7 @@ button.addEventListener('click', function() {
   card.forEach((event) => {
     event.classList.toggle('ativo');
   })
-});
+  });
 }
 projetosanimacaoButton();
 
@@ -86,6 +88,5 @@ function certificateanimacaoButton() {
       event.classList.toggle('ativo');
     })
   });
-  }
-  certificateanimacaoButton();
-  
+}
+certificateanimacaoButton();

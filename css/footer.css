@@ -9,7 +9,7 @@
   margin: 20px 10px;
   position: relative;
 }
-.colunas section::before{
+.js .colunas .ativo section::before{
   content: '';
   position: absolute;
   width: 0;
@@ -18,11 +18,10 @@
   left: -2px;
   border: 2px solid transparent;
   box-sizing: content-box;
-  animation: animacao1 6s linear forwards;
+  animation: animacao1 4s linear forwards;
   animation-delay: 3s;
   z-index: -1;
 }
-
 @keyframes animacao1{
   0%{
     width: 0;
@@ -50,7 +49,7 @@
   }
 }
 
-.colunas section::after{
+.js .colunas .ativo section::after{
   content: '';
   position: absolute;
   width: 0;
@@ -59,7 +58,7 @@
   left: -2px;
   border: 2px solid transparent;
   box-sizing: content-box;
-  animation: animacao2 6s linear forwards;
+  animation: animacao2 4s linear forwards;
   animation-delay: 3s;
   z-index: -1;
 }
