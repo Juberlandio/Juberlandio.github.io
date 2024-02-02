@@ -361,6 +361,9 @@ border-radius: 0 0 4px 4px;
 }
 }
 @media (max-width: 500px){ 
+.colunas section{
+margin: 4px 10px;
+}
 .contato-meios a {
 text-align: center;
 }
