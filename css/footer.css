@@ -87,7 +87,6 @@ border-bottom-color: var(--cor-p1);
 border-left-color: var(--cor-p1);
 }
 }
-
 .footer {
 max-width: 1400px;
 margin: 0 auto;
@@ -96,7 +95,7 @@ grid-template-columns: 1fr 1.5fr;
 padding: 90px 20px;
 }
 .footer-dados {
-padding: 60px 50px;
+padding: 60px 70px;
 border-radius: 3px 0px 0px 3px;
 border-right: 1px solid var(--cor-0);
 background: transparent;
