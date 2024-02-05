@@ -36,12 +36,12 @@ img {
 ::-webkit-scrollbar-track {
 	background-color: transparent;
 }
-.js .js-scroll {
+.js [data-anime="scroll"] {
   opacity: 0;
   transform: translate3d(-30px, 0, 0);
   transition: .3s;
 }
-.js .js-scroll.ativo {
+.js [data-anime="scroll"].ativo {
   opacity: 1;
   transform: translate3d(0px, 0, 0);
 }
