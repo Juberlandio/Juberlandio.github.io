@@ -1,6 +1,6 @@
 // Função para o menu mobile - esconder as seções para a barra de pesquisa não fechar e bugar o Menu Mobile
 
-function abrir() { 
+function abrir() {
 const Main = document.querySelector('main');
 const Footer = document.querySelector('footer');
 const menuOculto = document.getElementById('menu-oculto');

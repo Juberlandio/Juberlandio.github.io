@@ -17,7 +17,8 @@
 </head>
 
 <body>
-  <header id="header" class="topo">
+  
+  <header id="header" class="topo" data-anime="200">
     <nav class="nav-bar container cor-0 font-xs" data-menu="suave">
       <div class="container-logo">
         <a href="#inicio"><img src="./media/svg/coroa.svg" width="70" alt="Logo Coroa"></a>
@@ -50,15 +51,15 @@
       <li class="menu-item">
         <a onclick="abrir()" href="#formacao">Formação</a>
       </li>
-      <LI class="menu-item">
+      <li class="menu-item">
         <a onclick="abrir()" href="#habilidades">Habilidades</a>
-      </LI>
-      <LI class="menu-item">
+      </li>
+      <li class="menu-item">
         <a onclick="abrir()" href="#contato">Contato</a>
-      </LI>
+      </li>
     </ul>
   </header>
-  <main>
+  <main data-anime="200">
     <section id="inicio" class="introducao-bg">
       <div class="introducao container cor-12">
         <div class="intro">
@@ -706,7 +707,7 @@
     </section>
   </main>
   <footer class="footer-bg" id="contato">
-    <div class="colunas">
+    <div class="colunas" data-anime="200">
       <div class="footer" data-anime="scroll">
         <section class="footer-dados" aria-label="Endereço">
           <div class="titulo-contato-grid">
@@ -754,6 +755,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/plugins/simple-anime.js"></script>
   <script src="js/abrir-menu.js"></script>
   <script type="module" src="js/script.js"></script>
 </body>
