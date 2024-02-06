@@ -1,3 +1,4 @@
+export default function habilidades() {
 const skills = document.querySelectorAll('.box-habilidades');
 const descricao = document.querySelector('.texto-descricao');
 const sobreSkill = [
@@ -62,6 +63,5 @@ skills.forEach(  (elemento, index) => {
         descricao.innerHTML = '<p style="display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}">/* Passe o mouse por cima de alguma habilidade para ler a descrição */</p>';
     } )
 } );
-
-
+}
 
