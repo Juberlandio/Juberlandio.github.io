@@ -9,6 +9,7 @@ import habilidades from './modules/habilidades.js';
 import formulario from './modules/formulario.js';
 import animacaoMenu from './modules/animacao-entrada.js';
 
+
 menufixo();
 initScrollSuave();
 initAnimeScroll();
