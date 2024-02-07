@@ -1,5 +1,4 @@
 export default function formulario(){
-
 const formulario = document.querySelector("form");
 
 function formularioEnviado(resposta) {
@@ -27,7 +26,6 @@ function enviarFormulario(event) {
 }
 
 formulario.addEventListener("submit", enviarFormulario);
-
 }
 
 
