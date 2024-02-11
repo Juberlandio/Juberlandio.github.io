@@ -1,5 +1,5 @@
 @import "./global.css";
-/* @import "./header.css"; */
+@import "./header.css";
 @import "./introducao.css";
 @import "./formacao.css";
 @import "./habilidades.css";
@@ -9,6 +9,5 @@
 @import "./cores.css";
 @import "./componentes.css";
 @import "./formulario.css";
-@import './menu-mobile.css';
 
 
