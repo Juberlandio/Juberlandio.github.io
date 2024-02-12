@@ -147,6 +147,7 @@ background: var(--cor-0);
 .menu-animacao .terceiro {
 display: none;
 } */
+
 .menu-animacao .primeiro {
   transform: rotate(-45deg) translate(-8px, 8px);
   background: var(--cor-0);
