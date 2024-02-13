@@ -1,13 +1,13 @@
-import menufixo from './module/menu-fixado.js';
-import initScrollSuave from './module/scroll-suave.js';
-import initAnimeScroll from './module/scroll-animacao.js';
-import projetosanimacaoButton from './module/animacao-projetos.js';
-import certificateanimacaoButton from './module/animacao-certificados.js';
-import animacaoMenuFixed from './module/scroll-menu-scroll.js';
-import maquinaEscrever from './module/maquina-escrever.js';
-import habilidades from './module/habilidades.js';
-import formulario from './module/formulario.js';
-import initMenuMobile from './module/menu-mobile.js';
+import menufixo from './modules/menu-fixado.js';
+import initScrollSuave from './modules/scroll-suave.js';
+import initAnimeScroll from './modules/scroll-animacao.js';
+import projetosanimacaoButton from './modules/animacao-projetos.js';
+import certificateanimacaoButton from './modules/animacao-certificados.js';
+import animacaoMenuFixed from './modules/scroll-menu-scroll.js';
+import maquinaEscrever from './modules/maquina-escrever.js';
+import habilidades from './modules/habilidades.js';
+import formulario from './modules/formulario.js';
+import initMenuMobile from './modules/menu-mobile.js';
 
 
 menufixo();
