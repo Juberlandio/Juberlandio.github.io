@@ -6,3 +6,4 @@ export default function menufixo() {
   }
   window.addEventListener('scroll', fixarMenu)
   }
+  menufixo()
