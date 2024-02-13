@@ -1,4 +1,3 @@
-// Menu
 export default function menufixo() {
   function fixarMenu(){
     let header = document.querySelector('#header')
