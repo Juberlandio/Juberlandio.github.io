@@ -7,6 +7,7 @@ import animacaoMenuFixed from './modules/scroll-menu-scroll.js';
 import maquinaEscrever from './modules/maquina-escrever.js';
 import habilidades from './modules/habilidades.js';
 import formulario from './modules/formulario.js';
+import initMenuMobile from './modules/menu-mobile.js';
 
 
 menufixo();
@@ -18,3 +19,4 @@ animacaoMenuFixed();
 maquinaEscrever();
 habilidades();
 formulario();
+initMenuMobile();

@@ -1,27 +1,27 @@
 .container {
-  box-sizing: border-box;
-  max-width: 1400px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+box-sizing: border-box;
+max-width: 1400px;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: auto;
+margin-right: auto;
 }
 .botao {
-  display: inline-block;
-  padding: 16px 32px;
-  background: var(--cor-p2);
-  border-radius: 0px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  text-transform: uppercase;
-  font: 600 1.125rem/1.35 "roboto", sans-serif;
-  clip-path: polygon(1% 0, 85% 0, 100% 41%, 100% 100%, 0 100%, 0% 50%);
-  max-width: max-content;
-  border: none;
-  cursor: pointer;
-  transition: 0.5s ease-out;
-  position: relative;
-  margin-left: 2px;
-  letter-spacing: 1px;
+display: inline-block;
+padding: 16px 32px;
+background: var(--cor-p2);
+border-radius: 0px;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+text-transform: uppercase;
+font: 600 1.125rem/1.35 "roboto", sans-serif;
+clip-path: polygon(1% 0, 85% 0, 100% 41%, 100% 100%, 0 100%, 0% 50%);
+max-width: max-content;
+border: none;
+cursor: pointer;
+transition: 0.5s ease-out;
+position: relative;
+margin-left: 2px;
+letter-spacing: 1px;
 }
 /* .botao::after {
 content: "";
@@ -34,87 +34,93 @@ border-right: 10px solid var(--cor-p1);
 z-index: 3;
 } */
 /* .botao::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: -3px;
-  background: linear-gradient(
-    -45deg,
-    var(--cor-p1),
-    var(--cor-p2)
-  );
-  background-size: 400%;
-  animation: move infinite forwards 4s;
-  transition: 0.5s ease-out;
+content: "";
+position: absolute;
+z-index: -1;
+inset: -3px;
+background: linear-gradient(
+-45deg,
+var(--cor-p1),
+var(--cor-p2)
+);
+background-size: 400%;
+animation: move infinite forwards 4s;
+transition: 0.5s ease-out;
 }
 @keyframes move {
-  0% {
-    background-position: 0% 50%;
-  }
+0% {
+background-position: 0% 50%;
+}
 
-  50% {
-    background-position: 100% 50%;
-  }
+50% {
+background-position: 100% 50%;
+}
 
-  100% {
-    background-position: 0% 50%;
-  }
+100% {
+background-position: 0% 50%;
+}
 } */
 .botao:hover {
-  background: var(--cor-p1);
+background: var(--cor-p1);
 }
 .botao-projetos.backgraund {
-  background: var(--cor-1);
-  position: relative;
-  top: 0px;
+background: var(--cor-1);
+position: relative;
+top: 0px;
 }
 .botao-projetos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px auto;
-  background: var(--cor-0);
-  position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px auto;
+background: var(--cor-0);
+position: relative;
 }
 .botao-habilidades {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px auto;
-  background: var(--cor-1);
-  position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px auto;
+background: var(--cor-1);
+position: relative;
 }
 .button-link img {
-  border: none;
-  border-radius: 50%;
-  display: flex;
-  width: 20px;
-  background: var(--cor-p2);
-  padding: 8px;
-  cursor: pointer;
-  animation: animacao 1.5s linear infinite alternate;
-  transition: 0.5s ease-out;
-  margin-bottom: 5px;
+border: none;
+border-radius: 50%;
+display: flex;
+width: 20px;
+background: var(--cor-p2);
+padding: 8px;
+cursor: pointer;
+animation: animacao 1.5s linear infinite alternate;
+transition: 0.5s ease-out;
+margin-bottom: 5px;
 }
 @keyframes animacao{
-  from{
-      transform: translatey(5px);
-  }
+from{
+transform: translatey(5px);
+}
 }
 .button-link img:hover {
-  background: var(--cor-p1);
+background: var(--cor-p1);
 }
 @media (max-width: 1000px) { 
-  .botao-projetos.backgraund {
-    background: var(--cor-0);
-  }
+.botao-projetos.backgraund {
+background: var(--cor-0);
+}
 }
 @media (max-width: 800px) { 
-  .button-link img {
-    width: 30px;
-    padding: 10px;
-  }
-  .botao {
-    padding: 12px 24px;
-  }
+.button-link img {
+width: 30px;
+padding: 10px;
+}
+.botao {
+padding: 12px 24px;
+}
+}
+@media (max-width: 768px){
+.container {
+padding-left: 0px;
+padding-right: 0px;
+}
 }

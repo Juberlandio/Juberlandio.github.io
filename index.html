@@ -7,8 +7,8 @@
   <title>Juberlandio - Desenvolvedor</title>
   <meta name="description" content="Desenvolvedor Front End e UX/UI Designer">
   <link rel="icon" href="./media/svg/favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,42 +22,15 @@
       <div class="container-logo">
         <a href="#inicio"><img src="./media/svg/coroa.svg" width="70" alt="Logo Coroa"></a>
       </div>
-      <ul class="menu font-xs cor-12">
-        <li class="menu-item"><a href="#inicio">Inicio</a></li>
-        <li class="menu-item"><a href="#projeto">Projetos</a></li>
-        <li class="menu-item"><a href="#formacao">Formação</a></li>
-        <li class="menu-item"><a href="#habilidades">Habilidades</a></li>
-        <li class="menu-item"><a href="#contato">Contato</a></li>
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu" class="menu font-xs cor-12">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#projeto">Projetos</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
-
-    <nav class="mobile-navbar container">
-      <div class="container-logo-img-2">
-        <img src="media/svg/coroa.svg" alt="Logo Robust Habit">
-      </div>
-      <div id="menu-oculto" class="mobile-menu" onclick="abrir()">
-        <div class="primeiro"></div>
-        <div class="segundo"></div>
-        <div class="terceiro"></div>
-      </div>
-    </nav>
-    <ul id="menu-items" class="menu-items cor-0 font-xs" data-menu="suave">
-      <li class="menu-item">
-        <a href="index.html">Inicio</a>
-      </li>
-      <li class="menu-item">
-        <a onclick="abrir()" href="#projeto">Projetos</a>
-      </li>
-      <li class="menu-item">
-        <a onclick="abrir()" href="#formacao">Formação</a>
-      </li>
-      <li class="menu-item">
-        <a onclick="abrir()" href="#habilidades">Habilidades</a>
-      </li>
-      <li class="menu-item">
-        <a onclick="abrir()" href="#contato">Contato</a>
-      </li>
-    </ul>
   </header>
   <main>
     <section id="inicio" class="introducao-bg">
@@ -756,7 +729,6 @@
     </div>
   </footer>
   <script type="module" src="js/script.js"></script>
-  <script src="js/main.js"></script>
 </body>
 
 </html>
