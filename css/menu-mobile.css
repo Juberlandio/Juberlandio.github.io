@@ -47,22 +47,19 @@
     box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
   }
   .js [data-menu="list"].active {
-    display: block;
-    animation: show-right .3s forwards;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    animation-name: rotacionar;
-    animation-duration: 1s;
+    text-align: left;
     background-color: #222;
     list-style: none;
     width: 150px;
     border-radius: 0px 0px 5px 0px;
-    position: absolute;
     top: 0;
     left: 0;
     z-index: 100;
-    padding-top: 55px;
+    padding: 55px 26px 26px 26px;
+  }
+  .js [data-menu="list"].active {
+    display: block;
+    animation: show-right .3s forwards;
   }
   .js .dropdown-menu {
     position: static;
