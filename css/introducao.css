@@ -253,7 +253,6 @@
   padding: 100px 20px 40px 20px;
   grid-template-columns: 1fr;
   flex-direction: column-reverse;
-  height: 100%;
 }
 .introducao::before {
   grid-column: 1 / -1;
@@ -268,7 +267,6 @@
 .introducao h1 {
   text-align: center;
 }
-
 .introducao img {
   flex-direction: column;
 }
