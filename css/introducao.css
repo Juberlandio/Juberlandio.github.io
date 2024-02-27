@@ -250,7 +250,7 @@
 }
 .introducao {
   display: flex;
-  padding: 100px 20px 40px 20px;
+  padding: 20px 20px 40px 20px;
   grid-template-columns: 1fr;
   flex-direction: column-reverse;
 }
