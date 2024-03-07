@@ -203,7 +203,7 @@
   position: relative;
   width: 458px;
   height: 458px;
-  background: url(/media/img/backgraund.png);
+  background: url(../media/img/backgraund.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -339,11 +339,11 @@
   padding-bottom: 20px;
 }
 .introducao picture img {
-  max-width: 230px;
+  max-width: 190px;
 }
 .introducao .ilustracao-principal{ 
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   margin: 0px;
 }
 }
