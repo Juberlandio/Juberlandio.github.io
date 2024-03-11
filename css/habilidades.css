@@ -19,7 +19,7 @@
   width: 50px;
   height: 39px;
   left: -45px;
-  background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
+  background: url(../assets/svg/detalhe-titulo.svg) no-repeat center;
   position: absolute;
 }
 .conteiner-skills {
@@ -120,7 +120,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-1:hover { 
-  background-image: url(../media/svg/html1.svg);
+  background-image: url(../assets/svg/html1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -131,7 +131,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-2:hover{
-  background-image: url(../media/svg/css1.svg);
+  background-image: url(../assets/svg/css1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -142,7 +142,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-3:hover{
-  background-image: url(../media/svg/sass1.svg);
+  background-image: url(../assets/svg/sass1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -153,7 +153,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-4:hover{
-  background-image: url(../media/svg/js1.svg);
+  background-image: url(../assets/svg/js1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -164,7 +164,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-5:hover{
-  background-image: url(../media/svg/redux1.svg);
+  background-image: url(../assets/svg/redux1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -175,7 +175,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-6:hover{
-  background-image: url(../media/svg/Java1.svg);
+  background-image: url(../assets/svg/Java1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -186,7 +186,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-7:hover{
-  background-image: url(../media/svg/react1.svg);
+  background-image: url(../assets/svg/react1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -197,7 +197,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-8:hover{
-  background-image: url(../media/svg/vue1.svg);
+  background-image: url(../assets/svg/vue1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-9:hover{
-  background-image: url(../media/svg/typescript1.svg);
+  background-image: url(../assets/svg/typescript1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-10:hover{
-  background-image: url(../media/svg/bootstrap1.svg);
+  background-image: url(../assets/svg/bootstrap1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -230,7 +230,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-11:hover{
-  background-image: url(../media/svg/nodejs1.svg);
+  background-image: url(../assets/svg/nodejs1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -241,7 +241,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-12:hover{
-  background-image: url(../media/svg/tailwind1.svg);
+  background-image: url(../assets/svg/tailwind1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -252,7 +252,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-13:hover{
-  background-image: url(../media/svg/database1.svg);
+  background-image: url(../assets/svg/database1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -263,7 +263,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-14:hover{
-  background-image: url(../media/svg/git1.svg);
+  background-image: url(../assets/svg/git1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -274,7 +274,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-15:hover{
-  background-image: url(../media/svg/github1.svg);
+  background-image: url(../assets/svg/github1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -285,7 +285,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-16:hover{
-  background-image: url(../media/svg/figma1.svg);
+  background-image: url(../assets/svg/figma1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -318,7 +318,7 @@
   width: 50px;
   height: 100%;
   left: -45px;
-  background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
+  background: url(../assets/svg/detalhe-titulo.svg) no-repeat center;
   position: absolute;
   transform: rotate(180deg);
 }
@@ -327,7 +327,7 @@
   width: 50px;
   height: 100%;
   right: -45px;
-  background: url(../media/svg/detalhe-titulo.svg) no-repeat center;
+  background: url(../assets/svg/detalhe-titulo.svg) no-repeat center;
   position: absolute;
 }
 .conteiner-skills {
@@ -395,7 +395,7 @@
   width: 50px;
   height: 31.98px;
   left: -50px;
-  background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
+  background: url(../assets/svg/detalhe-titulo-mobile.svg) no-repeat center;
   position: absolute;
   transform: rotate(180deg);
 }
@@ -404,7 +404,7 @@
   width: 50px;
   height: 100%;
   right: -50px;
-  background: url(../media/svg/detalhe-titulo-mobile.svg) no-repeat center;
+  background: url(../assets/svg/detalhe-titulo-mobile.svg) no-repeat center;
   position: absolute;
 }
 
