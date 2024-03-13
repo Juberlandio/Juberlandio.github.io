@@ -9,8 +9,6 @@ import habilidades from './modules/habilidades.js';
 import formulario from './modules/formulario.js';
 import initMenuMobile from './modules/menu-mobile.js';
 
-const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
-scrollSuave.init();
 
 initScrollSuave();
 menufixo();
