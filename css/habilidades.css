@@ -175,7 +175,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-6:hover{
-  background-image: url(../assets/svg/Java1.svg);
+  background-image: url(../assets/svg/react1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -186,7 +186,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-7:hover{
-  background-image: url(../assets/svg/react1.svg);
+  background-image: url(../assets/svg/vue1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -197,7 +197,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-8:hover{
-  background-image: url(../assets/svg/vue1.svg);
+  background-image: url(../assets/svg/typescript.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-9:hover{
-  background-image: url(../assets/svg/typescript1.svg);
+  background-image: url(../assets/svg/bootstrap1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-10:hover{
-  background-image: url(../assets/svg/bootstrap1.svg);
+  background-image: url(../assets/svg/nodejs1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -230,7 +230,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-11:hover{
-  background-image: url(../assets/svg/nodejs1.svg);
+  background-image: url(../assets/svg/tailwind1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -241,7 +241,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-12:hover{
-  background-image: url(../assets/svg/tailwind1.svg);
+  background-image: url(../assets/svg/database1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -252,7 +252,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-13:hover{
-  background-image: url(../assets/svg/database1.svg);
+  background-image: url(../assets/svg/Jquery1.svg);
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
