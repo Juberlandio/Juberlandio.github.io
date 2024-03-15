@@ -203,7 +203,7 @@
   position: relative;
   width: 458px;
   height: 458px;
-  background: url(../assets/img/backgraund.png);
+  background: url('../assets/img/backgraund.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -19,7 +19,7 @@
   width: 50px;
   height: 39px;
   left: -45px;
-  background: url(../assets/svg/detalhe-titulo.svg) no-repeat center;
+  background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
   position: absolute;
 }
 .conteiner-skills {
@@ -197,7 +197,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-8:hover{
-  background-image: url(../assets/svg/typescript1.svg);
+  background-image: url('../assets/svg/typescript1.svg');
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-9:hover{
-  background-image: url(../assets/svg/bootstrap1.svg);
+  background-image: url('../assets/svg/bootstrap1.svg');
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@
   transition: 0.8s ease-out;
 }
 .imagem-10:hover{
-  background-image: url(../assets/svg/nodejs1.svg);
+  background-image: url('../assets/svg/nodejs1.svg');
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -318,7 +318,7 @@
   width: 50px;
   height: 100%;
   left: -45px;
-  background: url(../assets/svg/detalhe-titulo.svg) no-repeat center;
+  background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
   position: absolute;
   transform: rotate(180deg);
 }
@@ -327,7 +327,7 @@
   width: 50px;
   height: 100%;
   right: -45px;
-  background: url(../assets/svg/detalhe-titulo.svg) no-repeat center;
+  background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
   position: absolute;
 }
 .conteiner-skills {
@@ -395,7 +395,7 @@
   width: 50px;
   height: 31.98px;
   left: -50px;
-  background: url(../assets/svg/detalhe-titulo-mobile.svg) no-repeat center;
+  background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
   position: absolute;
   transform: rotate(180deg);
 }
@@ -404,7 +404,7 @@
   width: 50px;
   height: 100%;
   right: -50px;
-  background: url(../assets/svg/detalhe-titulo-mobile.svg) no-repeat center;
+  background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
   position: absolute;
 }
 
