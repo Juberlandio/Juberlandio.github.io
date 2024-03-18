@@ -19,7 +19,7 @@
 
 <body>
   <header id="header" class="topo">
-    <nav class="nav-bar container cor-0 font-xs" data-menu="suave">
+    <nav class="nav-bar container cor-0 font-xs" aria-label="primária" data-menu="suave">
       <div class="container-logo">
         <a href="#inicio"><img src="./assets/svg/coroa.svg" width="70" alt="Logo Coroa"></a>
       </div>
@@ -62,14 +62,14 @@
         </picture>
       </div>
     </section>
-    <article id="projeto" class="projeto-bg cor-12" data-anime="scroll">
+    <article id="projeto" class="projeto-bg cor-12" aria-labelledby="projetos" data-anime="scroll">
       <div class="projeto">
         <div class="container">
           <div class="titulo-projeto-grid">
-            <h2 class="titulo-projeto font-xx cor-11">Projetos</h2>
+            <h2 id="projetos" class="titulo-projeto font-xx cor-11">Projetos</h2>
           </div>
         </div>
-        <ul class=" projeto-ul">
+        <ul class="projeto-ul">
 
           <li>
             <div class="projeto-container">
@@ -592,7 +592,7 @@
         <a class="button-link" id="cbutton" target="_blank"><img src="assets/svg/down-arrow.svg" width="70" height="85" alt=""></a>
       </div>
     </section>
-    <section id="habilidades" class="habilidades-bg" data-anime="scroll">
+    <section id="habilidades" class="habilidades-bg" aria-label="Habilidades" data-anime="scroll">
       <div class="habilidades">
         <div class="habilidades-padding container">
           <div class="titulo-habilidades-grid">
@@ -737,7 +737,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer-bg" id="contato">
+  <footer class="footer-bg" aria-label="Footer" id="contato">
     <div class="colunas">
       <div class="footer" data-anime="scroll">
         <section class="footer-dados" aria-label="Endereço">
