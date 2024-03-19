@@ -1,12 +1,12 @@
 export default function projetosanimacaoButton() {
   const button = document.getElementById('pbutton');
-  
-  button.addEventListener('click', function() {
-    const card = document.querySelectorAll('.pcard');
+  const cards = document.querySelectorAll('.pcard');
+
+  button.addEventListener('click', function () {
     button.classList.toggle('projetos-ativo');
-  
-    card.forEach((event) => {
-      event.classList.toggle('ativo');
-    })
+
+    cards.forEach((card) => {
+      card.classList.toggle('ativo');
     });
-  }
+  });
+}

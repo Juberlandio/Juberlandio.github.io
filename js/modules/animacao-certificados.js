@@ -1,12 +1,12 @@
 export default function certificateanimacaoButton() {
   const button = document.getElementById('cbutton');
+  const cards = document.querySelectorAll('.ccard');
   
   button.addEventListener('click', function() {
-    const card = document.querySelectorAll('.ccard');
     button.classList.toggle('certificate-ativo');
   
-    card.forEach((event) => {
-      event.classList.toggle('ativo');
-    })
+    cards.forEach((card) => {
+      card.classList.toggle('ativo');
+    });
   });
 }
