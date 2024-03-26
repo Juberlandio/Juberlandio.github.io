@@ -22,7 +22,7 @@ content: "";
 width: 50px;
 height: 39px;
 left: -45px;
-background: url('../media/svg/detalhe-titulo.svg') no-repeat center;
+background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
 position: absolute;
 }
 .projeto-container{
