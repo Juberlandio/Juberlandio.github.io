@@ -251,13 +251,14 @@ display: flex;
 padding: 200px 20px 40px 20px;
 grid-template-columns: 1fr;
 flex-direction: column-reverse;
+/* border-bottom: 3px dashed var(--cor-p2); */
 }
 .introducao::before {
+content: "";
 grid-column: 1 / -1;
 justify-self: center;
 display: block;
-content: "";
-width: 100%;
+width: 90%;
 height: 3px;
 margin-top: 40px;
 background: var(--cor-p2);
