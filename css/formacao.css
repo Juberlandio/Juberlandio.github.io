@@ -26,7 +26,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
-  
 }
 .faculdade-lista-unico {
   grid-column: span 2;
@@ -87,6 +86,10 @@
   grid-template-columns: 6fr 1fr;
   position: relative;
 }
+.faculdade-lista-unico .faculdade-tipo, .faculdade-lista .faculdade-tipo {
+  font-weight: 500;
+  letter-spacing: .11rem;
+}
 .cursos-link {
   padding: 18px 15px;
   display: grid;
@@ -96,9 +99,6 @@
 }
 .faculdade-lista span {
   display: block;
-}
-.faculdade-tipo {
-  letter-spacing: .11rem;
 }
 .faculdade-curso {
   position: relative;
