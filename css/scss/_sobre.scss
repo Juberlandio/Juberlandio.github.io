@@ -178,11 +178,11 @@ margin-left: 0px;
 grid-column: 1;
 grid-row: 3;
 text-align: center;
-}
-.sobre .botoes-sobre {
-grid-column: 1;
+max-width: 60ch;
 }
 .links-sobre{
+grid-column: 1;
+margin-bottom: 80px;
 justify-content: center;
 align-items: center;
 gap: 15px;
