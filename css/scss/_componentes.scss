@@ -9,7 +9,7 @@ margin-right: auto;
 .botao {
 display: inline-block;
 padding: 16px 32px;
-background: var(--cor-p2);
+background: $cor-p2;
 border-radius: 0px;
 box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 text-transform: uppercase;
@@ -61,10 +61,10 @@ background-position: 0% 50%;
 }
 } */
 .botao:hover {
-background: var(--cor-p1);
+background: $cor-p1;
 }
 .botao-projetos.backgraund {
-background: var(--cor-1);
+background: $cor-1;
 position: relative;
 top: 0px;
 }
@@ -73,7 +73,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 0px auto;
-background: var(--cor-0);
+background: $cor-0;
 position: relative;
 }
 .botao-habilidades {
@@ -81,7 +81,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 0px auto;
-background: var(--cor-1);
+background: $cor-1;
 position: relative;
 }
 .button-link img {
@@ -89,7 +89,7 @@ border: none;
 border-radius: 50%;
 display: flex;
 width: 20px;
-background: var(--cor-p2);
+background: $cor-p2;
 padding: 8px;
 cursor: pointer;
 animation: animacao 1.5s linear infinite alternate;
@@ -102,11 +102,11 @@ transform: translatey(5px);
 }
 }
 .button-link img:hover {
-background: var(--cor-p1);
+background: $cor-p1;
 }
 @media (max-width: 1000px) { 
 .botao-projetos.backgraund {
-background: var(--cor-0);
+background: $cor-0;
 }
 }
 @media (max-width: 800px) { 

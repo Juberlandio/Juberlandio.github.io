@@ -1,8 +1,8 @@
 .projeto-bg {
-background: var(--cor-1);
+background: $cor-1;
 }
 .projeto-container-bg {
-background: linear-gradient(to right, var(--cor-1) 30%, var(--cor-12) 0%);
+background: linear-gradient(to right, $cor-1 30%, $cor-12 0%);
 }
 .projeto {
 padding: 90px 0px 30px 0px;
@@ -67,14 +67,14 @@ margin-left: auto;
 margin-right: auto;
 }
 .projeto picture img{
-border: 1px solid var(--cor-p2);
+border: 1px solid $cor-p2;
 border-radius: 3px;
 transition: 0.5s ease-out;
 }
 .projeto picture img:hover{
 transform: scale(1.1);
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-border: 1px solid var(--cor-p1);
+border: 1px solid $cor-p1;
 }
 .projeto .titulo-projeto-interno {
 text-align: right;
@@ -155,7 +155,7 @@ justify-content: center;
 width: 80px;
 height: 45px;
 clip-path: polygon(1% 0, 47% 0, 71% 0, 100% 40%, 100% 100%, 0 100%);
-background: var(--cor-1);
+background: $cor-1;
 position: relative;
 transition: 0.8s ease-out;
 text-decoration: none;
@@ -182,7 +182,7 @@ justify-content: center;
 width: 80px;
 height: 45px;
 clip-path: polygon(1% 0, 47% 0, 71% 0, 100% 40%, 100% 100%, 0 100%);
-background: var(--cor-11);
+background: $cor-11;
 position: relative;
 transition: 0.8s ease-out;
 text-decoration: none;
@@ -202,11 +202,11 @@ background-position: 0% 50%;
 }
 }
 .botao-link:hover{
-background: var(--cor-p1);
+background: $cor-p1;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 .botao-link-projeto-impar:hover{
-background: var(--cor-p1);
+background: $cor-p1;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 .botao-link img{
@@ -224,12 +224,12 @@ justify-content: center;
 cursor: pointer;
 overflow: hidden;
 transition: 0.5s ease-out;
-background: var(--cor-5);
-border: 1px solid var(--cor-p2);
+background: $cor-5;
+border: 1px solid $cor-p2;
 position: relative;
 }
 .embreve div {
-background: var(--cor-p1);
+background: $cor-p1;
 width: 1000px;
 text-align: center;
 padding: 20px;
@@ -238,15 +238,15 @@ transform: rotate(-50deg);
 .embreve:hover{
 transform: scale(1.1);
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-border: 1px solid var(--cor-p1);
+border: 1px solid $cor-p1;
 letter-spacing: 5px;
 }
 @media (max-width: 1000px) {
 .projeto-bg {
-background: var(--cor-0);
+background: $cor-0;
 }
 .projeto-container-bg {
-background: var(--cor-11);
+background: $cor-11;
 border-radius: 10px;
 }
 .projeto {
@@ -304,7 +304,7 @@ min-width: 550px;
 .projeto-container {
 grid-template-columns: 1fr;
 gap: 0px;
-border: 1px solid var(--cor-p2); 
+border: 1px solid $cor-p2; 
 border-radius: 10px;
 padding: 20px;
 margin-bottom: 0px;
@@ -312,7 +312,7 @@ margin-bottom: 0px;
 .projeto-container-2 {
 grid-template-columns: 1fr;
 gap: 0px;
-border: 1px solid var(--cor-p2); 
+border: 1px solid $cor-p2; 
 border-radius: 10px;
 padding: 20px;
 margin-bottom: 0px;
@@ -320,7 +320,7 @@ margin-bottom: 0px;
 .projeto-container-3 {
 grid-template-columns: 1fr;
 gap: 0px;
-border: 1px solid var(--cor-p2); 
+border: 1px solid $cor-p2; 
 border-radius: 10px;
 padding: 20px;
 margin-bottom: 0px;
@@ -329,25 +329,25 @@ margin-bottom: 0px;
 text-align: center;
 margin-bottom: 50px;
 margin-top: 25px;
-color: var(--cor-11);
+color: $cor-11;
 }
 .projeto .titulo-projeto-interno-black {
 text-align: center;
 margin-bottom: 50px;
 margin-top: 25px;
-color: var(--cor-1);
+color: $cor-11;
 }
 .projeto .paragrafo {
 text-align: center;
 letter-spacing: 0.15rem;
 margin-bottom: 30px;
-color: var(--cor-11);
+color: $cor-11;
 } 
 .projeto .paragrafo-black {
 text-align: center;
 letter-spacing: 0.15rem;
 margin-bottom: 30px;
-color: var(--cor-1);
+color: $cor-1;
 } 
 .linguagens{
 justify-self: center; 

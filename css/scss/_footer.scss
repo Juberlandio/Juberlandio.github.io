@@ -1,5 +1,5 @@
 .footer-bg {
-background: var(--cor-12);
+background: $cor-12;
 }
 .colunas section{
 border: 2px solid transparent;
@@ -24,7 +24,7 @@ border-radius: 4px;
 0%{
 width: 0;
 height: 0;
-border-top-color: var(--cor-p1);
+border-top-color: $cor-p1;
 border-right-color: transparent;
 border-bottom-color: transparent;
 border-left-color: transparent;
@@ -32,16 +32,16 @@ border-left-color: transparent;
 50%{
 width: 100%;
 height: 0;
-border-top-color: var(--cor-p1);
-border-right-color: var(--cor-p1);
+border-top-color: $cor-p1;
+border-right-color: $cor-p1;
 border-bottom-color: transparent;
 border-left-color: transparent;
 }
 100%{
 width: 100%;
 height: 100%;
-border-top-color: var(--cor-p1);
-border-right-color: var(--cor-p1);
+border-top-color: $cor-p1;
+border-right-color: $cor-p1;
 border-bottom-color: transparent;
 border-left-color: transparent;
 }
@@ -68,23 +68,23 @@ height: 0;
 border-top-color: transparent;
 border-right-color: transparent;
 border-bottom-color: transparent;
-border-left-color: var(--cor-p1);
+border-left-color: $cor-p1;
 }
 50%{
 width: 0;
 height: 100%;
 border-top-color: transparent;
 border-right-color: transparent;
-border-bottom-color: var(--cor-p1);
-border-left-color: var(--cor-p1);
+border-bottom-color: $cor-p1;
+border-left-color: $cor-p1;
 }
 100%{
 width: 100%;
 height: 100%;
 border-top-color: transparent;
 border-right-color: transparent;
-border-bottom-color: var(--cor-p1);
-border-left-color: var(--cor-p1);
+border-bottom-color: $cor-p1;
+border-left-color: $cor-p1);
 }
 }
 .footer {
@@ -97,7 +97,7 @@ padding: 90px 20px;
 .footer-dados {
 padding: 60px 70px;
 border-radius: 3px 0px 0px 3px;
-border-right: 1px solid var(--cor-0);
+border-right: 1px solid $cor-0;
 background: transparent;
 }
 .titulo-contato-grid {
@@ -125,12 +125,12 @@ position: relative;
 padding-left: 25px;
 }
 .footer-texto:hover {
-color: var(--cor-2);
+color: $cor-2;
 }
 .titulo-2{
 padding-left: 25px;
 margin-bottom: 16px;
-color: var(--cor-11);
+color: $cor-11;
 }
 .contato-meios a {
 display: block;
@@ -151,7 +151,7 @@ background: url('../assets/svg/email.svg') no-repeat 0px 2px;
 position: absolute;
 }
 .contato-meios a:hover {
-color: var(--cor-2);
+color: $cor-2;
 }
 .footer-redes {
 display: flex;
@@ -177,15 +177,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 animation: animation-one 0.4s linear;
 }
 .likedin:hover{
-background: var(--cor-p3);
+background: $redes-0;
 animation: animation-one 0.4s linear;
 }
 .github:hover{
-background: var(--cor-p4);
+background: $redes-1;
 animation: animation-one 0.4s linear;
 }
 .whats-app:hover {
-background-color: var(--cor-p5);
+background-color: $redes-2;
 animation: animation-one 0.4s linear;
 }
 @keyframes animation-one {
@@ -226,8 +226,8 @@ z-index: 3;
 display: block;
 text-align: center;
 padding: 20px;
-background: var(--cor-13);
-border-top: 1px solid var(--cor-8);
+background: $cor-13;
+border-top: 1px solid $cor-8;
 }
 @media (max-width: 1180px) {
 .footer-dados {

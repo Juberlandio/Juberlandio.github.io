@@ -1,5 +1,5 @@
 .introducao-bg {
-background: linear-gradient(-114.13deg, var(--cor-1) 50%, var(--cor-0) 45%);
+background: linear-gradient(-114.13deg, $cor-1 50%, $cor-0 45%);
 }
 .introducao {
 padding: 20px;
@@ -71,8 +71,8 @@ justify-content: center;
 align-items: center;
 padding: 15px 20px;
 gap: 15px;
-background: var(--cor-p3);
-outline: 3px var(--cor-p3) solid;
+background: $redes-0;
+outline: 3px $redes-1 solid;
 outline-offset: -3px;
 clip-path: polygon(1% 0, 85% 0, 100% 41%, 100% 100%, 0 100%, 0% 50%);
 border: none;
@@ -120,14 +120,14 @@ width: 30px;
 height: 30px;
 }
 .botao-linkedin:hover {
-background-color: var(--cor-0);
-outline: 3px var(--cor-0) solid;
+background-color: $cor-0;
+outline: 3px $cor-0 solid;
 }
 .botao-linkedin:hover .text {
-color: var(--cor-p3);
+color: $redes-0;
 }
 .botao-linkedin:hover svg path {
-fill: var(--cor-p3);
+fill: $redes-0;
 }
 .botao-github {
 display: flex;
@@ -135,8 +135,8 @@ justify-content: center;
 align-items: center;
 padding: 15px 20px;
 gap: 15px;
-background: var(--cor-p4);
-outline: 3px var(--cor-p4) solid;
+background: $redes-1;
+outline: 3px $redes-1 solid;
 outline-offset: -3px;
 clip-path: polygon(1% 0, 85% 0, 100% 41%, 100% 100%, 0 100%, 0% 50%);
 border: none;
@@ -185,14 +185,14 @@ width: 30px;
 height: 30px;
 }
 .botao-github:hover {
-background-color: var(--cor-0);
-outline: 3px var(--cor-0) solid;
+background-color: $cor-0;
+outline: 3px $cor-0 solid;
 }
 .botao-github:hover .text{
-color: var(--cor-p4);
+color: $redes-1;
 }
 .botao-github:hover svg path {
-fill: var(--cor-p4);
+fill: $redes-1;
 }
 .introducao picture img {
 border-radius: 50%;
@@ -220,7 +220,7 @@ from{
 }
 }
 .introducao .ilustracao-principal img{
-border: 2px solid var(--cor-p1);
+border: 2px solid $cor-p1;
 }
 .introducao .ilustracao-principal img:hover{
 max-width: 350px;
@@ -228,7 +228,7 @@ max-height: 350px;
 justify-self: center;
 align-items: center;
 filter: grayscale(1);
-border: 2px solid var(--cor-p1);
+border: 2px solid $cor-p1;
 border-radius: 50%;
 transition: ease-in-out 0.3s;
 z-index: 3;
@@ -241,7 +241,7 @@ gap: 20px;
 }
 @media (max-width: 1000px) {
 .introducao-bg {
-background: var(--cor-0);
+background: $cor-0;
 }
 .home {
 display: none;
@@ -261,7 +261,7 @@ display: block;
 width: 90%;
 height: 3px;
 margin-top: 40px;
-background: var(--cor-p2);
+background: $cor-p2;
 }
 .introducao h1 {
 text-align: center;

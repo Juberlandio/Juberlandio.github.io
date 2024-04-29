@@ -14,7 +14,7 @@ top: 0;
 padding-top: 20px;
 padding-bottom: 20px;
 z-index: 4;
-text-shadow: 1px 1px 1px var(--cor-5);
+text-shadow: 1px 1px 1px $cor-5;
 }
 .ativo-menu{
 z-index: 3;
@@ -71,13 +71,13 @@ position: absolute; /* Realinhando ao centro */
 width: 100%;
 }
 .mobile-menu .primeiro {
-background-color: var(--cor-13);
+background-color: $cor-13;
 }
 .mobile-menu .segundo {
-background-color: var(--cor-13);
+background-color: $cor-13;
 }
 .mobile-menu .terceiro {
-background-color: var(--cor-13);
+background-color: $cor-13;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -87,7 +87,7 @@ align-items: center;
 padding-top: 0px;
 padding-bottom: 0px;
 transition: 6s;
-text-shadow: 1px 1px 1px var(--cor-0);
+text-shadow: 1px 1px 1px $cor-0;
 }
 .container-logo {
 display: none;
@@ -96,7 +96,7 @@ display: none;
 gap: 0px;
 }
 .menu a {
-color: var(--cor-0);
+color: $cor-0;
 padding: 1rem 0;
 } 
 .menu a:after {

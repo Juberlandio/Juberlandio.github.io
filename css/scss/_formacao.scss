@@ -1,5 +1,5 @@
 .formacao {
-  background: var(--cor-0);
+  background: $cor-0;
 }
 .formacao .formacao-padding {
   padding: 90px 20px;
@@ -29,7 +29,7 @@
 }
 .faculdade-lista-unico {
   grid-column: span 2;
-  background: linear-gradient(var(--cor-11) 10px, var(--cor-9) 100px);
+  background: linear-gradient($cor-11 10px, $cor-9 100px);
   transition: 0.5s ease-out;
   position: relative;
 }
@@ -38,13 +38,13 @@
   position: absolute;
   right: 0;
   border: 20px solid transparent;
-  border-top: 20px solid var(--cor-p1);
-  border-right: 20px solid var(--cor-p1);
+  border-top: 20px solid $cor-p1;
+  border-right: 20px solid $cor-p1;
 }
 .faculdade-lista-unico:hover{
   transform: translateY(-15px);
-  background: linear-gradient(var(--cor-11) 10px, var(--cor-11) 100px);
-  box-shadow: 3px 3px 0 var(--cor-p2);
+  background: linear-gradient($cor-11 10px, $cor-11 100px);
+  box-shadow: 3px 3px 0 $cor-p2;
 }
 .faculdade-lista-unico picture img {
   cursor: pointer;
@@ -55,8 +55,8 @@
   display: block;
 }
 .faculdade-lista{
-  background: var(--cor-10);
-  background: linear-gradient(var(--cor-11) 10px, var(--cor-9) 100px);
+  background: $cor-10;
+  background: linear-gradient($cor-11 10px, $cor-9 100px);
   transition: 0.5s ease;
   position: relative;
 }
@@ -66,13 +66,13 @@
   top: 0;
   right: 0;
   border: 20px solid transparent;
-  border-top: 20px solid var(--cor-p1);
-  border-right: 20px solid var(--cor-p1);
+  border-top: 20px solid $cor-p1;
+  border-right: 20px solid$cor-p1;
 }
 .faculdade-lista:hover{
   transform: translateY(-15px);
-  background: linear-gradient(var(--cor-11) 10px, var(--cor-11) 100px);
-  box-shadow: 3px 3px 0 var(--cor-p2);
+  background: linear-gradient($cor-11 10px, $cor-11 100px);
+  box-shadow: 3px 3px 0 $cor-p2;
 }
 .faculdade-lista picture img {
   cursor: pointer;
@@ -109,7 +109,7 @@
   display: block;
   width: 4px;
   height: 28px;
-  background: var(--cor-p2);
+  background: $cor-p2;
   position: absolute;
   left: -19px;
   bottom: 2px;

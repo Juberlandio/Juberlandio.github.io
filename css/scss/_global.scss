@@ -30,7 +30,7 @@ img {
 	background-color: rgb(35, 38, 41);
 }
 ::-webkit-scrollbar-thumb {
-	background-color: var(--cor-p2);
+	background-color: $cor-p2;
   border-radius: 30px;
 }
 ::-webkit-scrollbar-track {
