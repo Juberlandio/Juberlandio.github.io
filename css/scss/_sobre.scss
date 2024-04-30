@@ -144,8 +144,9 @@ fill: $cor-10;
 height: 347px;
 gap: 12px 53px;
 grid-template-areas:
-"sidenav content ads"
+"sidenav content"
 "sidenav footer footer"
+"ads ads"
 ;
 }
 .sobre .imagem-principal{
@@ -262,6 +263,9 @@ height: 18px;
 }
 }
 @media (max-width: 600px) {
+.sobre .imagem-principal{
+max-width: 100%;
+}
 .titulo-projeto-sobre::after{
 content: "";
 width: 50px;
