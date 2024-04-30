@@ -85,6 +85,7 @@
   gap: 10px;
   grid-template-columns: 6fr 1fr;
   position: relative;
+  border-left: 4px solid $cor-p2;
 }
 .faculdade-lista-unico .faculdade-tipo, .faculdade-lista .faculdade-tipo {
   font-weight: 500;
@@ -96,23 +97,13 @@
   gap: 10px;
   grid-template-columns: 6fr 1fr;
   position: relative;
+  border-left: 4px solid $cor-p2;
 }
 .faculdade-lista span {
   display: block;
 }
 .faculdade-curso {
-  position: relative;
   letter-spacing: .15rem;
-}
-.faculdade-curso::before {
-  content: "";
-  display: block;
-  width: 4px;
-  height: 28px;
-  background: $cor-p2;
-  position: absolute;
-  left: -19px;
-  bottom: 2px;
 }
 .faculdade-instituicao {
   letter-spacing: .11rem;
