@@ -22,6 +22,9 @@ transition: 0.5s ease-out;
 position: relative;
 margin-left: 2px;
 letter-spacing: 1px;
+@include d(t) {
+padding: 12px 24px;
+}
 }
 /* .botao::after {
 content: "";
@@ -67,13 +70,16 @@ background: $cor-p1;
 background: $cor-0;
 position: relative;
 top: 0px;
+@include d(f) {
+background: $cor-0;
+}
 }
 .botao-projetos {
 display: flex;
 justify-content: center;
 align-items: center;
 margin: 0px auto;
-background: $cor-0;
+background: $cor-1;
 position: relative;
 }
 .botao-habilidades {
@@ -95,6 +101,10 @@ cursor: pointer;
 animation: animacao 1.5s linear infinite alternate;
 transition: 0.5s ease-out;
 margin-bottom: 5px;
+@include d(t) {
+width: 30px;
+padding: 10px;
+}
 }
 @keyframes animacao{
 from{
@@ -105,20 +115,6 @@ transform: translatey(5px);
 background: $cor-p1;
 }
 .center {
-  margin: auto;
-  text-align: center;
-}
-@media (max-width: 1000px) { 
-.botao-projetos.backgraund {
-background: $cor-0;
-}
-}
-@media (max-width: 800px) { 
-.button-link img {
-width: 30px;
-padding: 10px;
-}
-.botao {
-padding: 12px 24px;
-}
+margin: auto;
+text-align: center;
 }

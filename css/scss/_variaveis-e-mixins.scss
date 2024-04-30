@@ -20,8 +20,9 @@ $redes-2: #16A301;
 
 
 $f-device: 1200px;
-$t-device: 760px;
-$m-device: 480px;
+$s-device: 1000px;
+$t-device: 840px;
+$m-device: 600px;
 
 // Tipografia
 @mixin tipo-1($tamanho) {
@@ -49,6 +50,10 @@ $m-device: 480px;
 @mixin d($dispositivo) {
   @if $dispositivo == f {
     @media (max-width: $f-device) {
+      @content;
+    }
+  } @else if $dispositivo == s {
+    @media (max-width: $s-device) {
       @content;
     }
 	} @else if $dispositivo == t {

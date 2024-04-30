@@ -5,6 +5,12 @@ background: $cor-12;
 border: 2px solid transparent;
 margin: 20px 10px;
 position: relative;
+@include d(f) {
+margin: 4px 10px;
+}
+@include d(s) {
+margin: 4px 10px;
+}
 }
 .js .colunas .ativo section::before{
 content: '';
@@ -93,15 +99,36 @@ margin: 0 auto;
 display: grid;
 grid-template-columns: 1fr 1.5fr;
 padding: 90px 20px;
+@include d(t) {
+grid-template-columns: 1fr;
+}
 }
 .footer-dados {
 padding: 60px 70px;
 border-radius: 3px 0px 0px 3px;
 border-right: 1px solid $cor-0;
 background: transparent;
+@include d(f) {
+padding: 30px 40px;
+border-right: none;
+}
+@include d(s) {
+padding: 20px 30px;
+}
+@include d(t) {
+padding: 20px;
+border-radius: 4px 4px 0 0;
+}
 }
 .titulo-contato-grid {
 margin-bottom: 30px;
+@include d(s) {
+display: grid;
+}
+@include d(t) {
+margin-left: 0px;
+text-align: center;
+}
 }
 .titulo-contato { 
 display: inline-block;
@@ -109,6 +136,14 @@ text-align: left;
 position: relative;
 text-transform: uppercase;
 padding-left: 63px;
+@include d(f) {
+margin-bottom: 0px;
+padding-left: 60px;
+}
+@include d(s) {
+margin: auto;
+padding-left: 0px;
+}
 }
 .titulo-contato::after { 
 content: "";
@@ -117,12 +152,63 @@ height: 39px;
 left: 25px;
 background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
 position: absolute;
+@include d(s){
+content: "";
+width: 50px;
+height: 100%;
+left: -45px;
+background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
+position: absolute;
+}
+@include d(m) {
+content: "";
+width: 50px;
+height: 100%;
+left: -50px;
+background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
+position: absolute;
+transform: rotate(180deg);
+}
+}
+.titulo-contato::before{
+@include d(s) { 
+content: "";
+width: 50px;
+height: 100%;
+right: -45px;
+background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
+position: absolute;
+}
+@include d(m) {
+content: "";
+width: 50px;
+height: 100%;
+right: -50px;
+background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
+position: absolute;
+}
 }
 .footer-texto {  
 text-align: left;
 margin-bottom: 40px;
 position: relative;
 padding-left: 25px;
+@include d(f) {
+padding-left: 25px;
+}
+@include d(s) {
+padding-left: 24px;
+}
+@include d(t) {
+max-width: 45ch; /*Entre 45 E 75 */
+margin: 0 auto;
+text-align: center;
+margin-bottom: 30px;
+padding-left: 0px;
+}
+@include d(m) {
+max-width: 25ch;
+}
 }
 .footer-texto:hover {
 color: $cor-2;
@@ -131,6 +217,16 @@ color: $cor-2;
 padding-left: 25px;
 margin-bottom: 16px;
 color: $cor-11;
+@include d(f) {
+padding-left: 25px;
+}
+@include d(s) {
+padding-left: 20px;
+}
+@include d(t) {
+padding-left: 0px;
+text-align: center;
+}
 }
 .contato-meios a {
 display: block;
@@ -140,6 +236,16 @@ padding-left: 50px;
 text-decoration: none;
 color: inherit;
 position: relative;
+@include d(f) {
+padding-left: 50px;
+}
+@include d(t) {
+margin: 0px auto 30px auto;
+padding-left: 0px;
+}
+@include d(m) {
+text-align: center;
+}
 }
 .contato-meios a::before{
 content: "";
@@ -149,6 +255,18 @@ top: 0px;
 left: 23px;
 background: url('../assets/svg/email.svg') no-repeat 0px 2px;
 position: absolute;
+@include d(s) {
+content: "";
+width: 20px;
+height: 20px;
+top: 0px;
+left: 22px;
+background: url('../assets/svg/email.svg') no-repeat 0px 1px;
+position: absolute;
+}
+@include d(t) {
+display: none;
+}
 }
 .contato-meios a:hover {
 color: $cor-2;
@@ -157,16 +275,37 @@ color: $cor-2;
 display: flex;
 gap: 0px;
 flex-wrap: nowrap;
+@include d(t) {
+justify-content: center;
+}
+@include d(m) {
+flex-wrap: wrap;
+}
 }
 .footer-redes img {
 display: flex;
 width: 32px;
 height: 100%;
 cursor: pointer;
+@include d(f){
+width: 26px;
+}
+@include d(t) {
+width: 20px;
+}
 }
 .instagram, .whats-app, .likedin, .github {
 padding: 25px;
 border-radius: 50%;
+@include d(f) {
+padding: 16px;
+}
+@include d(s) {
+padding: 24px;
+}
+@include d(t) {
+padding: 17px;
+}
 }
 .instagram:hover {
 background: #f09433;
@@ -211,182 +350,21 @@ border-radius: 0px 3px 3px 0px;
 background: transparent;
 z-index: 0;
 position: relative;
+@include d(f) {
+padding: 30px 40px;
 }
-/* .footer-formulario::after {
-content: "";
-position: absolute;
-bottom: 0;
-right: 0;
-border: 40px solid transparent;
-border-bottom: 40px solid var(--cor-p1);
-border-right: 40px solid var(--cor-p1);
-z-index: 3;
-} */
+@include d(s) {
+padding: 20px 30px;
+}
+@include d(t) {
+padding: 20px;
+border-radius: 0 0 4px 4px;
+}
+}
 .footer-final {
 display: block;
 text-align: center;
 padding: 20px;
 background: $cor-13;
 border-top: 1px solid $cor-8;
-}
-@media (max-width: 1180px) {
-.footer-dados {
-padding: 30px 40px;
-border-right: none;
-}
-.titulo-contato-grid {
-margin-bottom: 30px;
-}
-.titulo-contato { 
-margin-bottom: 0px;
-padding-left: 60px;
-}
-.footer-texto {
-padding-left: 25px;
-}
-.titulo-2{
-padding-left: 25px;
-}
-.contato-meios a {
-padding-left: 50px;
-}
-.footer-redes img {
-width: 26px;
-}
-.instagram, .whats-app, .likedin, .github {
-padding: 16px;
-}
-.footer-formulario {
-padding: 30px 40px;
-}  
-}
-@media (max-width: 1000px) {
-.colunas section{
-margin: 4px 10px;
-}
-.footer-dados {
-padding: 20px 30px;
-}
-.titulo-contato-grid {
-display: grid;
-}
-.titulo-contato {
-margin: auto;
-padding-left: 0px;
-}
-.titulo-contato::after{
-content: "";
-width: 50px;
-height: 100%;
-left: -45px;
-background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
-position: absolute;
-}
-.titulo-contato::before{
-content: "";
-width: 50px;
-height: 100%;
-right: -45px;
-background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
-position: absolute;
-}
-.footer-texto {
-padding-left: 24px;
-}
-.titulo-2{
-padding-left: 24px;
-}
-.contato-meios a {
-padding-left: 50px;
-}
-.contato-meios a::before{
-content: "";
-width: 20px;
-height: 20px;
-top: 0px;
-left: 22px;
-background: url('../assets/svg/email.svg') no-repeat 0px 1px;
-position: absolute;
-}
-.footer-redes img {
-width: 26px;
-}
-.instagram, .whats-app, .likedin, .github {
-padding: 24px;
-}
-.footer-formulario {
-padding: 20px 30px;
-}  
-}
-@media (max-width: 938px) { 
-.footer {
-grid-template-columns: 1fr;
-}
-.footer-dados{
-padding: 20px;
-border-radius: 4px 4px 0 0;
-}
-.titulo-contato-grid {
-margin-left: 0px;
-text-align: center;
-}
-.footer-texto {
-max-width: 45ch; /*Entre 45 E 75 */
-margin: 0 auto;
-text-align: center;
-margin-bottom: 30px;
-padding-left: 0px;
-}
-.titulo-2{
-padding-left: 0px;
-text-align: center;
-}
-.contato-meios a {
-margin: 0px auto 30px auto;
-padding-left: 0px;
-}
-.contato-meios a::before{
-display: none;
-}
-.footer-redes {
-justify-content: center;
-}
-.footer-redes img {
-width: 20px;
-}
-.instagram, .whats-app, .likedin, .github {
-padding: 17px;
-}
-.footer-formulario {
-padding: 20px;
-border-radius: 0 0 4px 4px;
-}
-}
-@media (max-width: 500px){ 
-.contato-meios a {
-text-align: center;
-}
-.titulo-contato::after{
-content: "";
-width: 50px;
-height: 100%;
-left: -50px;
-background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
-position: absolute;
-transform: rotate(180deg);
-}
-.titulo-contato::before{
-content: "";
-width: 50px;
-height: 100%;
-right: -50px;
-background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
-position: absolute;
-}
-.footer-texto {
-max-width: 25ch;
-}
-.footer-redes {
-flex-wrap: wrap;
-}
 }
