@@ -34,18 +34,15 @@
 .font-xxl-g {
   font: 900 3rem/1.5 "Roboto", sans-serif;
 }
-@media (max-width: 1050px) { 
+@media (max-width: 1200px) { 
   .font-xxl-b {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
   .font-l-l {
     font-size: 0.9rem;
   }
   .font-xx-t2 {
     font-size: 1.7rem;
-  }
-  .font-xxl-b {
-    font-size: 1rem;
   }
   .font-xxl {
     font-size: 1.745rem;
@@ -75,8 +72,6 @@
   .font-xxl-g {
     font-size: 1.650rem;
   }
-}
-  @media (max-width: 500px){ 
   .font-s {
     font-size: 1.4rem;
   }
