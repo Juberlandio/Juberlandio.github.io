@@ -213,18 +213,6 @@ from{
   transform: translatey(-20px);
 }
 }
-// .introducao .ilustracao-principal img:hover{
-// max-width: 350px;
-// max-height: 350px;
-// justify-self: center;
-// align-items: center;
-// filter: grayscale(1);
-// border: 2px solid $cor-p1;
-// border-radius: 50%;
-// transition: ease-in-out 0.3s;
-// z-index: 3;
-// }
-
 @media (max-width: 1100px) {
 .introducao {
 gap: 20px;
@@ -259,9 +247,6 @@ text-align: center;
 }
 .introducao img {
 flex-direction: column;
-}
-.introducao .ilustracao-principal #imagem:hover {
-opacity: 100%;
 }
 .links{
 justify-content: center;
@@ -326,10 +311,6 @@ padding-bottom: 65px;
 }
 .introducao picture {
 padding-bottom: 20px;
-}
-.introducao .ilustracao-principal img:hover{
-max-width: 210px;
-max-height: 210px;
 }
 .introducao picture img {
 max-width: 100%;
