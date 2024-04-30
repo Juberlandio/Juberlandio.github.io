@@ -90,10 +90,10 @@ background-color: $cor-1;
 outline: 3px $cor-1 solid;
 }
 .botao-curriculo:hover .text {
-color: $redes-0;
+color: $cor-10;
 }
 .botao-curriculo:hover svg path {
-fill: $redes-0;
+fill: $cor-10;
 }
 .botao-e-mail {
 display: flex;
@@ -129,10 +129,10 @@ background-color: $cor-1;
 outline: 3px $cor-1 solid;
 }
 .botao-e-mail:hover .text{
-color: $redes-1;
+color: $cor-10;
 }
 .botao-e-mail:hover svg path {
-fill: $redes-1;
+fill: $cor-10;
 }
 @media (max-width: 1200px) {
 .sobre-container {
@@ -218,7 +218,7 @@ position: absolute;
 .botao-curriculo {
 padding: 10px 5px;
 gap: 8px;
-flex-basis: 103px;
+flex-basis: 120px;
 }
 .botao-curriculo .text{
 height: 15px;
@@ -230,7 +230,7 @@ height: 15px;
 .botao-e-mail{
 padding: 10px 5px;
 gap: 8px;
-flex-basis: 103px;
+flex-basis: 120px;
 }
 .botao-e-mail .text{
 height: 15px;
