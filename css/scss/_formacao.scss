@@ -85,7 +85,11 @@
   gap: 10px;
   grid-template-columns: 6fr 1fr;
   position: relative;
-  border-left: 4px solid $cor-p2;
+  border-left: 8px solid $cor-p2;
+  transition: 0.3s;
+}
+.cursos-link-unico:hover{
+  border-left: 8px solid $cor-p1;
 }
 .faculdade-lista-unico .faculdade-tipo, .faculdade-lista .faculdade-tipo {
   font-weight: 500;
@@ -97,7 +101,11 @@
   gap: 10px;
   grid-template-columns: 6fr 1fr;
   position: relative;
-  border-left: 4px solid $cor-p2;
+  border-left: 8px solid $cor-p2;
+  transition: 0.3s;
+}
+.cursos-link:hover{
+  border-left: 8px solid $cor-p1;
 }
 .faculdade-lista span {
   display: block;
