@@ -19,9 +19,9 @@ grid-template-areas:
 "sidenav footer footer"
 ;
 }
-.sobre .imagem-principal{
+.sobre .imagem-principal {
 grid-row: 1 / 3;
-border-left: 8px solid $cor-p2;
+border-left: 4px solid $cor-p2;
 max-width: 306px;
 transition: 0.3s;
 }
