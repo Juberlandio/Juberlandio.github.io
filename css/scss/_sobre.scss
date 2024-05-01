@@ -156,7 +156,6 @@ grid-template-areas:
 }
 .sobre .imagem-principal{
 grid-row: 1 / 4;
-border-left: 8px solid $cor-p2;
 max-width: 306px;
 transition: 0.3s;
 place-self: start;
