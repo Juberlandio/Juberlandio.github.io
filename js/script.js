@@ -8,6 +8,7 @@ import maquinaEscrever from './modules/maquina-escrever.js';
 import habilidades from './modules/habilidades.js';
 import formulario from './modules/formulario.js';
 import initMenuMobile from './modules/menu-mobile.js';
+import vanillaTilt from './modules/efeito-imagem.js';
 
 initScrollSuave();
 menufixo();
@@ -19,3 +20,4 @@ maquinaEscrever();
 habilidades();
 formulario();
 initMenuMobile();
+vanillaTilt();
