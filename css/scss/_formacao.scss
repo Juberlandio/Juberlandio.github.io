@@ -1,282 +1,285 @@
 .formacao {
-  background: $cor-1;
+background: $cor-1;
 }
 .formacao .formacao-padding {
-  padding: 90px 20px;
+padding: 90px 20px;
 }
 .formacao .titulo-formacao-grid {
-  margin-bottom: 60px;
-  margin-left: 35px;
+margin-bottom: 60px;
+margin-left: 35px;
+@include d(s) {
+display: grid;
+margin-bottom: 50px;
+margin-left: 0px;
+}
 }
 .formacao .titulo-formacao {
-  text-align: left;
-  position: relative;
-  display: inline-block;
-  text-transform: uppercase; 
+text-align: left;
+position: relative;
+display: inline-block;
+text-transform: uppercase; 
+@include d(s) {
+margin: 0 auto;
 }
+}
+.faculdade-unidade {
+@include d(t) {
+gap: 20px;
+grid-template-columns: 1fr; 
+}
+}
+
 .formacao .titulo-formacao::after{
-  content: "";
-  width: 50px;
-  height: 39px;
-  left: -45px;
-  background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
-  position: absolute;
+content: "";
+width: 50px;
+height: 39px;
+left: -45px;
+background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
+position: absolute;
+@include d(s) {
+content: "";
+width: 50px;
+height: 100%;
+left: -45px;
+background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
+position: absolute;
+transform: rotate(180deg);
+}
+@include d(m) {
+content: "";
+width: 50px;
+height: 100%;
+left: -50px;
+background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
+position: absolute;
+transform: rotate(180deg);
+}
+}
+.formacao .titulo-formacao::before{
+@include d(s) {
+content: "";
+width: 50px;
+height: 100%;
+right: -45px;
+background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
+position: absolute;
+}
+@include d(m) {
+content: "";
+width: 50px;
+height: 100%;
+right: -50px;
+background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
+position: absolute;
+}
 }
 .faculdade-espaco {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 25px;
+@include d(f) {
+grid-template-columns: repeat(2, 1fr);
+}
+@include d(m) {
+grid-template-columns: repeat(1, 1fr);
+}
 }
 .faculdade-lista-unico {
-  grid-column: span 2;
-  background: linear-gradient($cor-11 10px, $cor-9 100px);
-  transition: 0.5s ease-out;
-  position: relative;
+grid-column: span 2;
+background: linear-gradient($cor-11 10px, $cor-9 100px);
+transition: 0.5s ease-out;
+position: relative;
+@include d(m) {
+grid-column: span 1;
+}
 }
 .faculdade-lista-unico::before {
-  content: "";
-  position: absolute;
-  right: 0;
-  border: 20px solid transparent;
-  border-top: 20px solid $cor-p1;
-  border-right: 20px solid $cor-p1;
+content: "";
+position: absolute;
+right: 0;
+border: 20px solid transparent;
+border-top: 20px solid $cor-p1;
+border-right: 20px solid $cor-p1;
 }
 .faculdade-lista-unico:hover{
-  transform: translateY(-15px);
-  background: linear-gradient($cor-11 10px, $cor-11 100px);
-  box-shadow: 3px 3px 0 $cor-p2;
+transform: translateY(-15px);
+background: linear-gradient($cor-11 10px, $cor-11 100px);
+box-shadow: 3px 3px 0 $cor-p2;
 }
 .faculdade-lista-unico picture img {
-  cursor: pointer;
-  width: 70px;
-  height: 85px;
+cursor: pointer;
+width: 70px;
+height: 85px;
 }
 .faculdade-lista-unico span {
-  display: block;
+display: block;
 }
 .faculdade-lista{
-  background: $cor-10;
-  background: linear-gradient($cor-11 10px, $cor-9 100px);
-  transition: 0.5s ease;
-  position: relative;
+background: $cor-10;
+background: linear-gradient($cor-11 10px, $cor-9 100px);
+transition: 0.5s ease;
+position: relative;
 }
 .faculdade-lista::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 20px solid transparent;
-  border-top: 20px solid $cor-p1;
-  border-right: 20px solid$cor-p1;
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+border: 20px solid transparent;
+border-top: 20px solid $cor-p1;
+border-right: 20px solid$cor-p1;
 }
 .faculdade-lista:hover{
-  transform: translateY(-15px);
-  background: linear-gradient($cor-11 10px, $cor-11 100px);
-  box-shadow: 3px 3px 0 $cor-p2;
+transform: translateY(-15px);
+background: linear-gradient($cor-11 10px, $cor-11 100px);
+box-shadow: 3px 3px 0 $cor-p2;
 }
 .faculdade-lista picture img {
-  cursor: pointer;
-  width: 70px;
-  height: 85px;
+cursor: pointer;
+width: 70px;
+height: 85px;
 }
 .cursos-link-unico {
-  padding: 18px 15px;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: 6fr 1fr;
-  position: relative;
-  border-left: 8px solid $cor-p1;
-  transition: 0.3s;
+padding: 18px 15px;
+display: grid;
+gap: 10px;
+grid-template-columns: 6fr 1fr;
+position: relative;
+border-left: 8px solid $cor-p1;
+transition: 0.3s;
+@include d(m) {
+text-align: center;
+padding: 18px 15px;
+display: grid;
+gap: 10px;
+grid-template-columns: 1fr;
+position: relative; 
+}
 }
 .faculdade-lista-unico .faculdade-tipo, .faculdade-lista .faculdade-tipo {
-  font-weight: 500;
-  letter-spacing: .11rem;
+font-weight: 500;
+letter-spacing: .11rem;
 }
 .cursos-link {
-  padding: 18px 15px;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: 6fr 1fr;
-  position: relative;
-  border-left: 8px solid $cor-p1;
-  transition: 0.3s;
+padding: 18px 15px;
+display: grid;
+gap: 10px;
+grid-template-columns: 6fr 1fr;
+position: relative;
+border-left: 8px solid $cor-p1;
+transition: 0.3s;
+@include d(m) {
+text-align: center;
+padding: 18px 15px;
+display: grid;
+gap: 10px;
+grid-template-columns: 1fr;
+position: relative;
+}
 }
 .faculdade-lista span {
-  display: block;
+display: block;
 }
 .faculdade-curso {
-  letter-spacing: .15rem;
+letter-spacing: .15rem;
+}
+.faculdade-curso::before {
+@include d(t) {
+display: none;
+}
 }
 .faculdade-instituicao {
-  letter-spacing: .11rem;
+letter-spacing: .11rem;
 }
 .cursos-info span {
-  display: inline;
-  margin: 0px;
-  padding: 0px;
+display: inline;
+margin: 0px;
+padding: 0px;
 }
 .cursos-info span + span {
- padding-left: 10px;
+padding-left: 10px;
 }
 .certificado {
-  place-self: center;
-  width: 71.92px;
-  height: 85px;
-  position: relative;
-  opacity: 1;
+place-self: center;
+width: 71.92px;
+height: 85px;
+position: relative;
+opacity: 1;
 }
 .imagem-certificado:active {
-  opacity: 0;
+opacity: 0;
 }
 .faculdade-lista-unico picture {
-  display: block;
-  animation: girar 35.5s infinite;
+display: block;
+animation: girar 35.5s infinite;
 }
 .faculdade-lista-unico picture:active{
-  background-image: url(../assets/svg/icon-medalha-click.svg);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 1;
+background-image: url(../assets/svg/icon-medalha-click.svg);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+opacity: 1;
 }
 .faculdade-lista picture {
-  display: block;
-  animation: girar 35.5s infinite;
+display: block;
+animation: girar 35.5s infinite;
 }
 .faculdade-lista picture:active{
-  background-image: url(../assets/svg/icon-medalha-click.svg);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 1;
+background-image: url(../assets/svg/icon-medalha-click.svg);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+opacity: 1;
 }
 @keyframes girar{
-  40% {
-      transform: rotate(3deg);
-  }
-  50% {
-      transform: rotate(-4deg);
-  }
-  60% {
-      transform: rotate(3deg);
-  }
+40% {
+transform: rotate(3deg);
 }
-
-@media (max-width: 1240px){
-  .faculdade-espaco {
-    grid-template-columns: repeat(2, 1fr);
-  }
+50% {
+transform: rotate(-4deg);
 }
-@media (max-width: 1000px){
-  .formacao .titulo-formacao-grid {
-    display: grid;
-    margin-bottom: 50px;
-    margin-left: 0px;
-  }
-  .formacao .titulo-formacao {
-    margin: 0 auto;
-  }
-  .formacao .titulo-formacao::after{
-    content: "";
-    width: 50px;
-    height: 100%;
-    left: -45px;
-    background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
-    position: absolute;
-    transform: rotate(180deg);
-  }
-  .formacao .titulo-formacao::before{
-    content: "";
-    width: 50px;
-    height: 100%;
-    right: -45px;
-    background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
-    position: absolute;
-  }
+60% {
+transform: rotate(3deg);
 }
-@media (max-width: 860px){
-  .faculdade-unidade {
-    gap: 20px;
-    grid-template-columns: 1fr; 
-  }
-  .faculdade-curso::before {
-   display: none;
-  }
 }
-@media (max-width: 600px){ 
-  .faculdade-espaco {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .cursos-link-unico {
-    text-align: center;
-    padding: 18px 15px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr;
-    position: relative;
-  }
-  .cursos-link {
-    text-align: center;
-    padding: 18px 15px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr;
-    position: relative;
-  }
-  .faculdade-lista-unico {
-    grid-column: span 1;
-  }
-  .faculdade-lista-unico picture .certificado {
-    grid-row: 1;
-  }
-  .faculdade-lista picture .certificado {
-    grid-row: 1;
-  }
-  .faculdade-lista-unico .faculdade-ordem {
-    grid-row: 2;
-  }
-  .faculdade-lista .faculdade-ordem {
-    grid-row: 2;
-  }
+.faculdade-lista-unico picture .certificado {
+@include d(m) {
+grid-row: 1;
 }
-@media (max-width: 500px){ 
-  .formacao .titulo-formacao::after{
-    content: "";
-    width: 50px;
-    height: 100%;
-    left: -50px;
-    background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
-    position: absolute;
-    transform: rotate(180deg);
-  }
-  .formacao .titulo-formacao::before{
-    content: "";
-    width: 50px;
-    height: 100%;
-    right: -50px;
-    background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
-    position: absolute;
-  }
 }
-.js .ccard{
-  display: none;
+.faculdade-lista picture .certificado {
+@include d(m) {
+grid-row: 1;
+}
+}
+.faculdade-lista-unico .faculdade-ordem {
+@include d(m) {
+grid-row: 2;
+}
+}
+.faculdade-lista .faculdade-ordem {
+@include d(m) {
+grid-row: 2;
+}
+}
+.js .ccard {
+display: none;
 }
 .js .ccard.ativo {
-  display: block;
-  animation: slideDown1 2s forwards;
+display: block;
+animation: slideDown1 2s forwards;
 }
-
 @keyframes slideDown1 {
-  from {
-    opacity: 0;
-    max-height: 0;
-  }
-  to {
-    opacity: 1;
-    max-height: 10000px;
-  }
+from {
+opacity: 0;
+max-height: 0;
+}
+to {
+opacity: 1;
+max-height: 10000px;
+}
 }
 .js .certificate-ativo {
-   transform: rotate(180deg);
-   transition: 0.5s;
+transform: rotate(180deg);
+transition: 0.5s;
 }
