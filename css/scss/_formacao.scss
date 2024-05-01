@@ -88,9 +88,6 @@
   border-left: 8px solid $cor-p1;
   transition: 0.3s;
 }
-.cursos-link-unico:hover{
-  border-left: 8px solid $cor-p2;
-}
 .faculdade-lista-unico .faculdade-tipo, .faculdade-lista .faculdade-tipo {
   font-weight: 500;
   letter-spacing: .11rem;
@@ -103,9 +100,6 @@
   position: relative;
   border-left: 8px solid $cor-p1;
   transition: 0.3s;
-}
-.cursos-link:hover{
-  border-left: 8px solid $cor-p2;
 }
 .faculdade-lista span {
   display: block;

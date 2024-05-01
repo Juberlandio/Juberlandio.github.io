@@ -1,10 +1,7 @@
-// Função para o menu mobile - Scroll Menu Fixed
 export default function animacaoMenuScroll() {
 const menu = document.querySelector('header');
-
-function ativarScroll(){
+function ativarScroll() {
   menu.classList.toggle('ativo-menu', scrollY > 0)
 }
-
 window.addEventListener('scroll', ativarScroll)
 }

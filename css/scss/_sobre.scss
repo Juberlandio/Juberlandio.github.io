@@ -9,7 +9,7 @@ width: 100%;
 height: 573.47px;
 }
 .sobre {
-height: 347px;
+height: 325px;
 display: grid;
 gap: 53px;
 justify-content: center;
@@ -24,7 +24,6 @@ grid-row: 1 / 3;
 border-left: 8px solid $cor-p1;
 max-width: 306px;
 transition: 0.3s;
-
 }
 .sobre .imagem-principal:hover{
 border-left: 8px solid $cor-p2;
@@ -46,6 +45,12 @@ gap: 30px;
 justify-content: flex-end;
 z-index: 1;
 padding-bottom: 20px;
+}
+.botao-curriculo:hover svg path {
+fill: $cor-13;
+}
+.botao-e-mail:hover svg path {
+fill: $cor-13;
 }
 .titulo-projeto-sobre {
 text-align: center;
@@ -142,7 +147,7 @@ fill: $cor-10;
 }
 @media (max-width: 1200px) {
 .sobre {
-height: 327px;
+height: 324px;
 gap: 12px 53px;
 grid-template-areas:
 "sidenav content"
