@@ -159,6 +159,7 @@ height: 100%;
 left: -45px;
 background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
 position: absolute;
+transform: rotate(180deg);
 }
 @include d(m) {
 content: "";
