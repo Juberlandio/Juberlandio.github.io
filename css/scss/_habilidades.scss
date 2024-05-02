@@ -1,405 +1,392 @@
 .habilidades-bg {
-  background: $cor-0;
+background: $cor-0;
 }
 .habilidades .habilidades-padding {
-  padding: 90px 20px;
+padding: 90px 20px;
 }
 .habilidades .titulo-habilidades-grid {
-  margin-bottom: 60px;
-  margin-left: 35px;
+margin-bottom: 60px;
+margin-left: 35px;
+@include d(s) {
+display: grid;
+margin-bottom: 50px;
+margin-left: 0px;
+}
 }
 .habilidades .titulo-habilidades {
-  text-align: left;
-  position: relative;
-  display: inline-block;
-  text-transform: uppercase; 
+text-align: left;
+position: relative;
+display: inline-block;
+text-transform: uppercase; 
+@include d(s) {
+margin: 0 auto;
+}
 }
 .habilidades .titulo-habilidades::after{
-  content: "";
-  width: 50px;
-  height: 39px;
-  left: -45px;
-  background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
-  position: absolute;
+content: "";
+width: 50px;
+height: 39px;
+left: -45px;
+background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
+position: absolute;
+@include d(s) {
+content: "";
+width: 50px;
+height: 100%;
+left: -45px;
+background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
+position: absolute;
+transform: rotate(180deg);
+}
+@include d(m) {
+content: "";
+width: 50px;
+height: 31.98px;
+left: -50px;
+background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
+position: absolute;
+transform: rotate(180deg);
+}
+}
+.habilidades .titulo-habilidades::before{
+@include d(s) {
+content: "";
+width: 50px;
+height: 100%;
+right: -45px;
+background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
+position: absolute;
+}
+@include d(m) {
+content: "";
+width: 50px;
+height: 100%;
+right: -50px;
+background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
+position: absolute;
+}
 }
 .conteiner-skills {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 10px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+gap: 10px;
+@include d(s) {
+grid-template-columns: 1fr;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
 }
 .texto-container {
-  border-radius: 10px;
-  padding: 30px;
-  clip-path: polygon(11% 0, 100% 0, 100% 87%, 82% 100%, 0 100%, 0 6%);
-  transition: 0.8s ease-out;
+border-radius: 10px;
+padding: 30px;
+clip-path: polygon(11% 0, 100% 0, 100% 87%, 82% 100%, 0 100%, 0 6%);
+transition: 0.8s ease-out;
+@include d(m) {
+padding: 10px;
 }
-.texto-descricao{
-  margin-top: 30px;
-  text-align: center;
-  height: 250px;
-  display: block;
-  animation: opacity 3s forwards;
-}
-@keyframes opacity {
-  from {
-      opacity: 0;
-      transform: matrix3d(-20px, 0, 0);
-  }
-  to {
-      opacity: 1;
-      transform: matrix3d(1, 1, 1);
-  }
-}
-.habilidades-imagem {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25.80px;
-  justify-content: flex-end;
-  align-items: center;
-}
-.habilidades-margin {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 50px;
-}
-.container-repeat {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  justify-content: flex-end;
-  align-items: center;
-}
-.img-content {
-  padding: 0px;
-  background: $cor-4;
-  border-radius: 0%;
-  cursor: pointer;
-  background-repeat: no-repeat;
-  background-position: center;
-  box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.2);
-  clip-path: polygon(0 15%, 15% 0, 100% 0, 100% 78%, 78% 100%, 0 100%);
-  position: relative;
-}
-/* .img-content::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  border: 17px solid transparent;
-  border-bottom: 17px solid var(--cor-p1);
-  border-right: 17px solid var(--cor-p1);
-}
-.img-content::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 17px solid transparent;
-  border-top: 17px solid var(--cor-p1);
-  border-left: 17px solid var(--cor-p1);
-} */
-.img-content img {
-  justify-content: center;
-  align-items: center;
-  width: 90px;
-  height: 90px;
-  transition: 0.8s ease-out;
-}
-.content img:hover {
-  transform: rotate(360deg);
-  transform: scale(1.2);
-  opacity: 0;
-}
-.content {
-  padding: 25px 25px;
-}
-.imagem-1{  
-  transition: 0.8s ease-out;
-}
-.imagem-1:hover { 
-  background-image: url(../assets/svg/html1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-2{
-  transition: 0.8s ease-out;
-}
-.imagem-2:hover{
-  background-image: url(../assets/svg/css1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-3{
-  transition: 0.8s ease-out;
-}
-.imagem-3:hover{
-  background-image: url(../assets/svg/sass1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-4{
-  transition: 0.8s ease-out;
-}
-.imagem-4:hover{
-  background-image: url(../assets/svg/js1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-5{
-  transition: 0.8s ease-out;
-}
-.imagem-5:hover{
-  background-image: url(../assets/svg/redux1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-6{
-  transition: 0.8s ease-out;
-}
-.imagem-6:hover{
-  background-image: url(../assets/svg/react1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-7{
-  transition: 0.8s ease-out;
-}
-.imagem-7:hover{
-  background-image: url(../assets/svg/vue1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-8{
-  transition: 0.8s ease-out;
-}
-.imagem-8:hover{
-  background-image: url('../assets/svg/typescript1.svg');
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-9{
-  transition: 0.8s ease-out;
-}
-.imagem-9:hover{
-  background-image: url('../assets/svg/bootstrap1.svg');
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-10{
-  transition: 0.8s ease-out;
-}
-.imagem-10:hover{
-  background-image: url('../assets/svg/nodejs1.svg');
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-11{
-  transition: 0.8s ease-out;
-}
-.imagem-11:hover{
-  background-image: url(../assets/svg/tailwind1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-12{
-  transition: 0.8s ease-out;
-}
-.imagem-12:hover{
-  background-image: url(../assets/svg/database1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-13{
-  transition: 0.8s ease-out;
-}
-.imagem-13:hover{
-  background-image: url(../assets/svg/Jquery1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-14{
-  transition: 0.8s ease-out;
-}
-.imagem-14:hover{
-  background-image: url(../assets/svg/git1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-15{
-  transition: 0.8s ease-out;
-}
-.imagem-15:hover{
-  background-image: url(../assets/svg/github1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-.imagem-16{
-  transition: 0.8s ease-out;
-}
-.imagem-16:hover{
-  background-image: url(../assets/svg/figma1.svg);
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transform: rotate(360deg);
-  opacity: 1;
-}
-@media (max-width: 1145px) { 
-  .habilidades-margin {
-    justify-content: center;
-    margin-right: 0px;
-  }
-  .container-repeat {
-    justify-content: center;
-  }
-  .habilidades-imagem {
-    justify-content: center;
-  }
-}
-@media (max-width: 1050px) {
-.habilidades .titulo-habilidades-grid {
-  display: grid;
-  margin-bottom: 50px;
-  margin-left: 0px;
-}
-.habilidades .titulo-habilidades {
-  margin: 0 auto;
-}
-.habilidades .titulo-habilidades::after{
-  content: "";
-  width: 50px;
-  height: 100%;
-  left: -45px;
-  background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
-  position: absolute;
-  transform: rotate(180deg);
-}
-.habilidades .titulo-habilidades::before{
-  content: "";
-  width: 50px;
-  height: 100%;
-  right: -45px;
-  background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
-  position: absolute;
-}
-.conteiner-skills {
-  grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
 }
 .conteiner-descricao {
-  grid-row: 1;
+@include d(s) {
+grid-row: 1;
+}
 }
 .texto-descricao{
-  height: 210px;
+margin-top: 30px;
+text-align: center;
+height: 250px;
+display: block;
+animation: opacity 3s forwards;
+@include d(s) {
+height: 210px;
 }
+@include d(m) {
+height: 250px;
+transition: 0.8s ease-out;
+}
+}
+@keyframes opacity {
+from {
+opacity: 0;
+transform: matrix3d(-20px, 0, 0);
+}
+to {
+opacity: 1;
+transform: matrix3d(1, 1, 1);
+}
+}
+.habilidades-imagem {
+display: flex;
+flex-wrap: wrap;
+gap: 25.80px;
+justify-content: flex-end;
+align-items: center;
+@include d(f) {
+justify-content: center;
+}
+@include d(t) {
+gap: 20px;
+} 
+}
+.habilidades-margin {
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+justify-content: flex-end;
+align-items: center;
+margin-right: 50px;
+@include d(f) {
+justify-content: center;
+margin-right: 0px;
+@include d(t) {
+gap: 20px;
+}
+}
+}
+.container-repeat {
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+justify-content: flex-end;
+align-items: center;
+@include d(f) {
+justify-content: center;
+}
+@include d(t) {
+gap: 20px;
+}
+}
+.img-content {
+padding: 0px;
+background: $cor-4;
+border-radius: 0%;
+cursor: pointer;
+background-repeat: no-repeat;
+background-position: center;
+box-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.2);
+clip-path: polygon(0 15%, 15% 0, 100% 0, 100% 78%, 78% 100%, 0 100%);
+position: relative;
+}
+/* .img-content::before {
+content: "";
+position: absolute;
+bottom: 0;
+right: 0;
+border: 17px solid transparent;
+border-bottom: 17px solid var(--cor-p1);
+border-right: 17px solid var(--cor-p1);
+}
+.img-content::after {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+border: 17px solid transparent;
+border-top: 17px solid var(--cor-p1);
+border-left: 17px solid var(--cor-p1);
+} */
 .img-content img {
- padding: 8px 8px; 
+justify-content: center;
+align-items: center;
+width: 90px;
+height: 90px;
+transition: 0.8s ease-out;
+@include d(s) {
+padding: 8px 8px; 
+}
+@include d(t) {
+width: 90px;
+height: 90px;
+}
+@include d(m) {
+width: 80px;
+height: 80px;
 }
 }
-@media (max-width: 760px) {
-  .habilidades-imagem {
-    gap: 20px;
-  }
-  .habilidades-margin {
-    gap: 20px;
-  }
-  .container-repeat {
-    gap: 20px;
-  }
-  .img-content img {
-    width: 90px;
-    height: 90px;
-  } 
+.content img:hover {
+transform: rotate(360deg);
+transform: scale(1.2);
+opacity: 0;
 }
-@media (max-width: 600px) {
-  .texto-container {
-    padding: 10px;
-  }
-  .habilidades-imagem {
-    gap: 20px;
-  }
-  .habilidades-margin {
-    gap: 20px;
-  }
-  .img-content img {
-    width: 80px;
-    height: 80px;
-  } 
-  .content {
-    padding: 15px 15px;
-  }
-  .texto-descricao{
-    height: 250px;
-    transition: 0.8s ease-out;
-  }
+.content {
+padding: 25px 25px;
+@include d(m) {
+padding: 15px 15px;
 }
-@media (max-width: 500px){ 
-.habilidades .titulo-habilidades::after{
-  content: "";
-  width: 50px;
-  height: 31.98px;
-  left: -50px;
-  background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
-  position: absolute;
-  transform: rotate(180deg);
 }
-.habilidades .titulo-habilidades::before{
-  content: "";
-  width: 50px;
-  height: 100%;
-  right: -50px;
-  background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
-  position: absolute;
+.imagem-1{  
+transition: 0.8s ease-out;
 }
-
+.imagem-1:hover { 
+background-image: url(../assets/svg/html1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-2{
+transition: 0.8s ease-out;
+}
+.imagem-2:hover{
+background-image: url(../assets/svg/css1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-3{
+transition: 0.8s ease-out;
+}
+.imagem-3:hover{
+background-image: url(../assets/svg/sass1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-4{
+transition: 0.8s ease-out;
+}
+.imagem-4:hover{
+background-image: url(../assets/svg/js1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-5{
+transition: 0.8s ease-out;
+}
+.imagem-5:hover{
+background-image: url(../assets/svg/redux1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-6{
+transition: 0.8s ease-out;
+}
+.imagem-6:hover{
+background-image: url(../assets/svg/react1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-7{
+transition: 0.8s ease-out;
+}
+.imagem-7:hover{
+background-image: url(../assets/svg/vue1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-8{
+transition: 0.8s ease-out;
+}
+.imagem-8:hover{
+background-image: url('../assets/svg/typescript1.svg');
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-9{
+transition: 0.8s ease-out;
+}
+.imagem-9:hover{
+background-image: url('../assets/svg/bootstrap1.svg');
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-10{
+transition: 0.8s ease-out;
+}
+.imagem-10:hover{
+background-image: url('../assets/svg/nodejs1.svg');
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-11{
+transition: 0.8s ease-out;
+}
+.imagem-11:hover{
+background-image: url(../assets/svg/tailwind1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-12{
+transition: 0.8s ease-out;
+}
+.imagem-12:hover{
+background-image: url(../assets/svg/database1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-13{
+transition: 0.8s ease-out;
+}
+.imagem-13:hover{
+background-image: url(../assets/svg/Jquery1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-14{
+transition: 0.8s ease-out;
+}
+.imagem-14:hover{
+background-image: url(../assets/svg/git1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-15{
+transition: 0.8s ease-out;
+}
+.imagem-15:hover{
+background-image: url(../assets/svg/github1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
+}
+.imagem-16{
+transition: 0.8s ease-out;
+}
+.imagem-16:hover{
+background-image: url(../assets/svg/figma1.svg);
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+transform: rotate(360deg);
+opacity: 1;
 }
