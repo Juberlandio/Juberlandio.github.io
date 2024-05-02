@@ -149,7 +149,7 @@ fill: $cor-10;
 }
 @media (max-width: 1200px) {
 .sobre {
-height: 324px;
+height: 100%;
 gap: 30px 53px;
 grid-template-areas:
 "sidenav content"
@@ -199,10 +199,9 @@ max-width: 60ch;
 grid-column: 2 / -1;
 grid-row: 3;
 justify-content: flex-start;
-align-items: center;
+align-self: start;
 gap: 15px;
 padding-bottom: 0px;
-
 }
 }
 @media (max-width: 800px) {
