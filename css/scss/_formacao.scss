@@ -127,7 +127,7 @@ top: 0;
 right: 0;
 border: 20px solid transparent;
 border-top: 20px solid $cor-p1;
-border-right: 20px solid$cor-p1;
+border-right: 20px solid $cor-p1;
 }
 .faculdade-lista:hover{
 transform: translateY(-15px);
@@ -145,7 +145,7 @@ display: grid;
 gap: 10px;
 grid-template-columns: 6fr 1fr;
 position: relative;
-border-left: 8px solid $cor-p1;
+border-left: 5px solid $cor-p1;
 transition: 0.3s;
 @include d(m) {
 text-align: center;
@@ -166,7 +166,7 @@ display: grid;
 gap: 10px;
 grid-template-columns: 6fr 1fr;
 position: relative;
-border-left: 8px solid $cor-p1;
+border-left: 5px solid $cor-p1;
 transition: 0.3s;
 @include d(m) {
 text-align: center;
