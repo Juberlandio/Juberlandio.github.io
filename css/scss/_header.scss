@@ -15,6 +15,12 @@ padding-top: 20px;
 padding-bottom: 20px;
 z-index: 4;
 text-shadow: 1px 1px 1px $cor-5;
+@include d(t) {
+padding-top: 0px;
+padding-bottom: 0px;
+transition: 6s;
+text-shadow: 1px 1px 1px $cor-0;
+}
 }
 .ativo-menu{
 z-index: 3;
@@ -36,6 +42,9 @@ padding: 0px;
 }
 .container-logo{
 margin: auto 0;
+@include d(t) {
+display: none;
+}
 }
 .container-logo img{
 width: 70px;
@@ -49,6 +58,9 @@ display: flex;
 flex-wrap: nowrap;
 gap: 40px;
 justify-content: center;
+@include d(t) {
+gap: 0px;
+}
 }
 .menu a {
 color: inherit;
@@ -56,6 +68,10 @@ text-decoration: none;
 position: relative;
 display: inline-block;
 padding: 1.5rem 0;
+@include d(t){
+color: $cor-0;
+padding: 1rem 0;
+}
 }
 .menu a:after {
 content: "";
@@ -66,6 +82,16 @@ display: block;
 margin-top: 0px;
 transition: 0.3s;
 position: absolute; /* Realinhando ao centro */
+@include d(t) {
+content: "";
+width: 0%;
+height: 3px;
+background-color: #3228FA;
+display: block; 
+margin-top: 0px;
+transition: 0.3s;
+position: absolute; /* Realinhando ao centro */
+}
 }
 .menu a:hover:after {
 width: 100%;
@@ -81,35 +107,4 @@ background-color: $cor-13;
 display: flex;
 justify-content: center;
 align-items: center;
-}
-@media (max-width: 768px){
-.topo{
-padding-top: 0px;
-padding-bottom: 0px;
-transition: 6s;
-text-shadow: 1px 1px 1px $cor-0;
-}
-.container-logo {
-display: none;
-}
-.menu {
-gap: 0px;
-}
-.menu a {
-color: $cor-0;
-padding: 1rem 0;
-} 
-.menu a:after {
-content: "";
-width: 0%;
-height: 3px;
-background-color: #3228FA;
-display: block; 
-margin-top: 0px;
-transition: 0.3s;
-position: absolute; /* Realinhando ao centro */
-}
-.menu a:hover:after {
-width: 100%;
-}
 }

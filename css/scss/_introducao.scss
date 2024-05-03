@@ -1,5 +1,11 @@
 .introducao-bg {
 background: linear-gradient(-114.13deg, $cor-0 50%, $cor-1 45%);
+@include d(f) {
+background: linear-gradient(-114.13deg, $cor-0 50%, $cor-0 45%);
+}
+@include d(s) {
+background: $cor-0;
+}
 }
 .introducao {
 padding: 20px;
@@ -9,14 +15,46 @@ gap: 20px;
 justify-content: center;
 align-items: center;
 height: 100vh;
+@include d(s) {
+display: flex;
+padding: 200px 20px 40px 20px;
+grid-template-columns: 1fr;
+flex-direction: column-reverse;
+}
+@include d(m) {
+padding: 100px 20px 5px 20px;
+}
+}
+.introducao::before {
+@include d(s) {
+content: "";
+grid-column: 1 / -1;
+justify-self: center;
+display: block;
+width: 90%;
+height: 3px;
+margin-top: 40px;
+background: $cor-p2;
+}
 }
 .introducao h1 {
 margin-bottom: 25px;
 margin-top: 25px;
 position: relative;
+@include d(s) {
+text-align: center;
+}
+}
+.introducao img {
+@include d(s) { 
+flex-direction: column;
+}
 }
 .intro {
 z-index: 0;
+@include d(m) {
+padding-bottom: 65px;
+}
 }
 .mao{
 font-size: 0.9em;
@@ -59,11 +97,16 @@ animation: piscando 0.5s alternate infinite step-end;
 border-color: transparent;
 }
 }
-.links{
+.links {
 display: flex;
 gap: 30px;
 justify-content: flex-start;
 z-index: 1;
+@include d(s) {
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
 }
 .botao-linkedin {
 display: flex;
@@ -82,20 +125,17 @@ text-decoration: none;
 position: relative;
 letter-spacing: 0.8px;
 flex: 0 0 162px; /* grow, shrink, basis */
+@include d(s) {
+padding: 10px 15px;
+gap: 10px;
+flex-basis: 110px;
 }
-/* .botao-linkedin::before {
-content: "";
-position: absolute;
-z-index: -1;
-inset: -3px;
-background: linear-gradient(
--45deg,
-var(--cor-p1),
-var(--cor-p2)
-);
-background-size: 400%;
-animation: move infinite forwards 4s;
-} */
+@include d(m) {
+padding: 10px 5px;
+gap: 8px;
+flex-basis: 103px;
+}
+}
 @keyframes move {
 0% {
 background-position: 0% 50%;
@@ -111,6 +151,12 @@ background-position: 0% 50%;
 transition: 500ms;
 text-transform: uppercase;
 align-items: center;
+@include d(s) {
+height: 18px;
+}
+@include d(m) {
+height: 15px;
+}
 }
 .botao-linkedin svg path {
 transition: 900ms;
@@ -118,6 +164,14 @@ transition: 900ms;
 .botao-linkedin svg {
 width: 30px;
 height: 30px;
+@include d(s) {
+width: 18px;
+height: 18px;
+}
+@include d(m) {
+width: 15px;
+height: 15px;
+}
 }
 .botao-linkedin:hover {
 background-color: $cor-0;
@@ -146,20 +200,17 @@ text-decoration: none;
 position: relative;
 letter-spacing: 0.8px;
 flex: 0 0 162px; /* grow - crecimento, shrink - não diminua menos de 162, basis - tamanho*/
+@include d(s) {
+padding: 10px 15px;
+gap: 10px;
+flex-basis: 110px;
 }
-/* .botao-github::before {
-content: "";
-position: absolute;
-z-index: -1;
-inset: -3px;
-background: linear-gradient(
--45deg,
-var(--cor-p1),
-var(--cor-p2)
-);
-background-size: 400%;
-animation: move infinite forwards 4s;
-} */
+@include d(m) {
+padding: 10px 5px;
+gap: 8px;
+flex-basis: 103px;
+}
+}
 @keyframes move {
 0% {
 background-position: 0% 50%;
@@ -176,6 +227,12 @@ background-position: 0% 50%;
 .botao-github .text{
 transition: 500ms;
 text-transform: uppercase;
+@include d(s) {
+height: 18px;
+}
+@include d(m) {
+height: 15px;
+}
 }
 .botao-github svg path {
 transition: 500ms;
@@ -183,6 +240,14 @@ transition: 500ms;
 .botao-github svg {
 width: 30px;
 height: 30px;
+@include d(s) {
+width: 18px;
+height: 18px;
+}
+@include d(m) {
+width: 15px;
+height: 15px;
+}
 }
 .botao-github:hover {
 background-color: $cor-0;
@@ -197,6 +262,10 @@ fill: $redes-1;
 .introducao picture img {
 max-width: 567px;
 max-height: 439px;
+@include d(m) {
+max-width: 100%;
+padding-bottom: 20px;
+}
 }
 .introducao .ilustracao-principal{ 
 position: relative;
@@ -213,109 +282,10 @@ from{
 transform: translatey(-20px);
 }
 }
-@media (max-width: 1200px) {
-.introducao-bg {
-background: linear-gradient(-114.13deg, $cor-0 50%, $cor-0 45%);
-}
-.introducao {
-gap: 20px;
-}
-}
-@media (max-width: 1000px) {
-.introducao-bg {
-background: $cor-0;
-}
-.home {
-display: none;
-}
-.introducao {
-display: flex;
-padding: 200px 20px 40px 20px;
-grid-template-columns: 1fr;
-flex-direction: column-reverse;
-/* border-bottom: 3px dashed var(--cor-p2); */
-}
-.introducao::before {
-content: "";
-grid-column: 1 / -1;
-justify-self: center;
-display: block;
-width: 90%;
-height: 3px;
-margin-top: 40px;
-background: $cor-p2;
-}
-.introducao h1 {
-text-align: center;
-}
-.introducao img {
-flex-direction: column;
-}
-.links{
-justify-content: center;
-align-items: center;
-gap: 15px;
-}
-.botao-linkedin {
-padding: 10px 15px;
-gap: 10px;
-flex-basis: 110px;
-}
-.botao-linkedin .text{
-height: 18px;
-}
-.botao-linkedin svg {
-width: 18px;
-height: 18px;
-}
-.botao-github {
-padding: 10px 15px;
-gap: 10px;
-flex-basis: 110px;
-}
-.botao-github .text{
-height: 18px;
-}
-.botao-github svg {
-width: 18px;
-height: 18px;
-}
-}
-@media (max-width: 600px) { 
-.introducao {
-padding: 100px 20px 5px 20px;
-}
-.botao-linkedin {
-padding: 10px 5px;
-gap: 8px;
-flex-basis: 103px;
-}
-.botao-linkedin .text{
-height: 15px;
-}
-.botao-linkedin svg {
-width: 15px;
-height: 15px;
-}
-.botao-github {
-padding: 10px 5px;
-gap: 8px;
-flex-basis: 103px;
-}
-.botao-github .text{
-height: 15px;
-}
-.botao-github svg {
-width: 15px;
-height: 15px;
-}
-.intro {
-padding-bottom: 65px;
-}
-.introducao picture {
-padding-bottom: 20px;
-}
+
+@media (max-width: 600px) {
 .introducao picture img {
 max-width: 100%;
+padding-bottom: 20px;
 }
 }
