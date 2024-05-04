@@ -226,8 +226,11 @@ flex-basis: 120px;
 transition: 500ms;
 text-transform: uppercase;
 align-items: center;
+@include d(s) {
+padding: 5px;
+}
 @include d(m) {
-height: 15px;
+padding: 3px;
 }
 }
 .botao-curriculo svg path {
@@ -280,8 +283,11 @@ flex-basis: 120px;
 .botao-e-mail .text{
 transition: 500ms;
 text-transform: uppercase;
+@include d(s) {
+padding: 5px;
+}
 @include d(m) {
-height: 15px;
+padding: 3px;
 }
 }
 .botao-e-mail svg path {

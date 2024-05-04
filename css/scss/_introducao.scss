@@ -150,10 +150,10 @@ transition: 500ms;
 text-transform: uppercase;
 align-items: center;
 @include d(s) {
-height: 18px;
+padding: 5px;
 }
 @include d(m) {
-height: 15px;
+padding: 3px;
 }
 }
 .botao-linkedin svg path {
@@ -226,10 +226,10 @@ background-position: 0% 50%;
 transition: 500ms;
 text-transform: uppercase;
 @include d(s) {
-height: 18px;
+padding: 5px;
 }
 @include d(m) {
-height: 15px;
+padding: 3px;
 }
 }
 .botao-github svg path {
@@ -240,7 +240,6 @@ width: 30px;
 height: 30px;
 @include d(s) {
 width: 18px;
-height: 18px;
 }
 @include d(m) {
 width: 15px;
