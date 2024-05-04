@@ -9,17 +9,17 @@ background: $cor-0;
 }
 .introducao {
 padding: 20px;
-display: grid;
-grid-template-columns: 1.7fr 1fr;
-gap: 10px;
-justify-content: center;
+display: flex;
+flex-wrap: wrap;
+gap: 0px;
+justify-content: space-between;
 align-items: center;
 height: 100vh;
 position: relative;
 @include d(s) {
-grid-template-columns: 1fr;
-flex-direction: column;
-padding-top: 50px;
+  justify-content: center;
+  flex-direction: column-reverse;
+  padding-top: 50px;
 }
 }
 .introducao::before {
@@ -47,16 +47,12 @@ text-align: center;
 .introducao img {
 @include d(s) { 
 flex-direction: column;
-padding-top: 0px;
+padding-bottom: 30px;
 align-self: end;
 }
 }
 .intro {
 z-index: 0;
-  @include d(s) {
-    grid-column: 1;
-    grid-row: 2;
-}
 }
 .mao{
 font-size: 0.9em;
@@ -260,12 +256,6 @@ color: $redes-1;
 }
 .botao-github:hover svg path {
 fill: $redes-1;
-}
-.introducao picture {
-  @include d(s) {
-    grid-column: 1;
-    grid-row: 1;
-  }
 }
 .introducao picture img {
 max-width: 567px;
