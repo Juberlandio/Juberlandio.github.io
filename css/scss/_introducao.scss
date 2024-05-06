@@ -53,6 +53,7 @@ align-self: end;
 }
 .intro {
 z-index: 0;
+flex: 0 1 auto;
 }
 .mao{
 font-size: 0.9em;
@@ -256,7 +257,10 @@ color: $redes-1;
 .botao-github:hover svg path {
 fill: $redes-1;
 }
-.introducao picture img {
+.introducao picture {
+flex: 0 1 auto;
+}
+.introducao picture img{
 max-width: 567px;
 max-height: 439px;
 @include d(m) {
