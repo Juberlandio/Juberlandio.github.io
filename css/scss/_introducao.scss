@@ -8,7 +8,6 @@ background: $cor-0;
 }
 }
 .introducao {
-padding: 20px;
 display: flex;
 flex-wrap: nowrap;
 gap: 0px;
@@ -20,6 +19,7 @@ position: relative;
 justify-content: center;
 flex-direction: column-reverse;
 padding-top: 50px;
+padding-bottom: 20px;
 }
 }
 .introducao::before {
