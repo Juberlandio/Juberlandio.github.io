@@ -141,6 +141,10 @@ margin-right: 0px;
 @include d(t) {
 gap: 20px;
 }
+@include d(m) {
+  gap: 20px;
+  width: auto;
+  }
 }
 }
 .container-repeat {
@@ -155,6 +159,10 @@ justify-content: center;
 @include d(t) {
 gap: 20px;
 }
+@include d(m) {
+  gap: 20px;
+  width: auto;
+  }
 }
 .img-content {
 padding: 0px;
@@ -189,18 +197,12 @@ border-left: 17px solid var(--cor-p1);
 justify-content: center;
 align-items: center;
 width: 90px;
-height: 90px;
 transition: 0.8s ease-out;
 @include d(s) {
 padding: 8px 8px; 
 }
-@include d(t) {
-width: 90px;
-height: 90px;
-}
 @include d(m) {
 width: 80px;
-height: 80px;
 }
 }
 .content img:hover {
