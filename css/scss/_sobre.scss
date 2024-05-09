@@ -9,7 +9,7 @@ width: 100%;
 }
 .sobre {
 display: grid;
-gap: 30px;
+gap: 30px 53px;
 justify-content: center;
 align-items: center;
 padding-top: 100px;
@@ -19,7 +19,6 @@ grid-template-areas:
 "sidenav footer footer"
 ;
 @include d(f) {
-gap: 30px 53px;
 grid-template-areas:
 "sidenav content"
 "sidenav footer footer"
