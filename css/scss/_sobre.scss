@@ -226,6 +226,12 @@ text-decoration: none;
 position: relative;
 letter-spacing: 0.8px;
 flex: 0 0 170px; /* grow, shrink, basis */
+@include d(s) {
+gap: 12px;
+}
+@include d(t) {
+gap: 8px;
+}
 @include d(m) {
 padding: 10px 5px;
 gap: 4px;
@@ -285,6 +291,12 @@ text-decoration: none;
 position: relative;
 letter-spacing: 0.8px;
 flex: 0 0 170px; /* grow - crecimento, shrink - não diminua menos de 162, basis - tamanho*/
+@include d(s) {
+gap: 12px;
+}
+@include d(t) {
+gap: 8px;
+}
 @include d(m) {
 padding: 10px 5px;
 gap: 4px;
