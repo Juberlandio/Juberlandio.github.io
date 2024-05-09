@@ -70,6 +70,9 @@ position: absolute;
 display: grid;
 grid-template-columns: 1fr 2fr;
 gap: 10px;
+@include d(f) {
+grid-template-columns: 0.7fr 2fr;
+}
 @include d(s) {
 grid-template-columns: 1fr;
 justify-content: center;
