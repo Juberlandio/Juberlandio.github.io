@@ -108,6 +108,7 @@ padding: 60px 70px;
 border-radius: 3px 0px 0px 3px;
 border-right: 1px solid $cor-0;
 background: transparent;
+min-width: 300px;
 @include d(f) {
 padding: 30px 40px;
 border-right: none;
@@ -118,6 +119,9 @@ padding: 20px 30px;
 @include d(t) {
 padding: 20px;
 border-radius: 4px 4px 0 0;
+}
+@include d(m) {
+min-width: 200px;
 }
 }
 .titulo-contato-grid {
@@ -276,6 +280,12 @@ color: $cor-2;
 display: flex;
 gap: 0px;
 flex-wrap: nowrap;
+@include d(f) {
+padding-left: 10px;
+}
+@include d(f) {
+padding-left: 0px;
+}
 @include d(t) {
 justify-content: center;
 }
