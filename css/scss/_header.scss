@@ -15,7 +15,7 @@ padding-top: 20px;
 padding-bottom: 20px;
 z-index: 4;
 text-shadow: 1px 1px 1px $cor-5;
-@include d(t) {
+@include d(s) {
 padding-top: 0px;
 padding-bottom: 0px;
 transition: 6s;
@@ -42,7 +42,7 @@ padding: 0px;
 }
 .container-logo{
 margin: auto 0;
-@include d(t) {
+@include d(s) {
 display: none;
 }
 }
@@ -56,19 +56,19 @@ transition: 0.5s;
 .menu {
 display: flex;
 flex-wrap: nowrap;
-gap: 40px;
+gap: 20px;
 justify-content: center;
-@include d(t) {
+@include d(s) {
 gap: 0px;
 }
 }
-.menu a {
+.menu a{
 color: inherit;
 text-decoration: none;
 position: relative;
 display: inline-block;
-padding: 1.5rem 0;
-@include d(t){
+padding: 0.8rem 1rem;
+@include d(s){
 color: $cor-0;
 padding: 1rem 0;
 }
@@ -94,7 +94,20 @@ position: absolute; /* Realinhando ao centro */
 }
 }
 .menu a:hover:after {
-width: 100%;
+width: 40%;
+}
+nav .menu li:last-child {
+background: $cor-p1;
+}
+nav .menu .curriculo {
+background: $cor-p1;
+transition: 0.3s;
+}
+nav .menu .curriculo:hover {
+background: $cor-p2;
+}
+.menu .curriculo:after {
+display: none;
 }
 .mobile-menu .primeiro {
 background-color: $cor-13;

@@ -2,14 +2,14 @@
 display: none;
 }
 #header .container {
-@include d(t) {
+@include d(s) {
 padding-left: 0px;
 padding-right: 0px;
 }
 }
 
 .js [data-menu="button"] {
-@include d(t) {
+@include d(s) {
 display: flex;
 background: #222;
 border: none;
@@ -28,7 +28,7 @@ margin: 10px 10px 10px auto;
 }
 
 .js [data-menu="button"]::before {
-@include d(t) {
+@include d(s) {
 margin-right: 4px;
 content: '';
 display: inline-block;
@@ -41,12 +41,12 @@ transition: transform .3s;
 }
 
 .js [data-menu="button"].active::before {
-@include d(t) {
+@include d(s) {
 transform: rotate(90deg);
 }
 }
 .js [data-menu="list"] {
-@include d(t) {
+@include d(s) {
 display: none;
 position: absolute;
 width: 160px;
@@ -58,8 +58,8 @@ box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
 }
 }
 .js [data-menu="list"].active {
-@include d(t) {
-  text-align: left;
+@include d(s) {
+  text-align: center;
 background-color: #222;
 list-style: none;
 width: 150px;
@@ -72,7 +72,7 @@ padding: 26px 26px 26px 26px;
 }
 
 .js [data-menu="list"].active {
-@include d(t) {
+@include d(s) {
 display: block;
 animation: show-left .4s forwards;
 }
@@ -88,7 +88,7 @@ transform: translate3d(0, 0, 0);
 }
 }
 .js .dropdown-menu {
-@include d(t) {
+@include d(s) {
 position: static;
 border: none;
 }
