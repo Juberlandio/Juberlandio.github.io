@@ -1,5 +1,3 @@
-
-
 /* Estilos do Topo*/
 #header {
 transition: 0.3s;
@@ -96,12 +94,10 @@ position: absolute; /* Realinhando ao centro */
 .menu a:hover:after {
 width: 40%;
 }
-nav .menu li:last-child {
-background: $cor-p1;
-}
 nav .menu .curriculo {
 background: $cor-p1;
 transition: 0.3s;
+padding: 0.8rem 1rem;
 }
 nav .menu .curriculo:hover {
 background: $cor-p2;
