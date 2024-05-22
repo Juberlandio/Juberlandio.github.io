@@ -22,13 +22,6 @@ text-transform: uppercase;
 margin: 0 auto;
 }
 }
-.faculdade-unidade {
-@include d(t) {
-gap: 20px;
-grid-template-columns: 1fr; 
-}
-}
-
 .formacao .titulo-formacao::after{
 content: "";
 width: 50px;
@@ -75,6 +68,8 @@ position: absolute;
 }
 .faculdade-espaco {
 display: grid;
+justify-content: center;
+align-items: center;
 grid-template-columns: repeat(4, 1fr);
 gap: 25px;
 @include d(f) {
