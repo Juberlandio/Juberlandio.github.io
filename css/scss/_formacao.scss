@@ -238,24 +238,24 @@ transform: rotate(-4deg);
 transform: rotate(3deg);
 }
 }
-.faculdade-lista-unico picture .certificado {
-@include d(m) {
-grid-row: 1;
-}
-}
-.faculdade-lista picture .certificado {
-@include d(m) {
-grid-row: 1;
-}
-}
 .faculdade-lista-unico .faculdade-ordem {
+display: flex;
+gap: 1px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
 @include d(m) {
-grid-row: 2;
+align-items: center;
 }
 }
 .faculdade-lista .faculdade-ordem {
+display: flex;
+gap: 1px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
 @include d(m) {
-grid-row: 2;
+align-items: center;
 }
 }
 .js .ccard {
