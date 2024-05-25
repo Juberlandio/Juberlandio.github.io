@@ -55,13 +55,13 @@ position: absolute;
 transform: rotate(180deg);
 }
 @include d(m) {
-    content: "";
-    width: 50px;
-    height: 31.98px;
-    left: -50px;
-    background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
-    position: absolute;
-    transform: rotate(180deg);
+content: "";
+width: 50px;
+height: 31.98px;
+left: -50px;
+background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
+position: absolute;
+transform: rotate(180deg);
 }
 }
 .projeto .titulo-projeto::before{
@@ -74,12 +74,12 @@ background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
 position: absolute;
 }
 @include d(m) {
-    content: "";
-    width: 50px;
-    height: 100%;
-    right: -50px;
-    background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
-    position: absolute;
+content: "";
+width: 50px;
+height: 100%;
+right: -50px;
+background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
+position: absolute;
 }
 }
 .projeto ul {

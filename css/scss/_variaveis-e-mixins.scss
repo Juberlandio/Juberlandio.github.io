@@ -47,22 +47,22 @@ $m-device: 600px;
 // }
 
 @mixin d($dispositivo) {
-  @if $dispositivo == f {
-    @media (max-width: $f-device) {
-      @content;
-    }
-  } @else if $dispositivo == s {
-    @media (max-width: $s-device) {
-      @content;
-    }
-	} @else if $dispositivo == t {
-    @media (max-width: $t-device) {
-      @content;
-    }
-  } @else if $dispositivo == m {
-    @media (max-width: $m-device) {
-      @content;
-    }
-  }
+@if $dispositivo == f {
+@media (max-width: $f-device) {
+@content;
+}
+} @else if $dispositivo == s {
+@media (max-width: $s-device) {
+@content;
+}
+} @else if $dispositivo == t {
+@media (max-width: $t-device) {
+@content;
+}
+} @else if $dispositivo == m {
+@media (max-width: $m-device) {
+@content;
+}
+}
 }
 

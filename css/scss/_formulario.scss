@@ -1,42 +1,42 @@
 .form {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  @include d(t) {
-    grid-template-columns: 1fr;
-  }
+display: grid;
+grid-template-columns: 1fr;
+gap: 20px;
+@include d(t) {
+grid-template-columns: 1fr;
+}
 }
 .form label {
-  display: block;
-  font: 400 1rem/1.5 "Roboto", sans-serif;
-  margin-bottom: 4px;
-  color: $cor-0;
+display: block;
+font: 400 1rem/1.5 "Roboto", sans-serif;
+margin-bottom: 4px;
+color: $cor-0;
 }
 .form .col-2 {
-  grid-column: span 2;
-  @include d(t) {
-      grid-column: 1;
-  }
+grid-column: span 2;
+@include d(t) {
+grid-column: 1;
+}
 }
 .form input[type="text"],
 .form input[type="email"],
 .form textarea {
-  font: 400 1rem/1.5 "Roboto", sans-serif;
-  background: $cor-2;
-  border: 1px solid $cor-11;
-  padding: 8px;
-  border-radius: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  transition: 0.5s ease-out;
-  @include d(t) {
-    font: 400 0.7rem/1.5 "Roboto", sans-serif;
-  }
+font: 400 1rem/1.5 "Roboto", sans-serif;
+background: $cor-2;
+border: 1px solid $cor-11;
+padding: 8px;
+border-radius: 10px;
+width: 100%;
+box-sizing: border-box;
+transition: 0.5s ease-out;
+@include d(t) {
+font: 400 0.7rem/1.5 "Roboto", sans-serif;
+}
 }
 .form input[type="text"]:focus,
 .form input[type="email"]:focus,
 .form textarea:focus {
-  outline: none;
-  background: $cor-1;
-  box-shadow: 0 0 0 2px $cor-p2;
+outline: none;
+background: $cor-1;
+box-shadow: 0 0 0 2px $cor-p2;
 }
