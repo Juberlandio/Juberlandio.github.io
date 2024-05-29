@@ -421,14 +421,13 @@ letter-spacing: 5px;
 .js .pcard {
 opacity: 0;
 transition: opacity 0.5s ease, transform 0.5s ease;
-display: none; /* Inicialmente oculto */
+display: none;
 }
 .js .certificate-ativo {
 transform: rotate(180deg);
 transition: 0.5s;
 }
-/* Estilos dos cartões quando ativo */
 .js .pcard.ativo {
 opacity: 1;
-display: block; /* Mostrar quando ativo */
+display: block;
 }
