@@ -253,24 +253,20 @@ align-items: flex-start;
 align-items: center;
 }
 }
+/* Estilos iniciais dos cartões */
 .js .ccard {
-display: none;
-}
-.js .ccard.ativo {
-display: block;
-animation: slideDown1 2s forwards;
-}
-@keyframes slideDown1 {
-from {
 opacity: 0;
-max-height: 0;
-}
-to {
-opacity: 1;
-max-height: 10000px;
-}
+transform: translateY(20px);
+transition: opacity 0.5s ease, transform 0.5s ease;
+display: none; /* Inicialmente oculto */
 }
 .js .certificate-ativo {
 transform: rotate(180deg);
 transition: 0.5s;
+}
+/* Estilos dos cartões quando ativo */
+.js .ccard.ativo {
+opacity: 1;
+transform: translateY(0);
+display: block; /* Mostrar quando ativo */
 }
