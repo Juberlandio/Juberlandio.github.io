@@ -256,7 +256,6 @@ align-items: center;
 /* Estilos iniciais dos cartões */
 .js .ccard {
 opacity: 0;
-transform: translateY(20px);
 transition: opacity 0.5s ease, transform 0.5s ease;
 display: none; /* Inicialmente oculto */
 }
@@ -267,6 +266,5 @@ transition: 0.5s;
 /* Estilos dos cartões quando ativo */
 .js .ccard.ativo {
 opacity: 1;
-transform: translateY(0);
 display: block; /* Mostrar quando ativo */
 }
