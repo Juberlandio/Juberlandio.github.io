@@ -3,7 +3,14 @@ export default function certificateAnimationButton() {
   const cards = document.querySelectorAll('.ccard');
   
   button.addEventListener('click', function() {
-    button.classList.toggle('certificate-ativo');
+    if (button.classList.contains('certificado-ativo')) {
+      button.classList.remove('certificado-ativo');
+      button.classList.add('certificado-inativo');
+    } else {
+      button.classList.remove('certificado-inativo');
+      button.classList.add('certificado-ativo');
+    }
+    
     cards.forEach((card) => {
       if (card.classList.contains('ativo')) {
         // Animação de saída
