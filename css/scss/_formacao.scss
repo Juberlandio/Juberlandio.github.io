@@ -82,7 +82,7 @@ grid-template-columns: repeat(1, 1fr);
 .faculdade-lista-unico {
 grid-column: span 2;
 background: linear-gradient($cor-11 10px, $cor-9 100px);
-transition: 0.5s ease-out;
+transition: 0.5s ease-out, opacity 0.5s ease, transform 0.5s ease;
 position: relative;
 @include d(m) {
 grid-column: span 1;
@@ -112,7 +112,7 @@ display: block;
 .faculdade-lista{
 background: $cor-10;
 background: linear-gradient($cor-11 10px, $cor-9 100px);
-transition: 0.5s ease-out;
+transition: 0.5s ease-out, opacity 0.5s ease, transform 0.5s ease;
 position: relative;
 }
 .faculdade-lista::before {
@@ -255,7 +255,6 @@ align-items: center;
 }
 .js .ccard {
 opacity: 0;
-transition: opacity 0.5s ease, transform 0.5s ease;
 display: none;
 }
 .js .certificado-inativo {
