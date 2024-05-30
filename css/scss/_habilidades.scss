@@ -401,11 +401,12 @@ opacity: 1;
 }
 .js .hcard {
 opacity: 0;
+transition: opacity 0.5s ease, transform 0.5s ease;
 display: none;
 }
 .js .certificado-inativo {
 transform: rotate(0deg);
-transition: 0;
+transition: 0.5s;
 }
 .js .certificado-ativo {
 transform: rotate(180deg);

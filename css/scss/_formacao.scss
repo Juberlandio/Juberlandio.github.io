@@ -96,7 +96,7 @@ border: 20px solid transparent;
 border-top: 20px solid $cor-p1;
 border-right: 20px solid $cor-p1;
 }
-.faculdade-lista-unico:hover{
+.faculdade-lista-unico:hover {
 transform: translateY(-15px);
 background: linear-gradient($cor-11 10px, $cor-11 100px);
 box-shadow: 3px 3px 0 $cor-p2;
@@ -112,7 +112,7 @@ display: block;
 .faculdade-lista{
 background: $cor-10;
 background: linear-gradient($cor-11 10px, $cor-9 100px);
-transition: 0.5s ease;
+transition: 0.5s ease-out;
 position: relative;
 }
 .faculdade-lista::before {
@@ -255,6 +255,7 @@ align-items: center;
 }
 .js .ccard {
 opacity: 0;
+transition: opacity 0.5s ease, transform 0.5s ease;
 display: none;
 }
 .js .certificado-inativo {
