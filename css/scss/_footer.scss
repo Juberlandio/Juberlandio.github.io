@@ -109,11 +109,11 @@ border-right: 1px solid $cor-0;
 background: transparent;
 min-width: 300px;
 @include d(f) {
-padding: 30px 40px;
+padding: 50px 30px;
 border-right: none;
 }
 @include d(s) {
-padding: 20px 30px;
+padding: 40px 30px;
 }
 @include d(t) {
 padding: 20px;
