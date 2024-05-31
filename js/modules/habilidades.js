@@ -35,9 +35,9 @@ const sobreSkill = [
 
 '<p style="font-weight: bold; display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}">Figma</p> <br> <p style="display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}">O Figma é uma poderosa ferramenta de design, que permite criar interfaces, designs de aplicativos e sites. </p> <br>',
 
-'<p style="font-weight: bold; display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}">Figma</p> <br> <p style="display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}">Java é uma linguagem de programação orientada a objetos, robusta, independente de plataforma e amplamente utilizada para desenvolvimento web. </p> <br>',
+'<p style="font-weight: bold; display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}">Java</p> <br> <p style="display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}">Java é uma linguagem de programação orientada a objetos, robusta, independente de plataforma e amplamente utilizada para desenvolvimento web. </p> <br>',
 
-'<p style="font-weight: bold; display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}">Figma</p> <br> <p style="display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}"> Spring é um framework Java que facilita o desenvolvimento de aplicações robustas e de alto desempenho, oferecendo suporte abrangente.</p> <br>',
+'<p style="font-weight: bold; display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}">Spring</p> <br> <p style="display: block; animation: opacity 3s forwards; @keyframes mostrar {from {opacity: 0;transform: matrix3d(-30px, 0, 0);}to {opacity: 1;transform: matrix3d(0, 0, 0);}}"> Spring é um framework Java que facilita o desenvolvimento de aplicações robustas e de alto desempenho, oferecendo suporte abrangente.</p> <br>',
 
 ]
 const dataInicio = [
@@ -52,6 +52,8 @@ const dataInicio = [
 (new Date(2023, 11, 1)).getTime(), // 8
 (new Date(2023, 11, 1)).getTime(), // 9
 (new Date(2023, 11, 1)).getTime(), // 10
+(new Date(2023, 11, 1)).getTime(), // 11
+(new Date(2023, 11, 1)).getTime(), // 12
 ]
 const dataHoje = (new Date()).getTime();
 
@@ -69,4 +71,3 @@ descricao.innerHTML = '<p style="display: block; animation: opacity 3s forwards;
 } )
 } );
 }
-
