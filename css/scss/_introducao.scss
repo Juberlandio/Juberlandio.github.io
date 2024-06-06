@@ -135,7 +135,6 @@ gap: 8px;
 @include d(m) {
 padding: 10px 5px;
 gap: 4px;
-flex-basis: 103px;
 }
 }
 @keyframes move {
@@ -202,7 +201,6 @@ text-decoration: none;
 position: relative;
 letter-spacing: 0.8px;
 flex: 0 0 162px; /* grow - crecimento, shrink - não diminua menos de 162, basis - tamanho*/
-
 @include d(s) {
 padding: 10px 15px;
 gap: 12px;
@@ -214,7 +212,6 @@ gap: 8px;
 @include d(m) {
 padding: 10px 5px;
 gap: 4px;
-flex-basis: 103px;
 }
 }
 @keyframes move {

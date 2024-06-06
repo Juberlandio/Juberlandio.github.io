@@ -51,7 +51,7 @@ place-self: start;
 }
 @include d(t) {
 grid-row: 1;
-margin:auto;
+margin: auto;
 }
 @include d(m) {
 max-width: 100%;
@@ -225,9 +225,11 @@ transition: 500ms;
 text-decoration: none;
 position: relative;
 letter-spacing: 0.8px;
-flex: 0 0 170px; /* grow, shrink, basis */
+flex: 0 0 162px;
 @include d(s) {
+padding: 10px 15px;
 gap: 12px;
+flex-basis: 110px;
 }
 @include d(t) {
 gap: 8px;
@@ -235,7 +237,6 @@ gap: 8px;
 @include d(m) {
 padding: 10px 5px;
 gap: 4px;
-flex-basis: 120px;
 }
 }
 .botao-curriculo .text {
@@ -243,9 +244,6 @@ transition: 500ms;
 text-transform: uppercase;
 align-items: center;
 @include d(s) {
-padding: 5px;
-}
-@include d(m) {
 padding: 3px;
 }
 }
@@ -255,11 +253,7 @@ transition: 900ms;
 .botao-curriculo svg {
 width: 30px;
 height: 30px;
-@include d(t) {
-width: 18px;
-height: 18px;
-}
-@include d(m) {
+@include d(s) {
 width: 15px;
 height: 15px;
 }
@@ -290,9 +284,11 @@ transition: 500ms;
 text-decoration: none;
 position: relative;
 letter-spacing: 0.8px;
-flex: 0 0 170px; /* grow - crecimento, shrink - não diminua menos de 162, basis - tamanho*/
+flex: 0 0 162px;
 @include d(s) {
+padding: 10px 15px;
 gap: 12px;
+flex-basis: 110px;
 }
 @include d(t) {
 gap: 8px;
@@ -300,16 +296,12 @@ gap: 8px;
 @include d(m) {
 padding: 10px 5px;
 gap: 4px;
-flex-basis: 120px;
 }
 }
 .botao-e-mail .text{
 transition: 500ms;
 text-transform: uppercase;
 @include d(s) {
-padding: 5px;
-}
-@include d(m) {
 padding: 3px;
 }
 }
@@ -319,11 +311,7 @@ transition: 500ms;
 .botao-e-mail svg {
 width: 30px;
 height: 30px;
-@include d(t) {
-width: 18px;
-height: 18px;
-}
-@include d(m) {
+@include d(s) {
 width: 15px;
 height: 15px;
 }
