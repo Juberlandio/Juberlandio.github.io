@@ -126,7 +126,7 @@ letter-spacing: 0.8px;
 flex: 0 0 162px; /* grow, shrink, basis */
 @include d(s) {
 padding: 10px 15px;
-gap: 12px;
+gap: 10px;
 flex-basis: 110px;
 }
 @include d(t) {
@@ -203,7 +203,7 @@ letter-spacing: 0.8px;
 flex: 0 0 162px; /* grow - crecimento, shrink - não diminua menos de 162, basis - tamanho*/
 @include d(s) {
 padding: 10px 15px;
-gap: 12px;
+gap: 10px;
 flex-basis: 110px;
 }
 @include d(t) {
