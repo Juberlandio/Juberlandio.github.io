@@ -22,6 +22,8 @@ $f-device: 1200px;
 $s-device: 1000px;
 $t-device: 840px;
 $m-device: 600px;
+$c-device: 480px;
+
 
 // // Tipografia
 // @mixin tipo-1($tamanho) {
@@ -61,6 +63,10 @@ $m-device: 600px;
 }
 } @else if $dispositivo == m {
 @media (max-width: $m-device) {
+@content;
+}
+} @else if $dispositivo == c {
+@media (min-width: $c-device) and (max-width: $s-device) {
 @content;
 }
 }

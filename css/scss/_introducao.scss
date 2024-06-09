@@ -21,6 +21,12 @@ flex-direction: column-reverse;
 padding-top: 50px;
 padding-bottom: 20px;
 }
+@include d(m) {
+  height: 100vh;
+}
+@include d(c) {
+  height: auto;
+}
 }
 .introducao::before {
 @include d(s) {
