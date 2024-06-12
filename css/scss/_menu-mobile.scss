@@ -10,39 +10,40 @@ padding-right: 0px;
 
 .js [data-menu="button"] {
 @include d(s) {
-display: flex;
 background: #222;
-border: none;
-padding: .5rem 1rem;
-border-radius: 4px;
-text-transform: uppercase;
-font-family: 'IBM Plex Mono', monospace;
-font-weight: bold;
 color: #fff;
-cursor: pointer;
-align-items: center;
-position: relative;
-z-index: 300;
 margin: 10px 10px 10px auto;
+border-radius: 0.2rem;
+height: 40px;
+width: 40px;
+padding: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid transparent;
+transition: 0.1s;
+cursor: pointer;
 }
 }
 
 .js [data-menu="button"]::before {
 @include d(s) {
-margin-right: 4px;
 content: '';
-display: inline-block;
+display: block;
+width: 1.2rem;
 height: 2px;
-width: 12px;
-background: #fff;
-box-shadow: 0 4px #fff, 0 -4px #fff;
-transition: transform .3s;
+border-radius: 2px;
+background: currentColor;
+box-shadow: 0 6px currentColor, 0 -6px currentColor;
+transition: 0.2s;
 }
 }
-
 .js [data-menu="button"].active::before {
 @include d(s) {
 transform: rotate(90deg);
+width: 4px;
+height: 4px;
+box-shadow: 0 8px currentColor, 0 -8px currentColor;
 }
 }
 .js [data-menu="list"] {
@@ -59,7 +60,6 @@ box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
 }
 .js [data-menu="list"].active {
 @include d(s) {
-text-align: center;
 background-color: #222;
 list-style: none;
 width: 150px;
