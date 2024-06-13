@@ -58,7 +58,7 @@ align-self: end;
 z-index: 0;
 flex: 0 1 auto;
 }
-.mao{
+.mao {
 font-size: 0.9em;
 display: inline-block;
 animation: girar 2.5s infinite;
@@ -178,8 +178,8 @@ height: 15px;
 }
 }
 .botao-linkedin:hover {
-background-color: $cor-0;
-outline: 3px $cor-0 solid;
+background-color: $cor-1;
+outline: 3px $cor-1 solid;
 }
 .botao-linkedin:hover .text {
 color: $redes-0;
@@ -255,8 +255,8 @@ height: 15px;
 }
 }
 .botao-github:hover {
-background-color: $cor-0;
-outline: 3px $cor-0 solid;
+background-color: $cor-1;
+outline: 3px $cor-1 solid;
 }
 .botao-github:hover .text{
 color: $redes-1;
