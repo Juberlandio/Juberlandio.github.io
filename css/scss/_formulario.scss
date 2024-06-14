@@ -29,6 +29,7 @@ border-radius: 10px;
 width: 100%;
 box-sizing: border-box;
 transition: 0.5s ease-out;
+resize: none;
 @include d(t) {
 font: 400 0.7rem/1.5 "Roboto", sans-serif;
 }
