@@ -10,6 +10,7 @@ import habilidades from './modules/habilidades.js';
 import formulario from './modules/formulario.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import vanillaTilt from './modules/efeito-imagem.js';
+import sonsBotoes from './modules/sons-botoes.js';
 
 initScrollSuave();
 menufixo();
@@ -23,3 +24,4 @@ habilidades();
 formulario();
 initMenuMobile();
 vanillaTilt();
+sonsBotoes();
