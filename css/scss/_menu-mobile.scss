@@ -62,12 +62,12 @@ box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
 @include d(s) {
 background-color: #222;
 list-style: none;
-width: 150px;
+width: 120px;
 top: 52px;
 right: 0;
 z-index: 100;
 border-radius: 5px 0px 0px 5px;
-padding: 26px 26px 26px 26px;
+padding: 20px;
 }
 }
 

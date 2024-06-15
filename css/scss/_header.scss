@@ -97,15 +97,17 @@ nav .menu .curriculo {
 background: $cor-p1;
 transition: 0.3s;
 padding: 0.8rem 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
 @include d(s) {
-margin-top: 20px;
+margin-top: 15px;
 }
 }
 nav .menu li {
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
 }
 nav .menu .curriculo:hover {
 background: $cor-p2;
