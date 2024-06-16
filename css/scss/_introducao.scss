@@ -13,13 +13,13 @@ flex-wrap: nowrap;
 gap: 0px;
 justify-content: space-between;
 align-items: center;
-height: 100vh;
+min-height: 100vh;
 position: relative;
 @include d(s) {
 justify-content: center;
 flex-direction: column-reverse;
 padding-top: 50px;
-padding-bottom: 20px;
+padding-bottom: 50px;
 min-height: 100vh;
 }
 @include d(c) {
