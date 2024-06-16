@@ -18,8 +18,8 @@ position: relative;
 @include d(s) {
 justify-content: center;
 flex-direction: column-reverse;
-padding-top: 50px;
-padding-bottom: 20px;
+padding-top: 150px;
+padding-bottom: 150px;
 }
 @include d(c) {
 height: auto;
