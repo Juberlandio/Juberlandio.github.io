@@ -29,9 +29,15 @@ top: 0;
 left: 0;
 box-shadow:  1px 1px  #fbfbfb32;
 backdrop-filter: blur(10px);
-background-color: rgba(255, 255, 255, 0.4);
+background: rgba(255, 255, 255, 0.4);
 border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 transition: 0.3s;
+@include d(m) {
+backdrop-filter: none;
+background: none;
+border-bottom: none;
+box-shadow: none;
+}
 }
 .nav-bar {
 display: flex;
