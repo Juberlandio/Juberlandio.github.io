@@ -32,7 +32,7 @@ backdrop-filter: blur(10px);
 background: rgba(255, 255, 255, 0.4);
 border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 transition: 0.3s;
-@include d(m) {
+@include d(s) {
 backdrop-filter: none;
 background: none;
 border-bottom: none;
