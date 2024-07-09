@@ -96,8 +96,8 @@ transition: 0.3s;
 position: absolute; /* Realinhando ao centro */
 }
 }
-.menu a:hover:after {
-width: 40%;
+.menu .active-menu:after  {
+width: 33%;
 }
 nav .menu .curriculo {
 background: $cor-p1;
