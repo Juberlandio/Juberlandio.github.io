@@ -1,317 +1,337 @@
 .introducao-bg {
-// background: linear-gradient(-114.13deg, $cor-0 50%, $cor-1 45%);
-// @include d(f) {
-// background: linear-gradient(-114.13deg, $cor-0 50%, $cor-0 45%);
-// }
-background: $cor-0;
+  // background: linear-gradient(-114.13deg, $cor-0 50%, $cor-1 45%);
+  // @include d(f) {
+  // background: linear-gradient(-114.13deg, $cor-0 50%, $cor-0 45%);
+  // }
+  background: $cor-0;
 }
 .introducao {
-display: flex;
-flex-wrap: nowrap;
-gap: 0px;
-justify-content: space-between;
-align-items: center;
-min-height: 90vh;
-padding: 6.5% 15% 2% 15%;
-position: relative;
-@include d(s) {
-justify-content: center;
-flex-direction: column-reverse;
-padding: 22% 0;
-}
-@include d(c) {
-height: auto;
-}
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 90vh;
+  padding: 6.5% 15% 2% 15%;
+  position: relative;
+  @include d(s) {
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 22% 0;
+  }
+  @include d(c) {
+    height: auto;
+  }
 }
 
 .introducao::before {
-@include d(s) {
-content: "";
-grid-column: 1 / -1;
-justify-self: center;
-display: block;
-width: 90%;
-height: 3px;
-margin-top: 70px;
-background: $cor-p2;
-grid-column: 1;
-grid-row: 3;
-}
+  @include d(s) {
+    content: '';
+    grid-column: 1 / -1;
+    justify-self: center;
+    display: block;
+    width: 90%;
+    height: 3px;
+    margin-top: 70px;
+    background: $cor-p2;
+    grid-column: 1;
+    grid-row: 3;
+  }
 }
 .introducao h1 {
-margin-bottom: 25px;
-margin-top: 25px;
-position: relative;
-@include d(s) {
-text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  position: relative;
+  @include tipo-1(38.56);
+  @include d(s) {
+    text-align: center;
+    font-size: 1.745rem;
+  }
+  @include d(m) {
+    font-size: 1.3rem;
+  }
 }
+.introducao span {
+  @include tipo-1(48);
+  @include d(s) {
+    font-size: 2.2rem;
+  }
+  @include d(m) {
+    font-size: 1.65rem;
+  }
 }
 .introducao img {
-@include d(s) { 
-flex-direction: column;
-padding-bottom: 30px;
-align-self: end;
-}
+  @include d(s) {
+    flex-direction: column;
+    padding-bottom: 30px;
+    align-self: end;
+  }
 }
 .intro {
-z-index: 0;
-flex: 0 1 auto;
+  z-index: 0;
+  flex: 0 1 auto;
 }
 .mao {
-font-size: 0.9em;
-display: inline-block;
-animation: girar 2.5s infinite;
+  font-size: 0.9em;
+  display: inline-block;
+  animation: girar 2.5s infinite;
 }
-@keyframes girar{
-0% {
-transform: rotate(0deg);
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
-10% {
-transform: rotate(14deg);
-}
-20% {
-transform: rotate(-8deg);
-}
-30% {
-transform: rotate(14deg);
-}
-40% {
-transform: rotate(-4deg);
-}
-50% {
-transform: rotate(10deg);
-}
-60% {
-transform: rotate(0deg);
-}
-100% {
-transform: rotate(0deg);
-}
-}
-.nome{
-border-right: 4px solid;
-box-sizing: content-box;
-animation: piscando 0.5s alternate infinite step-end;
+.nome {
+  border-right: 4px solid;
+  box-sizing: content-box;
+  animation: piscando 0.5s alternate infinite step-end;
 }
 @keyframes piscando {
-50% {
-border-color: transparent;
-}
+  50% {
+    border-color: transparent;
+  }
 }
 .links {
-display: flex;
-gap: 30px;
-justify-content: flex-start;
-z-index: 1;
-@include d(s) {
-justify-content: center;
-align-items: center;
-gap: 15px;
-}
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  z-index: 1;
+  @include d(s) {
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
 }
 .botao-linkedin {
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 15px 20px;
-gap: 15px;
-background: $redes-0;
-outline: 3px $redes-0 solid;
-outline-offset: -3px;
-clip-path: polygon(1% 0, 85% 0, 100% 41%, 100% 100%, 0 100%, 0% 50%);
-border: none;
-cursor: pointer;
-transition: 500ms;
-text-decoration: none;
-position: relative;
-letter-spacing: 0.8px;
-flex: 0 0 162px; /* grow, shrink, basis */
-@include d(s) {
-padding: 10px 15px;
-gap: 10px;
-flex-basis: 110px;
-}
-@include d(t) {
-gap: 8px;
-}
-@include d(m) {
-padding: 10px 5px;
-gap: 4px;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  gap: 15px;
+  background: $redes-0;
+  outline: 3px $redes-0 solid;
+  outline-offset: -3px;
+  clip-path: polygon(1% 0, 85% 0, 100% 41%, 100% 100%, 0 100%, 0% 50%);
+  border: none;
+  cursor: pointer;
+  transition: 500ms;
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.8px;
+  flex: 0 0 162px; /* grow, shrink, basis */
+  @include d(s) {
+    padding: 10px 15px;
+    gap: 10px;
+    flex-basis: 110px;
+  }
+  @include d(t) {
+    gap: 8px;
+  }
+  @include d(m) {
+    padding: 10px 5px;
+    gap: 4px;
+  }
 }
 @keyframes move {
-0% {
-background-position: 0% 50%;
-}
-50% {
-background-position: 100% 50%;
-}
-100% {
-background-position: 0% 50%;
-}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .botao-linkedin .text {
-transition: 500ms;
-text-transform: uppercase;
-align-items: center;
-@include d(s) {
-padding: 5px;
-}
-@include d(m) {
-padding: 3px;
-}
+  transition: 500ms;
+  text-transform: uppercase;
+  align-items: center;
+  @include tipo-1(24.88);
+  @include d(s) {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  @include d(m) {
+    padding: 3px;
+    font-size: 0.845rem;
+  }
 }
 .botao-linkedin svg path {
-transition: 900ms;
+  transition: 900ms;
 }
 .botao-linkedin svg {
-width: 30px;
-height: 30px;
-@include d(s) {
-width: 18px;
-height: 18px;
-}
-@include d(m) {
-width: 15px;
-height: 15px;
-}
+  width: 30px;
+  height: 30px;
+  @include d(s) {
+    width: 18px;
+    height: 18px;
+  }
+  @include d(m) {
+    width: 15px;
+    height: 15px;
+  }
 }
 .botao-linkedin:hover {
-background-color: $cor-1;
-outline: 3px $cor-1 solid;
+  background-color: $cor-1;
+  outline: 3px $cor-1 solid;
 }
 .botao-linkedin:hover .text {
-color: $redes-0;
+  color: $redes-0;
 }
 .botao-linkedin:hover svg path {
-fill: $redes-0;
+  fill: $redes-0;
 }
 .botao-github {
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 15px 20px;
-gap: 15px;
-background: $redes-1;
-outline: 3px $redes-1 solid;
-outline-offset: -3px;
-clip-path: polygon(1% 0, 85% 0, 100% 41%, 100% 100%, 0 100%, 0% 50%);
-border: none;
-cursor: pointer;
-transition: 500ms;
-text-decoration: none;
-position: relative;
-letter-spacing: 0.8px;
-flex: 0 0 162px; /* grow - crecimento, shrink - não diminua menos de 162, basis - tamanho*/
-@include d(s) {
-padding: 10px 15px;
-gap: 10px;
-flex-basis: 110px;
-}
-@include d(t) {
-gap: 8px;
-}
-@include d(m) {
-padding: 10px 5px;
-gap: 4px;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  gap: 15px;
+  background: $redes-1;
+  outline: 3px $redes-1 solid;
+  outline-offset: -3px;
+  clip-path: polygon(1% 0, 85% 0, 100% 41%, 100% 100%, 0 100%, 0% 50%);
+  border: none;
+  cursor: pointer;
+  transition: 500ms;
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.8px;
+  flex: 0 0 162px; /* grow - crecimento, shrink - não diminua menos de 162, basis - tamanho*/
+  @include d(s) {
+    padding: 10px 15px;
+    gap: 10px;
+    flex-basis: 110px;
+  }
+  @include d(t) {
+    gap: 8px;
+  }
+  @include d(m) {
+    padding: 10px 5px;
+    gap: 4px;
+  }
 }
 @keyframes move {
-0% {
-background-position: 0% 50%;
-}
+  0% {
+    background-position: 0% 50%;
+  }
 
-50% {
-background-position: 100% 50%;
-}
+  50% {
+    background-position: 100% 50%;
+  }
 
-100% {
-background-position: 0% 50%;
+  100% {
+    background-position: 0% 50%;
+  }
 }
-}
-.botao-github .text{
-transition: 500ms;
-text-transform: uppercase;
-@include d(s) {
-padding: 5px;
-}
-@include d(m) {
-padding: 3px;
-}
+.botao-github .text {
+  transition: 500ms;
+  text-transform: uppercase;
+  @include tipo-1(24.88);
+  @include d(s) {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  @include d(m) {
+    padding: 3px;
+    font-size: 0.845rem;
+  }
 }
 .botao-github svg path {
-transition: 500ms;
+  transition: 500ms;
 }
 .botao-github svg {
-width: 30px;
-height: 30px;
-@include d(s) {
-width: 18px;
-}
-@include d(m) {
-width: 15px;
-height: 15px;
-}
+  width: 30px;
+  height: 30px;
+  @include d(s) {
+    width: 18px;
+  }
+  @include d(m) {
+    width: 15px;
+    height: 15px;
+  }
 }
 .botao-github:hover {
-background-color: $cor-1;
-outline: 3px $cor-1 solid;
+  background-color: $cor-1;
+  outline: 3px $cor-1 solid;
 }
-.botao-github:hover .text{
-color: $redes-1;
+.botao-github:hover .text {
+  color: $redes-1;
 }
 .botao-github:hover svg path {
-fill: $redes-1;
+  fill: $redes-1;
 }
 .introducao picture {
-flex: 0 1 auto;
+  flex: 0 1 auto;
 }
-.introducao picture img{
-max-width: 567px;
-max-height: 439px;
-@include d(m) {
-max-width: 100%;
+.introducao picture img {
+  max-width: 567px;
+  max-height: 439px;
+  @include d(m) {
+    max-width: 100%;
+  }
 }
+.introducao .ilustracao-principal {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  max-width: 100%;
+  animation: animacaoy 3.5s linear infinite alternate;
+  object-fit: cover;
 }
-.introducao .ilustracao-principal{ 
-position: relative;
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 0px auto;
-max-width: 100%;
-animation: animacaoy 3.5s linear infinite alternate;
-object-fit: cover;
-}
-@keyframes animacaoy{
-from{
-transform: translatey(-20px);
-}
+@keyframes animacaoy {
+  from {
+    transform: translatey(-20px);
+  }
 }
 .scroll {
-display: flex;
-justify-content: center;
-align-items: center;
-padding-bottom: 30px;
-@include d(s) {
-display: none;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  @include d(s) {
+    display: none;
+  }
 }
 .scroll .scrolldown {
-display: flex;
-gap: 7px;
-justify-content: center;
-align-items: center;
-padding: 21px 30px;
-border-radius: 33px;
-color: $cor-11;
-font-size: 20px;
-line-height: auto;
-font-weight: 500;
-font-family: "Roboto", sans-serif;
-@include d(s) {
-display: none;
-}
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 30px;
+  border-radius: 33px;
+  color: $cor-11;
+  font-size: 20px;
+  line-height: auto;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  @include d(s) {
+    display: none;
+  }
 }
 
 .scroll img {

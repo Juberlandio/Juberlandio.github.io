@@ -1,135 +1,137 @@
 /* Estilos do Topo*/
 #header {
-transition: 0.3s;
+  transition: 0.3s;
 }
-.mobile-navbar, .menu-items{
-display: none;
+.mobile-navbar,
+.menu-items {
+  display: none;
 }
 .topo {
-width: 100%;
-position: fixed;
-top: 0;
-padding-top: 20px;
-padding-bottom: 20px;
-z-index: 4;
-text-shadow: 1px 1px 1px $cor-5;
-@include d(s) {
-padding-top: 0px;
-padding-bottom: 0px;
-transition: 6s;
-text-shadow: 1px 1px 1px $cor-0;
-}
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 4;
+  text-shadow: 1px 1px 1px $cor-5;
+  @include d(s) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    transition: 6s;
+    text-shadow: 1px 1px 1px $cor-0;
+  }
 }
 .ativo-menu {
-z-index: 3;
-padding: 0px;
-width: 100%;
-position: fixed;
-top: 0;
-left: 0;
-box-shadow:  1px 1px  #fbfbfb32;
-backdrop-filter: blur(10px);
-background: rgba(255, 255, 255, 0.4);
-border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-transition: 0.3s;
-@include d(s) {
-backdrop-filter: none;
-background: none;
-border-bottom: none;
-box-shadow: none;
-}
+  z-index: 3;
+  padding: 0px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 1px #fbfbfb32;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  @include d(s) {
+    backdrop-filter: none;
+    background: none;
+    border-bottom: none;
+    box-shadow: none;
+  }
 }
 .nav-bar {
-display: flex;
-justify-content: space-between;
-padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
 }
 .container-logo {
-margin: auto 0;
-@include d(s) {
-display: none;
-}
+  margin: auto 0;
+  @include d(s) {
+    display: none;
+  }
 }
 .container-logo img {
-width: 70px;
+  width: 70px;
 }
 .container-logo:hover {
-transform: scale(1.050);
-transition: 0.5s;
+  transform: scale(1.05);
+  transition: 0.5s;
 }
 .menu {
-display: flex;
-gap: 20px;
-justify-content: center;
-@include d(s) {
-gap: 0px;
-}
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  @include tipo-1(19.2);
+  @include d(s) {
+    gap: 0px;
+  }
 }
 .menu a {
-color: inherit;
-text-decoration: none;
-position: relative;
-display: inline-block;
-padding: 1.1rem 0.5rem;
-@include d(s){
-color: $cor-0;
-padding: 0.6rem 0;
-}
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 1.1rem 0.5rem;
+  @include d(s) {
+    color: $cor-0;
+    padding: 0.6rem 0;
+  }
 }
 .menu a:after {
-content: "";
-width: 0%;
-height: 3px;
-background-color: #3228FA;
-display: block; 
-margin-top: 0px;
-transition: 0.3s;
-position: absolute; /* Realinhando ao centro */
-@include d(t) {
-content: "";
-width: 0%;
-height: 3px;
-background-color: #3228FA;
-display: block; 
-margin-top: 0px;
-transition: 0.3s;
-position: absolute; /* Realinhando ao centro */
+  content: '';
+  width: 0%;
+  height: 3px;
+  background-color: #3228fa;
+  display: block;
+  margin-top: 0px;
+  transition: 0.3s;
+  position: absolute; /* Realinhando ao centro */
+  @include d(t) {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: #3228fa;
+    display: block;
+    margin-top: 0px;
+    transition: 0.3s;
+    position: absolute; /* Realinhando ao centro */
+  }
 }
-}
-.menu .active-menu:after  {
-width: 33%;
+.menu .active-menu:after {
+  width: 33%;
 }
 nav .menu .curriculo {
-background: $cor-p1;
-transition: 0.3s;
-padding: 0.8rem 1rem;
-display: flex;
-justify-content: center;
-align-items: center;
-@include d(s) {
-margin-top: 15px;
-}
+  background: $cor-p1;
+  transition: 0.3s;
+  padding: 0.8rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include d(s) {
+    margin-top: 15px;
+  }
 }
 nav .menu li {
-display: flex;
-flex-direction: column;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 nav .menu .curriculo:hover {
-background: $cor-p2;
+  background: $cor-p2;
 }
 .menu .curriculo:after {
-display: none;
+  display: none;
 }
 .mobile-menu .primeiro {
-background-color: $cor-13;
+  background-color: $cor-13;
 }
 .mobile-menu .segundo {
-background-color: $cor-13;
+  background-color: $cor-13;
 }
 .mobile-menu .terceiro {
-background-color: $cor-13;
-display: flex;
-justify-content: center;
-align-items: center;
+  background-color: $cor-13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,95 +1,95 @@
-[data-menu="button"] {
-display: none;
+[data-menu='button'] {
+  display: none;
 }
 #header .container {
-@include d(s) {
-padding-left: 0px;
-padding-right: 0px;
-}
-}
-
-.js [data-menu="button"] {
-@include d(s) {
-background: #222;
-color: #fff;
-margin: 10px 10px 10px auto;
-border-radius: 0.2rem;
-height: 40px;
-width: 40px;
-padding: 0px;
-display: flex;
-align-items: center;
-justify-content: center;
-border: 1px solid transparent;
-transition: 0.1s;
-cursor: pointer;
-}
+  @include d(s) {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
-.js [data-menu="button"]::before {
-@include d(s) {
-content: '';
-display: block;
-width: 1.2rem;
-height: 2px;
-border-radius: 2px;
-background: currentColor;
-box-shadow: 0 6px currentColor, 0 -6px currentColor;
-transition: 0.2s;
-}
-}
-.js [data-menu="button"].active::before {
-@include d(s) {
-transform: rotate(90deg);
-width: 4px;
-height: 4px;
-box-shadow: 0 8px currentColor, 0 -8px currentColor;
-}
-}
-.js [data-menu="list"] {
-@include d(s) {
-display: none;
-position: absolute;
-width: 160px;
-z-index: 2;
-top: 0;
-right: 0;
-padding: 60px 0 20px 0;
-box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
-}
-}
-.js [data-menu="list"].active {
-@include d(s) {
-background-color: #222;
-list-style: none;
-width: 120px;
-top: 52px;
-right: 0;
-z-index: 100;
-border-radius: 5px 0px 0px 5px;
-padding: 20px;
-}
+.js [data-menu='button'] {
+  @include d(s) {
+    background: #222;
+    color: #fff;
+    margin: 10px 10px 10px auto;
+    border-radius: 0.2rem;
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    transition: 0.1s;
+    cursor: pointer;
+  }
 }
 
-.js [data-menu="list"].active {
-@include d(s) {
-display: block;
-animation: show-left .4s forwards;
+.js [data-menu='button']::before {
+  @include d(s) {
+    content: '';
+    display: block;
+    width: 1.2rem;
+    height: 2px;
+    border-radius: 2px;
+    background: currentColor;
+    box-shadow: 0 6px currentColor, 0 -6px currentColor;
+    transition: 0.2s;
+  }
 }
+.js [data-menu='button'].active::before {
+  @include d(s) {
+    transform: rotate(90deg);
+    width: 4px;
+    height: 4px;
+    box-shadow: 0 8px currentColor, 0 -8px currentColor;
+  }
+}
+.js [data-menu='list'] {
+  @include d(s) {
+    display: none;
+    position: absolute;
+    width: 160px;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    padding: 60px 0 20px 0;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+.js [data-menu='list'].active {
+  @include d(s) {
+    background-color: #222;
+    list-style: none;
+    width: 120px;
+    top: 52px;
+    right: 0;
+    z-index: 100;
+    border-radius: 5px 0px 0px 5px;
+    padding: 20px;
+  }
+}
+
+.js [data-menu='list'].active {
+  @include d(s) {
+    display: block;
+    animation: show-left 0.4s forwards;
+  }
 }
 @keyframes show-left {
-from {
-opacity: 0;
-transform: translate3d( 30px, 0 , 0);
-}
-to {
-opacity: 1;
-transform: translate3d(0, 0, 0);
-}
+  from {
+    opacity: 0;
+    transform: translate3d(30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 .js .dropdown-menu {
-@include d(s) {
-position: static;
-border: none;
-}
+  @include d(s) {
+    position: static;
+    border: none;
+  }
 }

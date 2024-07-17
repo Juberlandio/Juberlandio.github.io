@@ -1,271 +1,289 @@
 .formacao {
-background: $cor-1;
+  background: $cor-1;
 }
 .formacao .formacao-padding {
-padding: 90px 20px;
+  padding: 90px 20px;
 }
 .formacao .titulo-formacao-grid {
-margin-bottom: 60px;
-margin-left: 35px;
-@include d(s) {
-display: grid;
-margin-bottom: 50px;
-margin-left: 0px;
-}
+  margin-bottom: 60px;
+  margin-left: 35px;
+  @include d(s) {
+    display: grid;
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
 }
 .formacao .titulo-formacao {
-text-align: left;
-position: relative;
-display: inline-block;
-text-transform: uppercase; 
-@include d(s) {
-margin: 0 auto;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  @include tipo-1(32);
+  @include d(s) {
+    margin: 0 auto;
+  }
+  @include d(m) {
+    font-size: 1.7rem;
+  }
 }
+.formacao .titulo-formacao::after {
+  content: '';
+  width: 50px;
+  height: 39px;
+  left: -45px;
+  background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
+  position: absolute;
+  @include d(s) {
+    content: '';
+    width: 50px;
+    height: 100%;
+    left: -45px;
+    background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
+    position: absolute;
+    transform: rotate(180deg);
+  }
+  @include d(m) {
+    content: '';
+    width: 50px;
+    height: 100%;
+    left: -50px;
+    background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
+    position: absolute;
+    transform: rotate(180deg);
+  }
 }
-.formacao .titulo-formacao::after{
-content: "";
-width: 50px;
-height: 39px;
-left: -45px;
-background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
-position: absolute;
-@include d(s) {
-content: "";
-width: 50px;
-height: 100%;
-left: -45px;
-background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
-position: absolute;
-transform: rotate(180deg);
-}
-@include d(m) {
-content: "";
-width: 50px;
-height: 100%;
-left: -50px;
-background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
-position: absolute;
-transform: rotate(180deg);
-}
-}
-.formacao .titulo-formacao::before{
-@include d(s) {
-content: "";
-width: 50px;
-height: 100%;
-right: -45px;
-background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
-position: absolute;
-}
-@include d(m) {
-content: "";
-width: 50px;
-height: 100%;
-right: -50px;
-background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
-position: absolute;
-}
+.formacao .titulo-formacao::before {
+  @include d(s) {
+    content: '';
+    width: 50px;
+    height: 100%;
+    right: -45px;
+    background: url('../assets/svg/detalhe-titulo.svg') no-repeat center;
+    position: absolute;
+  }
+  @include d(m) {
+    content: '';
+    width: 50px;
+    height: 100%;
+    right: -50px;
+    background: url('../assets/svg/detalhe-titulo-mobile.svg') no-repeat center;
+    position: absolute;
+  }
 }
 .faculdade-espaco {
-display: grid;
-justify-content: center;
-align-items: center;
-grid-template-columns: repeat(4, 1fr);
-gap: 25px;
-@include d(f) {
-grid-template-columns: repeat(2, 1fr);
-}
-@include d(m) {
-grid-template-columns: repeat(1, 1fr);
-}
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  @include d(f) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include d(m) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 .faculdade-lista-unico {
-grid-column: span 2;
-background: linear-gradient($cor-11 10px, $cor-9 100px);
-transition: 0.5s ease-out, opacity 0.5s ease, transform 0.5s ease;
-position: relative;
-@include d(m) {
-grid-column: span 1;
-}
+  grid-column: span 2;
+  background: linear-gradient($cor-11 10px, $cor-9 100px);
+  transition: 0.5s ease-out, opacity 0.5s ease, transform 0.5s ease;
+  position: relative;
+  @include d(m) {
+    grid-column: span 1;
+  }
 }
 .faculdade-lista-unico::before {
-content: "";
-position: absolute;
-right: 0;
-border: 20px solid transparent;
-border-top: 20px solid $cor-p1;
-border-right: 20px solid $cor-p1;
+  content: '';
+  position: absolute;
+  right: 0;
+  border: 20px solid transparent;
+  border-top: 20px solid $cor-p1;
+  border-right: 20px solid $cor-p1;
 }
 .faculdade-lista-unico:hover {
-transform: translateY(-15px);
-background: linear-gradient($cor-11 10px, $cor-11 100px);
-box-shadow: 3px 3px 0 $cor-p2;
+  transform: translateY(-15px);
+  background: linear-gradient($cor-11 10px, $cor-11 100px);
+  box-shadow: 3px 3px 0 $cor-p2;
 }
 .faculdade-lista-unico picture img {
-cursor: pointer;
-width: 70px;
-height: 85px;
+  cursor: pointer;
+  width: 70px;
+  height: 85px;
 }
 .faculdade-lista-unico span {
-display: block;
+  display: block;
 }
-.faculdade-lista{
-background: $cor-10;
-background: linear-gradient($cor-11 10px, $cor-9 100px);
-transition: 0.5s ease-out, opacity 0.5s ease, transform 0.5s ease;
-position: relative;
+.faculdade-lista {
+  background: $cor-10;
+  background: linear-gradient($cor-11 10px, $cor-9 100px);
+  transition: 0.5s ease-out, opacity 0.5s ease, transform 0.5s ease;
+  position: relative;
 }
 .faculdade-lista::before {
-content: "";
-position: absolute;
-top: 0;
-right: 0;
-border: 20px solid transparent;
-border-top: 20px solid $cor-p1;
-border-right: 20px solid $cor-p1;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 20px solid transparent;
+  border-top: 20px solid $cor-p1;
+  border-right: 20px solid $cor-p1;
 }
-.faculdade-lista:hover{
-transform: translateY(-15px);
-background: linear-gradient($cor-11 10px, $cor-11 100px);
-box-shadow: 3px 3px 0 $cor-p2;
+.faculdade-lista:hover {
+  transform: translateY(-15px);
+  background: linear-gradient($cor-11 10px, $cor-11 100px);
+  box-shadow: 3px 3px 0 $cor-p2;
 }
 .faculdade-lista picture img {
-cursor: pointer;
-width: 70px;
-height: 85px;
+  cursor: pointer;
+  width: 70px;
+  height: 85px;
 }
 .cursos-link-unico {
-padding: 18px 15px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 10px;
-position: relative;
-border-left: 5px solid $cor-p1;
-transition: 0.3s;
-@include d(m) {
-text-align: center;
-flex-direction: column;
-flex-direction: column-reverse;
+  padding: 18px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  border-left: 5px solid $cor-p1;
+  transition: 0.3s;
+  @include d(m) {
+    text-align: center;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
 }
-}
-.faculdade-lista-unico .faculdade-tipo, .faculdade-lista .faculdade-tipo {
-font-weight: 500;
-letter-spacing: .11rem;
+.faculdade-lista-unico .faculdade-tipo,
+.faculdade-lista .faculdade-tipo {
+  font-weight: 500;
+  letter-spacing: 0.11rem;
+  @include tipo-1(19.2);
 }
 .cursos-link {
-padding: 18px 15px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 10px;
-position: relative;
-border-left: 5px solid $cor-p1;
-transition: 0.3s;
-@include d(m) {
-text-align: center;
-flex-direction: column;
-flex-direction: column-reverse;
-}
+  padding: 18px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  border-left: 5px solid $cor-p1;
+  transition: 0.3s;
+  @include d(m) {
+    text-align: center;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
 }
 .faculdade-lista span {
-display: block;
+  display: block;
 }
 .faculdade-curso {
-letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
+  @include tipo-1(24);
+  @include d(m) {
+    font-size: 1.2rem;
+  }
 }
 .faculdade-curso::before {
-@include d(t) {
-display: none;
-}
+  @include d(t) {
+    display: none;
+  }
 }
 .faculdade-instituicao {
-letter-spacing: .11rem;
+  letter-spacing: 0.11rem;
+  @include tipo-1(15.1);
+  @include d(m) {
+    font-size: 0.75rem;
+  }
 }
 .cursos-info span {
-display: inline;
-margin: 0px;
-padding: 0px;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  @include tipo-1(15.1);
+  @include d(m) {
+    font-size: 0.75rem;
+  }
 }
 .cursos-info span + span {
-padding-left: 10px;
+  padding-left: 10px;
 }
 .certificado {
-place-self: center;
-width: 71.92px;
-height: 85px;
-position: relative;
-opacity: 1;
+  place-self: center;
+  width: 71.92px;
+  height: 85px;
+  position: relative;
+  opacity: 1;
 }
 .imagem-certificado:active {
-opacity: 0;
+  opacity: 0;
 }
 .faculdade-lista-unico picture {
-display: block;
-animation: girar 35.5s infinite;
+  display: block;
+  animation: girar 35.5s infinite;
 }
-.faculdade-lista-unico picture:active{
-background-image: url('../assets/svg/icon-medalha-click.svg');
-background-position: center;
-background-size: contain;
-background-repeat: no-repeat;
-opacity: 1;
+.faculdade-lista-unico picture:active {
+  background-image: url('../assets/svg/icon-medalha-click.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
 }
 .faculdade-lista picture {
-display: block;
-animation: girar 35.5s infinite;
+  display: block;
+  animation: girar 35.5s infinite;
 }
-.faculdade-lista picture:active{
-background-image: url('../assets/svg/icon-medalha-click.svg');
-background-position: center;
-background-size: contain;
-background-repeat: no-repeat;
-opacity: 1;
+.faculdade-lista picture:active {
+  background-image: url('../assets/svg/icon-medalha-click.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
 }
-@keyframes girar{
-40% {
-transform: rotate(3deg);
-}
-50% {
-transform: rotate(-4deg);
-}
-60% {
-transform: rotate(3deg);
-}
+@keyframes girar {
+  40% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  60% {
+    transform: rotate(3deg);
+  }
 }
 .faculdade-lista-unico .faculdade-ordem {
-display: flex;
-gap: 1px;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-@include d(m) {
-align-items: center;
-}
+  display: flex;
+  gap: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  @include d(m) {
+    align-items: center;
+  }
 }
 .faculdade-lista .faculdade-ordem {
-display: flex;
-gap: 1px;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-@include d(m) {
-align-items: center;
-}
+  display: flex;
+  gap: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  @include d(m) {
+    align-items: center;
+  }
 }
 .js .ccard {
-opacity: 0;
-display: none;
+  opacity: 0;
+  display: none;
 }
 .js .certificado-inativo {
-transform: rotate(0deg);
-transition: 0.5s;
+  transform: rotate(0deg);
+  transition: 0.5s;
 }
 .js .certificado-ativo {
-transform: rotate(180deg);
-transition: 0.5s;
+  transform: rotate(180deg);
+  transition: 0.5s;
 }
 .js .ccard.ativo {
-opacity: 1;
-display: block;
+  opacity: 1;
+  display: block;
 }
