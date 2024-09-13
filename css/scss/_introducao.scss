@@ -52,7 +52,7 @@
   }
 }
 .introducao span {
-  @include tipo-1(48);
+  @include tipo-1(40);
   @include d(s) {
     font-size: 2.2rem;
   }
@@ -72,7 +72,6 @@
   flex: 0 1 auto;
 }
 .mao {
-  font-size: 0.9em;
   display: inline-block;
   animation: girar 2.5s infinite;
 }
