@@ -24,14 +24,14 @@
   }
 }
 div .helloword {
-  @include tipo-1(13.6);
+  @include tipo-1(16);
   background: $cor-2;
   padding: 3px 2px 3px 2px;
   border-radius: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 177px;
+  width: 189px;
   @include d(s) {
     display: none;
   }
