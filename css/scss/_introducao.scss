@@ -23,6 +23,16 @@
     height: auto;
   }
 }
+div .helloword {
+  @include tipo-1(16);
+  background: $cor-2;
+  display: inline-block;
+  padding: 3px 10px 3px 10px;
+  border-radius: 5px;
+  @include d(s) {
+    display: none;
+  }
+}
 
 .introducao::before {
   @include d(s) {
@@ -40,7 +50,6 @@
 }
 .introducao h1 {
   margin-bottom: 25px;
-  margin-top: 25px;
   position: relative;
   @include tipo-1(38.56);
   @include d(s) {
@@ -71,15 +80,13 @@
   z-index: 0;
   flex: 0 1 auto;
 }
-.introducao span.mao {
-  font-size: 2.5rem;
+.introducao div span.mao {
+  font-size: 1.6rem;
   display: inline-block;
   animation: girar 2.5s infinite; 
+  padding-right: 6px;
   @include d(s) {
-    font-size: 2.2rem;
-  }
-  @include d(m) {
-    font-size: 1.65rem;
+    display: none;
   }
 }
 @keyframes girar {
