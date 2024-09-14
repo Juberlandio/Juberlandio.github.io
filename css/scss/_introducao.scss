@@ -26,9 +26,12 @@
 div .helloword {
   @include tipo-1(16);
   background: $cor-2;
-  display: inline-block;
   padding: 3px 10px 3px 10px;
   border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 177px;
   @include d(s) {
     display: none;
   }
@@ -81,7 +84,7 @@ div .helloword {
   z-index: 0;
   flex: 0 1 auto;
 }
-.introducao div span.mao {
+.introducao .mao {
   font-size: 1.6rem;
   display: inline-block;
   animation: girar 2.5s infinite; 
