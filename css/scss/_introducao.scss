@@ -49,6 +49,7 @@ div .helloword {
   }
 }
 .introducao h1 {
+  margin-top: 10px;
   margin-bottom: 25px;
   position: relative;
   @include tipo-1(38.56);
