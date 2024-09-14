@@ -24,7 +24,7 @@
   }
 }
 div .helloword {
-  @include tipo-1(16);
+  @include tipo-1(16.96);
   background: $cor-2;
   padding: 3px 2px 3px 2px;
   border-radius: 0px;
