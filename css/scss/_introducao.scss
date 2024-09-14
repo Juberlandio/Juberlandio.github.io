@@ -24,9 +24,9 @@
   }
 }
 div .helloword {
-  @include tipo-1(16);
+  @include tipo-1(13.6);
   background: $cor-2;
-  padding: 3px 10px 3px 10px;
+  padding: 3px 2px 3px 2px;
   border-radius: 0px;
   display: flex;
   justify-content: center;
@@ -37,7 +37,7 @@ div .helloword {
   }
 }
 div .helloword svg {
-  width: 37px;
+  width: 32px;
 }
 
 .introducao::before {
