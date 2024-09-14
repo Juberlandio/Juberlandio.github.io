@@ -36,6 +36,9 @@ div .helloword {
     display: none;
   }
 }
+div .helloword svg {
+  width: 35px;
+}
 
 .introducao::before {
   @include d(s) {
@@ -85,7 +88,6 @@ div .helloword {
   flex: 0 1 auto;
 }
 .introducao .mao {
-  font-size: 1rem;
   animation: girar 2.5s infinite; 
   padding-right: 6px;
   @include d(s) {
