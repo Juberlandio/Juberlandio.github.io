@@ -27,7 +27,7 @@ div .helloword {
   @include tipo-1(16);
   background: $cor-2;
   padding: 3px 10px 3px 10px;
-  border-radius: 5px;
+  border-radius: 0px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
