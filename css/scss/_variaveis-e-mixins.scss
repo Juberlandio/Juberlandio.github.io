@@ -47,8 +47,8 @@ $c-device: 480px;
     font-size: 1.1rem;
     line-height: 1.5;
     font-weight: 500;
-  } @else if $tamanho == 16.96 {
-    font-size: 1.060rem;
+  } @else if $tamanho == 13.6 {
+    font-size: 0.850rem;
     line-height: 1.47;
     font-weight: 500;
   } @else if $tamanho == 24 {
