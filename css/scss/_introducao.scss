@@ -23,22 +23,22 @@
     height: auto;
   }
 }
-div .helloword {
-  @include tipo-1(13.6);
-  background: $cor-2;
-  padding: 3px 2px 3px 2px;
-  border-radius: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 165px;
-  @include d(s) {
-    display: none;
-  }
-}
-div .helloword svg {
-  width: 32px;
-}
+// div .helloword {
+//   @include tipo-1(13.6);
+//   background: $cor-2;
+//   padding: 3px 2px 3px 2px;
+//   border-radius: 0px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 165px;
+//   @include d(s) {
+//     display: none;
+//   }
+// }
+// div .helloword svg {
+//   width: 32px;
+// }
 
 .introducao::before {
   @include d(s) {
@@ -89,7 +89,6 @@ div .helloword svg {
 }
 .introducao .mao {
   animation: girar 2.5s infinite; 
-  padding-right: 6px;
   @include d(s) {
     display: none;
   }
