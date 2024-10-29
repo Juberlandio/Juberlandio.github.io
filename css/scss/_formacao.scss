@@ -118,6 +118,12 @@
   background: linear-gradient($cor-11 10px, $cor-9 100px);
   transition: 0.5s ease-out, opacity 0.5s ease, transform 0.5s ease;
   position: relative;
+  @include d(t) {
+    grid-column: span 2;
+  }
+  @include d(m) {
+    grid-column: span 1;
+  }
 }
 .faculdade-lista::before {
   content: '';
