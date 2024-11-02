@@ -87,11 +87,12 @@
   z-index: 0;
   flex: 0 1 auto;
 }
+.introducao span {
+  font-size: 1.1em;
+}
 .introducao .mao {
+  display: inline-block;
   animation: girar 2.5s infinite; 
-  @include d(s) {
-    display: none;
-  }
 }
 @keyframes girar {
   0% {
